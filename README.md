@@ -7,6 +7,10 @@ independently recalculates the invoice before presenting it for human review.
 
 The agent deliberately stops before posting, payment, tax filing or financial reporting.
 
+![Synthetic illustration of the private invoice review dashboard](docs/assets/invoice-agent-overview.svg)
+
+*Illustrative synthetic dashboard view. No real invoice or customer data is shown.*
+
 ## Why this project is different
 
 - **Evidence-first extraction:** every extracted value carries a page number and source quote.
