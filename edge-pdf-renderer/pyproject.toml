@@ -1,0 +1,16 @@
+[project]
+name = "function"
+version = "0.1.0"
+description = "Bounded PDF page renderer for the Invoice-to-Ledger Agent"
+requires-python = ">=3.9"
+dependencies = [
+  "pypdfium2==5.13.0",
+  "Pillow==11.3.0",
+]
+
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["function*"]

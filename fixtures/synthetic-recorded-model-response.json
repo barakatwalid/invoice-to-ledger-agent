@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "invoice_extraction_v2",
+  "documentType": {
+    "value": "invoice",
+    "evidence": {
+      "page": 1,
+      "quote": "INVOICE"
+    }
+  },
+  "supplierName": {
+    "value": "NORTHSTAR DEMO SUPPLIES",
+    "evidence": {
+      "page": 1,
+      "quote": "NORTHSTAR DEMO SUPPLIES"
+    }
+  },
+  "supplierAddress": {
+    "value": null,
+    "evidence": null
+  },
+  "supplierTaxRegistrationId": {
+    "value": null,
+    "evidence": null
+  },
+  "invoiceNumber": {
+    "value": "BK-2026-001",
+    "evidence": {
+      "page": 1,
+      "quote": "Invoice number: BK-2026-001"
+    }
+  },
+  "invoiceDate": {
+    "value": "2026-09-08",
+    "evidence": {
+      "page": 1,
+      "quote": "Invoice date: 2026-09-08"
+    }
+  },
+  "currency": {
+    "value": "USD",
+    "evidence": {
+      "page": 1,
+      "quote": "Currency: USD"
+    }
+  },
+  "pricing": {
+    "value": "net",
+    "evidence": {
+      "page": 1,
+      "quote": "Pricing: net"
+    }
+  },
+  "lines": [
+    {
+      "description": {
+        "value": "Bookkeeping workflow design",
+        "evidence": {
+          "page": 1,
+          "quote": "Bookkeeping workflow design 2 50.00 100.00"
+        }
+      },
+      "quantity": {
+        "value": "2",
+        "evidence": {
+          "page": 1,
+          "quote": "Bookkeeping workflow design 2 50.00 100.00"
+        }
+      },
+      "unitPrice": {
+        "value": "50.00",
+        "evidence": {
+          "page": 1,
+          "quote": "Bookkeeping workflow design 2 50.00 100.00"
+        }
+      },
+      "lineNet": {
+        "value": "100.00",
+        "evidence": {
+          "page": 1,
+          "quote": "Bookkeeping workflow design 2 50.00 100.00"
+        }
+      }
+    },
+    {
+      "description": {
+        "value": "Secure result hosting review",
+        "evidence": {
+          "page": 1,
+          "quote": "Secure result hosting review 1 25.00 25.00"
+        }
+      },
+      "quantity": {
+        "value": "1",
+        "evidence": {
+          "page": 1,
+          "quote": "Secure result hosting review 1 25.00 25.00"
+        }
+      },
+      "unitPrice": {
+        "value": "25.00",
+        "evidence": {
+          "page": 1,
+          "quote": "Secure result hosting review 1 25.00 25.00"
+        }
+      },
+      "lineNet": {
+        "value": "25.00",
+        "evidence": {
+          "page": 1,
+          "quote": "Secure result hosting review 1 25.00 25.00"
+        }
+      }
+    }
+  ],
+  "subtotal": {
+    "value": "125.00",
+    "evidence": {
+      "page": 1,
+      "quote": "Subtotal 125.00"
+    }
+  },
+  "tax": {
+    "value": "25.00",
+    "evidence": {
+      "page": 1,
+      "quote": "Tax (demo value; no jurisdiction implied) 25.00"
+    }
+  },
+  "total": {
+    "value": "150.00",
+    "evidence": {
+      "page": 1,
+      "quote": "Total 150.00"
+    }
+  },
+  "complexities": []
+}

@@ -1,0 +1,26 @@
+{
+  "id": "SYNTHETIC-001",
+  "documentType": "invoice",
+  "currency": "USD",
+  "minorUnits": 2,
+  "pricing": "net",
+  "rounding": "line_half_away_from_zero",
+  "lines": [
+    {
+      "description": "Synthetic design service",
+      "quantity": "2",
+      "unitPrice": "50.00",
+      "lineNet": "100.00"
+    },
+    {
+      "description": "Synthetic hosting service",
+      "quantity": "1",
+      "unitPrice": "25.00",
+      "lineNet": "25.00"
+    }
+  ],
+  "subtotal": "125.00",
+  "tax": "25.00",
+  "total": "150.00",
+  "complexities": []
+}

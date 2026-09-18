@@ -1,0 +1,2 @@
+[env_vars]
+SERVICE_NAME = "bookkeeping-pdf-renderer"

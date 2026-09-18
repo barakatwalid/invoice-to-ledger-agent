@@ -1,0 +1,38 @@
+name = "invoice-to-ledger-agent"
+main = "src/edge/index.ts"
+compatibility_date = "2026-05-01"
+
+[telnyx]
+binding = "TELNYX"
+
+[[actors]]
+binding = "INVOICE_AGENT"
+type = "BookkeepingAgentV2"
+
+[[secrets]]
+binding = "CONTROL_TOKEN"
+name = "BOOKKEEPING_EDGE_CONTROL_TOKEN"
+
+[[secrets]]
+binding = "INBOX_ID"
+name = "BOOKKEEPING_TELNYX_INBOX_ID"
+
+[[secrets]]
+binding = "MODEL_ID"
+name = "BOOKKEEPING_EXTRACTION_MODEL_ID"
+
+[[secrets]]
+binding = "ATTACHMENT_HOSTS"
+name = "BOOKKEEPING_ATTACHMENT_HOSTS"
+
+[[secrets]]
+binding = "API_KEY"
+name = "BOOKKEEPING_TELNYX_API_KEY"
+
+[[secrets]]
+binding = "PDF_RENDERER_URL"
+name = "BOOKKEEPING_PDF_RENDERER_URL"
+
+[[secrets]]
+binding = "PDF_RENDERER_TOKEN"
+name = "BOOKKEEPING_PDF_RENDERER_TOKEN"

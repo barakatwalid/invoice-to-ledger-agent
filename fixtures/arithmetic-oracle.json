@@ -1,0 +1,7007 @@
+{
+  "seed": "0x5eed1234",
+  "oracle": "Python decimal; precision=60; ROUND_HALF_UP",
+  "caseCount": 1000,
+  "cases": [
+    {
+      "id": 1,
+      "quantity": "-522.526",
+      "unitPrice": "1.629854",
+      "minorUnits": 3,
+      "expected": "-851.641"
+    },
+    {
+      "id": 2,
+      "quantity": "-1705.548",
+      "unitPrice": "191.090826",
+      "minorUnits": 2,
+      "expected": "-325914.58"
+    },
+    {
+      "id": 3,
+      "quantity": "-309.966",
+      "unitPrice": "-83.114321",
+      "minorUnits": 0,
+      "expected": "25763"
+    },
+    {
+      "id": 4,
+      "quantity": "-1445.319",
+      "unitPrice": "123.648428",
+      "minorUnits": 3,
+      "expected": "-178711.422"
+    },
+    {
+      "id": 5,
+      "quantity": "-1252.179",
+      "unitPrice": "-98.477483",
+      "minorUnits": 3,
+      "expected": "123311.436"
+    },
+    {
+      "id": 6,
+      "quantity": "-1191.566",
+      "unitPrice": "-100.66643",
+      "minorUnits": 3,
+      "expected": "119950.695"
+    },
+    {
+      "id": 7,
+      "quantity": "277.912",
+      "unitPrice": "58.40856",
+      "minorUnits": 3,
+      "expected": "16232.440"
+    },
+    {
+      "id": 8,
+      "quantity": "1493.255",
+      "unitPrice": "29.11678",
+      "minorUnits": 0,
+      "expected": "43479"
+    },
+    {
+      "id": 9,
+      "quantity": "1676.112",
+      "unitPrice": "133.913591",
+      "minorUnits": 2,
+      "expected": "224454.18"
+    },
+    {
+      "id": 10,
+      "quantity": "1013.877",
+      "unitPrice": "-48.735942",
+      "minorUnits": 3,
+      "expected": "-49412.251"
+    },
+    {
+      "id": 11,
+      "quantity": "802.14",
+      "unitPrice": "6.524587",
+      "minorUnits": 2,
+      "expected": "5233.63"
+    },
+    {
+      "id": 12,
+      "quantity": "1137.189",
+      "unitPrice": "-83.498694",
+      "minorUnits": 0,
+      "expected": "-94954"
+    },
+    {
+      "id": 13,
+      "quantity": "-186.472",
+      "unitPrice": "93.894795",
+      "minorUnits": 2,
+      "expected": "-17508.75"
+    },
+    {
+      "id": 14,
+      "quantity": "689.955",
+      "unitPrice": "176.101765",
+      "minorUnits": 2,
+      "expected": "121502.29"
+    },
+    {
+      "id": 15,
+      "quantity": "-465.145",
+      "unitPrice": "92.35019",
+      "minorUnits": 3,
+      "expected": "-42956.229"
+    },
+    {
+      "id": 16,
+      "quantity": "-1838.512",
+      "unitPrice": "190.750674",
+      "minorUnits": 0,
+      "expected": "-350697"
+    },
+    {
+      "id": 17,
+      "quantity": "621.244",
+      "unitPrice": "86.239857",
+      "minorUnits": 3,
+      "expected": "53575.994"
+    },
+    {
+      "id": 18,
+      "quantity": "405.623",
+      "unitPrice": "-141.769622",
+      "minorUnits": 3,
+      "expected": "-57505.019"
+    },
+    {
+      "id": 19,
+      "quantity": "453.706",
+      "unitPrice": "26.248177",
+      "minorUnits": 3,
+      "expected": "11908.955"
+    },
+    {
+      "id": 20,
+      "quantity": "-44.897",
+      "unitPrice": "-173.612084",
+      "minorUnits": 0,
+      "expected": "7795"
+    },
+    {
+      "id": 21,
+      "quantity": "792.121",
+      "unitPrice": "-157.886347",
+      "minorUnits": 3,
+      "expected": "-125065.091"
+    },
+    {
+      "id": 22,
+      "quantity": "1296.269",
+      "unitPrice": "-197.01765",
+      "minorUnits": 2,
+      "expected": "-255387.87"
+    },
+    {
+      "id": 23,
+      "quantity": "-1232.867",
+      "unitPrice": "-135.621553",
+      "minorUnits": 0,
+      "expected": "167203"
+    },
+    {
+      "id": 24,
+      "quantity": "1223.619",
+      "unitPrice": "96.781294",
+      "minorUnits": 2,
+      "expected": "118423.43"
+    },
+    {
+      "id": 25,
+      "quantity": "-55.312",
+      "unitPrice": "-129.17782",
+      "minorUnits": 3,
+      "expected": "7145.084"
+    },
+    {
+      "id": 26,
+      "quantity": "-1975.77",
+      "unitPrice": "56.47758",
+      "minorUnits": 2,
+      "expected": "-111586.71"
+    },
+    {
+      "id": 27,
+      "quantity": "1112.391",
+      "unitPrice": "-20.127522",
+      "minorUnits": 3,
+      "expected": "-22389.674"
+    },
+    {
+      "id": 28,
+      "quantity": "-620.622",
+      "unitPrice": "-98.673806",
+      "minorUnits": 0,
+      "expected": "61239"
+    },
+    {
+      "id": 29,
+      "quantity": "-1543.305",
+      "unitPrice": "-0.694849",
+      "minorUnits": 0,
+      "expected": "1072"
+    },
+    {
+      "id": 30,
+      "quantity": "-1712.461",
+      "unitPrice": "-135.635086",
+      "minorUnits": 3,
+      "expected": "232269.795"
+    },
+    {
+      "id": 31,
+      "quantity": "762.041",
+      "unitPrice": "-13.282888",
+      "minorUnits": 0,
+      "expected": "-10122"
+    },
+    {
+      "id": 32,
+      "quantity": "1570.407",
+      "unitPrice": "-17.75266",
+      "minorUnits": 3,
+      "expected": "-27878.902"
+    },
+    {
+      "id": 33,
+      "quantity": "-1185.646",
+      "unitPrice": "87.339542",
+      "minorUnits": 2,
+      "expected": "-103553.78"
+    },
+    {
+      "id": 34,
+      "quantity": "-1540.882",
+      "unitPrice": "-191.994279",
+      "minorUnits": 3,
+      "expected": "295840.529"
+    },
+    {
+      "id": 35,
+      "quantity": "-1291.268",
+      "unitPrice": "10.131292",
+      "minorUnits": 2,
+      "expected": "-13082.21"
+    },
+    {
+      "id": 36,
+      "quantity": "966.985",
+      "unitPrice": "-40.502165",
+      "minorUnits": 2,
+      "expected": "-39164.99"
+    },
+    {
+      "id": 37,
+      "quantity": "1332.7",
+      "unitPrice": "-126.664222",
+      "minorUnits": 0,
+      "expected": "-168805"
+    },
+    {
+      "id": 38,
+      "quantity": "-1173.58",
+      "unitPrice": "-87.06729",
+      "minorUnits": 2,
+      "expected": "102180.43"
+    },
+    {
+      "id": 39,
+      "quantity": "-1368.263",
+      "unitPrice": "121.659424",
+      "minorUnits": 3,
+      "expected": "-166462.088"
+    },
+    {
+      "id": 40,
+      "quantity": "1121.129",
+      "unitPrice": "-5.428052",
+      "minorUnits": 2,
+      "expected": "-6085.55"
+    },
+    {
+      "id": 41,
+      "quantity": "572.087",
+      "unitPrice": "-107.00025",
+      "minorUnits": 0,
+      "expected": "-61213"
+    },
+    {
+      "id": 42,
+      "quantity": "270.634",
+      "unitPrice": "150.754506",
+      "minorUnits": 2,
+      "expected": "40799.29"
+    },
+    {
+      "id": 43,
+      "quantity": "-1383.547",
+      "unitPrice": "113.134415",
+      "minorUnits": 2,
+      "expected": "-156526.78"
+    },
+    {
+      "id": 44,
+      "quantity": "-915.491",
+      "unitPrice": "187.524627",
+      "minorUnits": 2,
+      "expected": "-171677.11"
+    },
+    {
+      "id": 45,
+      "quantity": "-614.623",
+      "unitPrice": "92.662151",
+      "minorUnits": 3,
+      "expected": "-56952.289"
+    },
+    {
+      "id": 46,
+      "quantity": "-1756.003",
+      "unitPrice": "22.268112",
+      "minorUnits": 2,
+      "expected": "-39102.87"
+    },
+    {
+      "id": 47,
+      "quantity": "-691.271",
+      "unitPrice": "172.443757",
+      "minorUnits": 3,
+      "expected": "-119205.368"
+    },
+    {
+      "id": 48,
+      "quantity": "-1658.003",
+      "unitPrice": "-72.637885",
+      "minorUnits": 2,
+      "expected": "120433.83"
+    },
+    {
+      "id": 49,
+      "quantity": "-1600.354",
+      "unitPrice": "-170.297003",
+      "minorUnits": 3,
+      "expected": "272535.490"
+    },
+    {
+      "id": 50,
+      "quantity": "-265.525",
+      "unitPrice": "-24.114359",
+      "minorUnits": 2,
+      "expected": "6402.97"
+    },
+    {
+      "id": 51,
+      "quantity": "936.152",
+      "unitPrice": "170.570818",
+      "minorUnits": 3,
+      "expected": "159680.212"
+    },
+    {
+      "id": 52,
+      "quantity": "259.103",
+      "unitPrice": "0.844374",
+      "minorUnits": 3,
+      "expected": "218.780"
+    },
+    {
+      "id": 53,
+      "quantity": "-430.882",
+      "unitPrice": "5.013924",
+      "minorUnits": 2,
+      "expected": "-2160.41"
+    },
+    {
+      "id": 54,
+      "quantity": "1577.659",
+      "unitPrice": "-24.004211",
+      "minorUnits": 0,
+      "expected": "-37870"
+    },
+    {
+      "id": 55,
+      "quantity": "976.276",
+      "unitPrice": "-77.300446",
+      "minorUnits": 2,
+      "expected": "-75466.57"
+    },
+    {
+      "id": 56,
+      "quantity": "-1714.247",
+      "unitPrice": "40.759018",
+      "minorUnits": 2,
+      "expected": "-69871.02"
+    },
+    {
+      "id": 57,
+      "quantity": "-125.229",
+      "unitPrice": "-197.93",
+      "minorUnits": 3,
+      "expected": "24786.576"
+    },
+    {
+      "id": 58,
+      "quantity": "104.565",
+      "unitPrice": "142.614706",
+      "minorUnits": 0,
+      "expected": "14913"
+    },
+    {
+      "id": 59,
+      "quantity": "166.426",
+      "unitPrice": "161.998991",
+      "minorUnits": 0,
+      "expected": "26961"
+    },
+    {
+      "id": 60,
+      "quantity": "1518.596",
+      "unitPrice": "-25.445611",
+      "minorUnits": 3,
+      "expected": "-38641.603"
+    },
+    {
+      "id": 61,
+      "quantity": "-113.049",
+      "unitPrice": "64.403462",
+      "minorUnits": 3,
+      "expected": "-7280.747"
+    },
+    {
+      "id": 62,
+      "quantity": "-1495.355",
+      "unitPrice": "-164.302859",
+      "minorUnits": 3,
+      "expected": "245691.102"
+    },
+    {
+      "id": 63,
+      "quantity": "788.895",
+      "unitPrice": "134.615966",
+      "minorUnits": 3,
+      "expected": "106197.862"
+    },
+    {
+      "id": 64,
+      "quantity": "708.535",
+      "unitPrice": "5.903161",
+      "minorUnits": 2,
+      "expected": "4182.60"
+    },
+    {
+      "id": 65,
+      "quantity": "1857.458",
+      "unitPrice": "39.97816",
+      "minorUnits": 2,
+      "expected": "74257.75"
+    },
+    {
+      "id": 66,
+      "quantity": "-1177.211",
+      "unitPrice": "12.652257",
+      "minorUnits": 3,
+      "expected": "-14894.376"
+    },
+    {
+      "id": 67,
+      "quantity": "-1135.958",
+      "unitPrice": "-52.348897",
+      "minorUnits": 2,
+      "expected": "59466.15"
+    },
+    {
+      "id": 68,
+      "quantity": "81.962",
+      "unitPrice": "-186.993706",
+      "minorUnits": 2,
+      "expected": "-15326.38"
+    },
+    {
+      "id": 69,
+      "quantity": "-125.147",
+      "unitPrice": "-116.488538",
+      "minorUnits": 3,
+      "expected": "14578.191"
+    },
+    {
+      "id": 70,
+      "quantity": "-683.749",
+      "unitPrice": "91.183846",
+      "minorUnits": 0,
+      "expected": "-62347"
+    },
+    {
+      "id": 71,
+      "quantity": "1742.151",
+      "unitPrice": "-125.151814",
+      "minorUnits": 0,
+      "expected": "-218033"
+    },
+    {
+      "id": 72,
+      "quantity": "-603.269",
+      "unitPrice": "195.412984",
+      "minorUnits": 2,
+      "expected": "-117886.60"
+    },
+    {
+      "id": 73,
+      "quantity": "-703.421",
+      "unitPrice": "-6.397459",
+      "minorUnits": 3,
+      "expected": "4500.107"
+    },
+    {
+      "id": 74,
+      "quantity": "590.732",
+      "unitPrice": "188.487964",
+      "minorUnits": 0,
+      "expected": "111346"
+    },
+    {
+      "id": 75,
+      "quantity": "462.025",
+      "unitPrice": "-6.3127",
+      "minorUnits": 3,
+      "expected": "-2916.625"
+    },
+    {
+      "id": 76,
+      "quantity": "-830.461",
+      "unitPrice": "-75.56204",
+      "minorUnits": 2,
+      "expected": "62751.33"
+    },
+    {
+      "id": 77,
+      "quantity": "1591.265",
+      "unitPrice": "189.399027",
+      "minorUnits": 3,
+      "expected": "301384.043"
+    },
+    {
+      "id": 78,
+      "quantity": "-848.43",
+      "unitPrice": "-120.943505",
+      "minorUnits": 2,
+      "expected": "102612.10"
+    },
+    {
+      "id": 79,
+      "quantity": "311.238",
+      "unitPrice": "-76.30452",
+      "minorUnits": 0,
+      "expected": "-23749"
+    },
+    {
+      "id": 80,
+      "quantity": "1387.407",
+      "unitPrice": "-70.637883",
+      "minorUnits": 2,
+      "expected": "-98003.49"
+    },
+    {
+      "id": 81,
+      "quantity": "344.155",
+      "unitPrice": "106.509595",
+      "minorUnits": 3,
+      "expected": "36655.810"
+    },
+    {
+      "id": 82,
+      "quantity": "752.735",
+      "unitPrice": "-86.83558",
+      "minorUnits": 3,
+      "expected": "-65364.180"
+    },
+    {
+      "id": 83,
+      "quantity": "-1001.443",
+      "unitPrice": "188.448876",
+      "minorUnits": 0,
+      "expected": "-188721"
+    },
+    {
+      "id": 84,
+      "quantity": "-1846.655",
+      "unitPrice": "81.767606",
+      "minorUnits": 3,
+      "expected": "-150996.558"
+    },
+    {
+      "id": 85,
+      "quantity": "-1275.427",
+      "unitPrice": "4.288136",
+      "minorUnits": 3,
+      "expected": "-5469.204"
+    },
+    {
+      "id": 86,
+      "quantity": "412.091",
+      "unitPrice": "-155.976358",
+      "minorUnits": 2,
+      "expected": "-64276.45"
+    },
+    {
+      "id": 87,
+      "quantity": "1279.176",
+      "unitPrice": "-141.677149",
+      "minorUnits": 2,
+      "expected": "-181230.01"
+    },
+    {
+      "id": 88,
+      "quantity": "1565.163",
+      "unitPrice": "102.747568",
+      "minorUnits": 2,
+      "expected": "160816.69"
+    },
+    {
+      "id": 89,
+      "quantity": "1171.358",
+      "unitPrice": "-115.458369",
+      "minorUnits": 0,
+      "expected": "-135243"
+    },
+    {
+      "id": 90,
+      "quantity": "-863.53",
+      "unitPrice": "148.883045",
+      "minorUnits": 0,
+      "expected": "-128565"
+    },
+    {
+      "id": 91,
+      "quantity": "-1851.147",
+      "unitPrice": "-190.326535",
+      "minorUnits": 0,
+      "expected": "352322"
+    },
+    {
+      "id": 92,
+      "quantity": "-233.923",
+      "unitPrice": "-186.001725",
+      "minorUnits": 2,
+      "expected": "43510.08"
+    },
+    {
+      "id": 93,
+      "quantity": "1224.098",
+      "unitPrice": "107.844165",
+      "minorUnits": 3,
+      "expected": "132011.827"
+    },
+    {
+      "id": 94,
+      "quantity": "836.287",
+      "unitPrice": "104.69527",
+      "minorUnits": 0,
+      "expected": "87555"
+    },
+    {
+      "id": 95,
+      "quantity": "-725.244",
+      "unitPrice": "32.904857",
+      "minorUnits": 2,
+      "expected": "-23864.05"
+    },
+    {
+      "id": 96,
+      "quantity": "-47.608",
+      "unitPrice": "-136.646558",
+      "minorUnits": 0,
+      "expected": "6505"
+    },
+    {
+      "id": 97,
+      "quantity": "69.686",
+      "unitPrice": "-44.739001",
+      "minorUnits": 3,
+      "expected": "-3117.682"
+    },
+    {
+      "id": 98,
+      "quantity": "-858.023",
+      "unitPrice": "61.347211",
+      "minorUnits": 2,
+      "expected": "-52637.32"
+    },
+    {
+      "id": 99,
+      "quantity": "-1649.032",
+      "unitPrice": "-188.851723",
+      "minorUnits": 3,
+      "expected": "311422.534"
+    },
+    {
+      "id": 100,
+      "quantity": "1942.394",
+      "unitPrice": "-157.212649",
+      "minorUnits": 3,
+      "expected": "-305368.906"
+    },
+    {
+      "id": 101,
+      "quantity": "1534.913",
+      "unitPrice": "-75.533575",
+      "minorUnits": 0,
+      "expected": "-115937"
+    },
+    {
+      "id": 102,
+      "quantity": "1512.087",
+      "unitPrice": "58.370225",
+      "minorUnits": 0,
+      "expected": "88261"
+    },
+    {
+      "id": 103,
+      "quantity": "-1456.087",
+      "unitPrice": "120.795848",
+      "minorUnits": 2,
+      "expected": "-175889.26"
+    },
+    {
+      "id": 104,
+      "quantity": "-785.426",
+      "unitPrice": "29.074002",
+      "minorUnits": 2,
+      "expected": "-22835.48"
+    },
+    {
+      "id": 105,
+      "quantity": "-1762.499",
+      "unitPrice": "-73.899386",
+      "minorUnits": 3,
+      "expected": "130247.594"
+    },
+    {
+      "id": 106,
+      "quantity": "1197.617",
+      "unitPrice": "58.079622",
+      "minorUnits": 3,
+      "expected": "69557.143"
+    },
+    {
+      "id": 107,
+      "quantity": "1693.01",
+      "unitPrice": "116.197516",
+      "minorUnits": 2,
+      "expected": "196723.56"
+    },
+    {
+      "id": 108,
+      "quantity": "718.606",
+      "unitPrice": "-95.778619",
+      "minorUnits": 0,
+      "expected": "-68827"
+    },
+    {
+      "id": 109,
+      "quantity": "-229.836",
+      "unitPrice": "-82.394402",
+      "minorUnits": 3,
+      "expected": "18937.200"
+    },
+    {
+      "id": 110,
+      "quantity": "25.106",
+      "unitPrice": "55.787946",
+      "minorUnits": 2,
+      "expected": "1400.61"
+    },
+    {
+      "id": 111,
+      "quantity": "-300.634",
+      "unitPrice": "164.085665",
+      "minorUnits": 0,
+      "expected": "-49330"
+    },
+    {
+      "id": 112,
+      "quantity": "1260.822",
+      "unitPrice": "-158.57032",
+      "minorUnits": 2,
+      "expected": "-199928.95"
+    },
+    {
+      "id": 113,
+      "quantity": "-1903.105",
+      "unitPrice": "46.027473",
+      "minorUnits": 3,
+      "expected": "-87595.114"
+    },
+    {
+      "id": 114,
+      "quantity": "-908.665",
+      "unitPrice": "20.367051",
+      "minorUnits": 0,
+      "expected": "-18507"
+    },
+    {
+      "id": 115,
+      "quantity": "1944.449",
+      "unitPrice": "-94.360279",
+      "minorUnits": 2,
+      "expected": "-183478.75"
+    },
+    {
+      "id": 116,
+      "quantity": "-1137.737",
+      "unitPrice": "-187.062934",
+      "minorUnits": 3,
+      "expected": "212828.421"
+    },
+    {
+      "id": 117,
+      "quantity": "-1111.722",
+      "unitPrice": "165.429108",
+      "minorUnits": 3,
+      "expected": "-183911.179"
+    },
+    {
+      "id": 118,
+      "quantity": "620.013",
+      "unitPrice": "-43.909806",
+      "minorUnits": 0,
+      "expected": "-27225"
+    },
+    {
+      "id": 119,
+      "quantity": "1808.238",
+      "unitPrice": "-69.52054",
+      "minorUnits": 3,
+      "expected": "-125709.682"
+    },
+    {
+      "id": 120,
+      "quantity": "243.466",
+      "unitPrice": "-59.887132",
+      "minorUnits": 2,
+      "expected": "-14580.48"
+    },
+    {
+      "id": 121,
+      "quantity": "22.033",
+      "unitPrice": "179.677916",
+      "minorUnits": 3,
+      "expected": "3958.844"
+    },
+    {
+      "id": 122,
+      "quantity": "1807.853",
+      "unitPrice": "69.606599",
+      "minorUnits": 3,
+      "expected": "125838.499"
+    },
+    {
+      "id": 123,
+      "quantity": "-1214.479",
+      "unitPrice": "44.7226",
+      "minorUnits": 2,
+      "expected": "-54314.66"
+    },
+    {
+      "id": 124,
+      "quantity": "1968.509",
+      "unitPrice": "194.239454",
+      "minorUnits": 3,
+      "expected": "382362.113"
+    },
+    {
+      "id": 125,
+      "quantity": "173.329",
+      "unitPrice": "35.296438",
+      "minorUnits": 3,
+      "expected": "6117.896"
+    },
+    {
+      "id": 126,
+      "quantity": "-657.259",
+      "unitPrice": "-149.792896",
+      "minorUnits": 2,
+      "expected": "98452.73"
+    },
+    {
+      "id": 127,
+      "quantity": "1862.788",
+      "unitPrice": "99.693827",
+      "minorUnits": 0,
+      "expected": "185708"
+    },
+    {
+      "id": 128,
+      "quantity": "-1636.68",
+      "unitPrice": "-26.071176",
+      "minorUnits": 2,
+      "expected": "42670.17"
+    },
+    {
+      "id": 129,
+      "quantity": "-284.128",
+      "unitPrice": "-83.104811",
+      "minorUnits": 3,
+      "expected": "23612.404"
+    },
+    {
+      "id": 130,
+      "quantity": "279.826",
+      "unitPrice": "161.884976",
+      "minorUnits": 3,
+      "expected": "45299.625"
+    },
+    {
+      "id": 131,
+      "quantity": "-1953.412",
+      "unitPrice": "70.59203",
+      "minorUnits": 3,
+      "expected": "-137895.319"
+    },
+    {
+      "id": 132,
+      "quantity": "187.735",
+      "unitPrice": "-9.048735",
+      "minorUnits": 0,
+      "expected": "-1699"
+    },
+    {
+      "id": 133,
+      "quantity": "9.011",
+      "unitPrice": "-37.160383",
+      "minorUnits": 2,
+      "expected": "-334.85"
+    },
+    {
+      "id": 134,
+      "quantity": "17.062",
+      "unitPrice": "40.771821",
+      "minorUnits": 0,
+      "expected": "696"
+    },
+    {
+      "id": 135,
+      "quantity": "992.752",
+      "unitPrice": "-184.585358",
+      "minorUnits": 3,
+      "expected": "-183247.483"
+    },
+    {
+      "id": 136,
+      "quantity": "1644.376",
+      "unitPrice": "128.257689",
+      "minorUnits": 0,
+      "expected": "210904"
+    },
+    {
+      "id": 137,
+      "quantity": "-1592.873",
+      "unitPrice": "-102.835037",
+      "minorUnits": 0,
+      "expected": "163803"
+    },
+    {
+      "id": 138,
+      "quantity": "-1522.775",
+      "unitPrice": "114.143917",
+      "minorUnits": 3,
+      "expected": "-173815.503"
+    },
+    {
+      "id": 139,
+      "quantity": "-960.821",
+      "unitPrice": "89.255466",
+      "minorUnits": 2,
+      "expected": "-85758.53"
+    },
+    {
+      "id": 140,
+      "quantity": "-910.453",
+      "unitPrice": "-196.44434",
+      "minorUnits": 2,
+      "expected": "178853.34"
+    },
+    {
+      "id": 141,
+      "quantity": "1142.513",
+      "unitPrice": "63.855591",
+      "minorUnits": 3,
+      "expected": "72955.843"
+    },
+    {
+      "id": 142,
+      "quantity": "1314.705",
+      "unitPrice": "148.694681",
+      "minorUnits": 0,
+      "expected": "195490"
+    },
+    {
+      "id": 143,
+      "quantity": "-234.165",
+      "unitPrice": "-135.079521",
+      "minorUnits": 2,
+      "expected": "31630.90"
+    },
+    {
+      "id": 144,
+      "quantity": "-135.849",
+      "unitPrice": "23.037118",
+      "minorUnits": 3,
+      "expected": "-3129.569"
+    },
+    {
+      "id": 145,
+      "quantity": "1056.032",
+      "unitPrice": "148.679379",
+      "minorUnits": 2,
+      "expected": "157010.18"
+    },
+    {
+      "id": 146,
+      "quantity": "-439.609",
+      "unitPrice": "-143.698538",
+      "minorUnits": 0,
+      "expected": "63171"
+    },
+    {
+      "id": 147,
+      "quantity": "-1929.245",
+      "unitPrice": "8.07703",
+      "minorUnits": 0,
+      "expected": "-15583"
+    },
+    {
+      "id": 148,
+      "quantity": "1055.877",
+      "unitPrice": "-35.189566",
+      "minorUnits": 3,
+      "expected": "-37155.853"
+    },
+    {
+      "id": 149,
+      "quantity": "1973.891",
+      "unitPrice": "24.288014",
+      "minorUnits": 3,
+      "expected": "47941.892"
+    },
+    {
+      "id": 150,
+      "quantity": "-1759.784",
+      "unitPrice": "-143.001022",
+      "minorUnits": 0,
+      "expected": "251651"
+    },
+    {
+      "id": 151,
+      "quantity": "558.78",
+      "unitPrice": "174.850466",
+      "minorUnits": 2,
+      "expected": "97702.94"
+    },
+    {
+      "id": 152,
+      "quantity": "-150.243",
+      "unitPrice": "163.209883",
+      "minorUnits": 2,
+      "expected": "-24521.14"
+    },
+    {
+      "id": 153,
+      "quantity": "-1638.065",
+      "unitPrice": "-28.867491",
+      "minorUnits": 3,
+      "expected": "47286.827"
+    },
+    {
+      "id": 154,
+      "quantity": "145.328",
+      "unitPrice": "-170.829291",
+      "minorUnits": 2,
+      "expected": "-24826.28"
+    },
+    {
+      "id": 155,
+      "quantity": "284.774",
+      "unitPrice": "171.588238",
+      "minorUnits": 3,
+      "expected": "48863.869"
+    },
+    {
+      "id": 156,
+      "quantity": "325.856",
+      "unitPrice": "153.225667",
+      "minorUnits": 0,
+      "expected": "49930"
+    },
+    {
+      "id": 157,
+      "quantity": "-1826.731",
+      "unitPrice": "10.980372",
+      "minorUnits": 2,
+      "expected": "-20058.19"
+    },
+    {
+      "id": 158,
+      "quantity": "-1678.558",
+      "unitPrice": "-109.904223",
+      "minorUnits": 0,
+      "expected": "184481"
+    },
+    {
+      "id": 159,
+      "quantity": "1814.675",
+      "unitPrice": "15.085595",
+      "minorUnits": 0,
+      "expected": "27375"
+    },
+    {
+      "id": 160,
+      "quantity": "1388.503",
+      "unitPrice": "-158.849007",
+      "minorUnits": 0,
+      "expected": "-220562"
+    },
+    {
+      "id": 161,
+      "quantity": "-1894.527",
+      "unitPrice": "190.555475",
+      "minorUnits": 0,
+      "expected": "-361012"
+    },
+    {
+      "id": 162,
+      "quantity": "197.53",
+      "unitPrice": "-107.085448",
+      "minorUnits": 0,
+      "expected": "-21153"
+    },
+    {
+      "id": 163,
+      "quantity": "1684.946",
+      "unitPrice": "-188.927425",
+      "minorUnits": 3,
+      "expected": "-318332.509"
+    },
+    {
+      "id": 164,
+      "quantity": "-831.023",
+      "unitPrice": "100.655272",
+      "minorUnits": 3,
+      "expected": "-83646.846"
+    },
+    {
+      "id": 165,
+      "quantity": "109.338",
+      "unitPrice": "6.670342",
+      "minorUnits": 2,
+      "expected": "729.32"
+    },
+    {
+      "id": 166,
+      "quantity": "-280.087",
+      "unitPrice": "53.126742",
+      "minorUnits": 0,
+      "expected": "-14880"
+    },
+    {
+      "id": 167,
+      "quantity": "1488.992",
+      "unitPrice": "121.456727",
+      "minorUnits": 0,
+      "expected": "180848"
+    },
+    {
+      "id": 168,
+      "quantity": "-1787.356",
+      "unitPrice": "-35.130382",
+      "minorUnits": 0,
+      "expected": "62790"
+    },
+    {
+      "id": 169,
+      "quantity": "-1128.017",
+      "unitPrice": "43.167108",
+      "minorUnits": 0,
+      "expected": "-48693"
+    },
+    {
+      "id": 170,
+      "quantity": "-408.121",
+      "unitPrice": "-148.019303",
+      "minorUnits": 2,
+      "expected": "60409.79"
+    },
+    {
+      "id": 171,
+      "quantity": "989.236",
+      "unitPrice": "172.792908",
+      "minorUnits": 0,
+      "expected": "170933"
+    },
+    {
+      "id": 172,
+      "quantity": "1181.066",
+      "unitPrice": "88.215591",
+      "minorUnits": 2,
+      "expected": "104188.44"
+    },
+    {
+      "id": 173,
+      "quantity": "-1310.961",
+      "unitPrice": "-32.61645",
+      "minorUnits": 3,
+      "expected": "42758.894"
+    },
+    {
+      "id": 174,
+      "quantity": "1726.248",
+      "unitPrice": "-186.547981",
+      "minorUnits": 0,
+      "expected": "-322028"
+    },
+    {
+      "id": 175,
+      "quantity": "1589.474",
+      "unitPrice": "163.174822",
+      "minorUnits": 0,
+      "expected": "259362"
+    },
+    {
+      "id": 176,
+      "quantity": "1104.06",
+      "unitPrice": "-40.258214",
+      "minorUnits": 3,
+      "expected": "-44447.484"
+    },
+    {
+      "id": 177,
+      "quantity": "-789.755",
+      "unitPrice": "-6.756766",
+      "minorUnits": 3,
+      "expected": "5336.190"
+    },
+    {
+      "id": 178,
+      "quantity": "-1138.937",
+      "unitPrice": "-115.85009",
+      "minorUnits": 2,
+      "expected": "131945.95"
+    },
+    {
+      "id": 179,
+      "quantity": "-481.6",
+      "unitPrice": "187.440934",
+      "minorUnits": 2,
+      "expected": "-90271.55"
+    },
+    {
+      "id": 180,
+      "quantity": "-799.838",
+      "unitPrice": "47.21761",
+      "minorUnits": 0,
+      "expected": "-37766"
+    },
+    {
+      "id": 181,
+      "quantity": "-180.945",
+      "unitPrice": "-5.331454",
+      "minorUnits": 3,
+      "expected": "964.700"
+    },
+    {
+      "id": 182,
+      "quantity": "754.939",
+      "unitPrice": "177.771496",
+      "minorUnits": 3,
+      "expected": "134206.635"
+    },
+    {
+      "id": 183,
+      "quantity": "-1294.543",
+      "unitPrice": "0.277521",
+      "minorUnits": 2,
+      "expected": "-359.26"
+    },
+    {
+      "id": 184,
+      "quantity": "-778.251",
+      "unitPrice": "199.493735",
+      "minorUnits": 0,
+      "expected": "-155256"
+    },
+    {
+      "id": 185,
+      "quantity": "1263.99",
+      "unitPrice": "-112.853299",
+      "minorUnits": 2,
+      "expected": "-142645.44"
+    },
+    {
+      "id": 186,
+      "quantity": "-437.008",
+      "unitPrice": "-76.194571",
+      "minorUnits": 2,
+      "expected": "33297.64"
+    },
+    {
+      "id": 187,
+      "quantity": "1801.654",
+      "unitPrice": "-127.399018",
+      "minorUnits": 3,
+      "expected": "-229528.950"
+    },
+    {
+      "id": 188,
+      "quantity": "-338.548",
+      "unitPrice": "-67.296608",
+      "minorUnits": 3,
+      "expected": "22783.132"
+    },
+    {
+      "id": 189,
+      "quantity": "1832.532",
+      "unitPrice": "155.896808",
+      "minorUnits": 2,
+      "expected": "285685.89"
+    },
+    {
+      "id": 190,
+      "quantity": "-466.761",
+      "unitPrice": "106.962133",
+      "minorUnits": 2,
+      "expected": "-49925.75"
+    },
+    {
+      "id": 191,
+      "quantity": "1338.217",
+      "unitPrice": "-134.39717",
+      "minorUnits": 3,
+      "expected": "-179852.578"
+    },
+    {
+      "id": 192,
+      "quantity": "818.076",
+      "unitPrice": "14.239434",
+      "minorUnits": 3,
+      "expected": "11648.939"
+    },
+    {
+      "id": 193,
+      "quantity": "-1289.11",
+      "unitPrice": "-73.674435",
+      "minorUnits": 3,
+      "expected": "94974.451"
+    },
+    {
+      "id": 194,
+      "quantity": "-1141.395",
+      "unitPrice": "145.230229",
+      "minorUnits": 2,
+      "expected": "-165765.06"
+    },
+    {
+      "id": 195,
+      "quantity": "1896.773",
+      "unitPrice": "-156.864319",
+      "minorUnits": 3,
+      "expected": "-297536.005"
+    },
+    {
+      "id": 196,
+      "quantity": "1682.783",
+      "unitPrice": "-178.015541",
+      "minorUnits": 3,
+      "expected": "-299561.526"
+    },
+    {
+      "id": 197,
+      "quantity": "-1858.889",
+      "unitPrice": "72.986451",
+      "minorUnits": 3,
+      "expected": "-135673.711"
+    },
+    {
+      "id": 198,
+      "quantity": "-1248.96",
+      "unitPrice": "43.784883",
+      "minorUnits": 0,
+      "expected": "-54686"
+    },
+    {
+      "id": 199,
+      "quantity": "-1060.969",
+      "unitPrice": "7.304204",
+      "minorUnits": 2,
+      "expected": "-7749.53"
+    },
+    {
+      "id": 200,
+      "quantity": "-1390.086",
+      "unitPrice": "-137.564279",
+      "minorUnits": 3,
+      "expected": "191226.178"
+    },
+    {
+      "id": 201,
+      "quantity": "317.041",
+      "unitPrice": "73.842285",
+      "minorUnits": 0,
+      "expected": "23411"
+    },
+    {
+      "id": 202,
+      "quantity": "-1337.02",
+      "unitPrice": "143.625309",
+      "minorUnits": 2,
+      "expected": "-192029.91"
+    },
+    {
+      "id": 203,
+      "quantity": "1947.313",
+      "unitPrice": "-129.043848",
+      "minorUnits": 3,
+      "expected": "-251288.763"
+    },
+    {
+      "id": 204,
+      "quantity": "32.581",
+      "unitPrice": "166.060314",
+      "minorUnits": 2,
+      "expected": "5410.41"
+    },
+    {
+      "id": 205,
+      "quantity": "1300.184",
+      "unitPrice": "126.880984",
+      "minorUnits": 2,
+      "expected": "164968.63"
+    },
+    {
+      "id": 206,
+      "quantity": "149.926",
+      "unitPrice": "60.429678",
+      "minorUnits": 3,
+      "expected": "9059.980"
+    },
+    {
+      "id": 207,
+      "quantity": "-246.93",
+      "unitPrice": "-27.701686",
+      "minorUnits": 0,
+      "expected": "6840"
+    },
+    {
+      "id": 208,
+      "quantity": "-868.821",
+      "unitPrice": "-52.06869",
+      "minorUnits": 0,
+      "expected": "45238"
+    },
+    {
+      "id": 209,
+      "quantity": "33.701",
+      "unitPrice": "163.290599",
+      "minorUnits": 0,
+      "expected": "5503"
+    },
+    {
+      "id": 210,
+      "quantity": "1180.155",
+      "unitPrice": "12.457373",
+      "minorUnits": 2,
+      "expected": "14701.63"
+    },
+    {
+      "id": 211,
+      "quantity": "1332.704",
+      "unitPrice": "-9.854745",
+      "minorUnits": 3,
+      "expected": "-13133.458"
+    },
+    {
+      "id": 212,
+      "quantity": "-1835.104",
+      "unitPrice": "134.266865",
+      "minorUnits": 3,
+      "expected": "-246393.661"
+    },
+    {
+      "id": 213,
+      "quantity": "542.019",
+      "unitPrice": "-181.950688",
+      "minorUnits": 3,
+      "expected": "-98620.730"
+    },
+    {
+      "id": 214,
+      "quantity": "138.009",
+      "unitPrice": "192.78083",
+      "minorUnits": 2,
+      "expected": "26605.49"
+    },
+    {
+      "id": 215,
+      "quantity": "100.927",
+      "unitPrice": "-84.312153",
+      "minorUnits": 0,
+      "expected": "-8509"
+    },
+    {
+      "id": 216,
+      "quantity": "460.465",
+      "unitPrice": "69.250622",
+      "minorUnits": 3,
+      "expected": "31887.488"
+    },
+    {
+      "id": 217,
+      "quantity": "-1349.321",
+      "unitPrice": "-189.457856",
+      "minorUnits": 2,
+      "expected": "255639.46"
+    },
+    {
+      "id": 218,
+      "quantity": "-576.255",
+      "unitPrice": "-132.308335",
+      "minorUnits": 3,
+      "expected": "76243.340"
+    },
+    {
+      "id": 219,
+      "quantity": "1170.512",
+      "unitPrice": "105.600389",
+      "minorUnits": 0,
+      "expected": "123607"
+    },
+    {
+      "id": 220,
+      "quantity": "1632.7",
+      "unitPrice": "69.552398",
+      "minorUnits": 3,
+      "expected": "113558.200"
+    },
+    {
+      "id": 221,
+      "quantity": "-958.149",
+      "unitPrice": "142.458394",
+      "minorUnits": 0,
+      "expected": "-136496"
+    },
+    {
+      "id": 222,
+      "quantity": "-1116.038",
+      "unitPrice": "22.47941",
+      "minorUnits": 3,
+      "expected": "-25087.876"
+    },
+    {
+      "id": 223,
+      "quantity": "1189.111",
+      "unitPrice": "-101.23854",
+      "minorUnits": 2,
+      "expected": "-120383.86"
+    },
+    {
+      "id": 224,
+      "quantity": "-326.475",
+      "unitPrice": "-146.177395",
+      "minorUnits": 2,
+      "expected": "47723.27"
+    },
+    {
+      "id": 225,
+      "quantity": "-1094.562",
+      "unitPrice": "144.832662",
+      "minorUnits": 0,
+      "expected": "-158528"
+    },
+    {
+      "id": 226,
+      "quantity": "354.314",
+      "unitPrice": "-66.26766",
+      "minorUnits": 0,
+      "expected": "-23480"
+    },
+    {
+      "id": 227,
+      "quantity": "1504.33",
+      "unitPrice": "153.746279",
+      "minorUnits": 2,
+      "expected": "231285.14"
+    },
+    {
+      "id": 228,
+      "quantity": "-213.456",
+      "unitPrice": "-31.52943",
+      "minorUnits": 0,
+      "expected": "6730"
+    },
+    {
+      "id": 229,
+      "quantity": "999.897",
+      "unitPrice": "-138.618808",
+      "minorUnits": 3,
+      "expected": "-138604.530"
+    },
+    {
+      "id": 230,
+      "quantity": "-1711.608",
+      "unitPrice": "62.744418",
+      "minorUnits": 3,
+      "expected": "-107393.848"
+    },
+    {
+      "id": 231,
+      "quantity": "-501.85",
+      "unitPrice": "-155.503363",
+      "minorUnits": 0,
+      "expected": "78039"
+    },
+    {
+      "id": 232,
+      "quantity": "-1331.082",
+      "unitPrice": "-7.526802",
+      "minorUnits": 3,
+      "expected": "10018.791"
+    },
+    {
+      "id": 233,
+      "quantity": "1132.935",
+      "unitPrice": "186.485164",
+      "minorUnits": 0,
+      "expected": "211276"
+    },
+    {
+      "id": 234,
+      "quantity": "111.539",
+      "unitPrice": "191.938259",
+      "minorUnits": 0,
+      "expected": "21409"
+    },
+    {
+      "id": 235,
+      "quantity": "-1940.016",
+      "unitPrice": "151.313925",
+      "minorUnits": 0,
+      "expected": "-293551"
+    },
+    {
+      "id": 236,
+      "quantity": "-1811.624",
+      "unitPrice": "46.710536",
+      "minorUnits": 2,
+      "expected": "-84621.93"
+    },
+    {
+      "id": 237,
+      "quantity": "825.088",
+      "unitPrice": "-60.490886",
+      "minorUnits": 0,
+      "expected": "-49910"
+    },
+    {
+      "id": 238,
+      "quantity": "-568.623",
+      "unitPrice": "-105.023159",
+      "minorUnits": 3,
+      "expected": "59718.584"
+    },
+    {
+      "id": 239,
+      "quantity": "1454.1",
+      "unitPrice": "38.547742",
+      "minorUnits": 0,
+      "expected": "56052"
+    },
+    {
+      "id": 240,
+      "quantity": "190.619",
+      "unitPrice": "109.956988",
+      "minorUnits": 3,
+      "expected": "20959.891"
+    },
+    {
+      "id": 241,
+      "quantity": "-75.401",
+      "unitPrice": "14.049587",
+      "minorUnits": 2,
+      "expected": "-1059.35"
+    },
+    {
+      "id": 242,
+      "quantity": "1698.657",
+      "unitPrice": "-68.319071",
+      "minorUnits": 0,
+      "expected": "-116051"
+    },
+    {
+      "id": 243,
+      "quantity": "9.856",
+      "unitPrice": "193.246639",
+      "minorUnits": 3,
+      "expected": "1904.639"
+    },
+    {
+      "id": 244,
+      "quantity": "766.169",
+      "unitPrice": "103.758103",
+      "minorUnits": 0,
+      "expected": "79496"
+    },
+    {
+      "id": 245,
+      "quantity": "1364.733",
+      "unitPrice": "58.260675",
+      "minorUnits": 3,
+      "expected": "79510.266"
+    },
+    {
+      "id": 246,
+      "quantity": "675.741",
+      "unitPrice": "-33.856358",
+      "minorUnits": 3,
+      "expected": "-22878.129"
+    },
+    {
+      "id": 247,
+      "quantity": "-687.86",
+      "unitPrice": "91.120851",
+      "minorUnits": 0,
+      "expected": "-62678"
+    },
+    {
+      "id": 248,
+      "quantity": "353.034",
+      "unitPrice": "172.893701",
+      "minorUnits": 0,
+      "expected": "61037"
+    },
+    {
+      "id": 249,
+      "quantity": "-659.728",
+      "unitPrice": "-17.266005",
+      "minorUnits": 2,
+      "expected": "11390.87"
+    },
+    {
+      "id": 250,
+      "quantity": "-468.093",
+      "unitPrice": "-134.919877",
+      "minorUnits": 0,
+      "expected": "63155"
+    },
+    {
+      "id": 251,
+      "quantity": "-1278.682",
+      "unitPrice": "-178.122067",
+      "minorUnits": 2,
+      "expected": "227761.48"
+    },
+    {
+      "id": 252,
+      "quantity": "1329.072",
+      "unitPrice": "93.760677",
+      "minorUnits": 0,
+      "expected": "124615"
+    },
+    {
+      "id": 253,
+      "quantity": "-1019.75",
+      "unitPrice": "-45.57865",
+      "minorUnits": 0,
+      "expected": "46479"
+    },
+    {
+      "id": 254,
+      "quantity": "-1317.132",
+      "unitPrice": "-48.983283",
+      "minorUnits": 3,
+      "expected": "64517.450"
+    },
+    {
+      "id": 255,
+      "quantity": "-127.433",
+      "unitPrice": "-163.423332",
+      "minorUnits": 2,
+      "expected": "20825.53"
+    },
+    {
+      "id": 256,
+      "quantity": "1943.432",
+      "unitPrice": "-28.650105",
+      "minorUnits": 2,
+      "expected": "-55679.53"
+    },
+    {
+      "id": 257,
+      "quantity": "-1491.47",
+      "unitPrice": "84.267742",
+      "minorUnits": 0,
+      "expected": "-125683"
+    },
+    {
+      "id": 258,
+      "quantity": "1946.657",
+      "unitPrice": "60.62631",
+      "minorUnits": 3,
+      "expected": "118018.631"
+    },
+    {
+      "id": 259,
+      "quantity": "276.746",
+      "unitPrice": "-58.726708",
+      "minorUnits": 2,
+      "expected": "-16252.38"
+    },
+    {
+      "id": 260,
+      "quantity": "-1375.889",
+      "unitPrice": "-82.031391",
+      "minorUnits": 2,
+      "expected": "112866.09"
+    },
+    {
+      "id": 261,
+      "quantity": "-1538.274",
+      "unitPrice": "-27.667838",
+      "minorUnits": 3,
+      "expected": "42560.716"
+    },
+    {
+      "id": 262,
+      "quantity": "180.989",
+      "unitPrice": "60.74665",
+      "minorUnits": 3,
+      "expected": "10994.475"
+    },
+    {
+      "id": 263,
+      "quantity": "-1201.109",
+      "unitPrice": "-116.540951",
+      "minorUnits": 3,
+      "expected": "139978.385"
+    },
+    {
+      "id": 264,
+      "quantity": "462.397",
+      "unitPrice": "44.550799",
+      "minorUnits": 3,
+      "expected": "20600.156"
+    },
+    {
+      "id": 265,
+      "quantity": "1654.079",
+      "unitPrice": "-12.002294",
+      "minorUnits": 0,
+      "expected": "-19853"
+    },
+    {
+      "id": 266,
+      "quantity": "-1756.353",
+      "unitPrice": "191.137619",
+      "minorUnits": 2,
+      "expected": "-335705.13"
+    },
+    {
+      "id": 267,
+      "quantity": "930.994",
+      "unitPrice": "108.816397",
+      "minorUnits": 0,
+      "expected": "101307"
+    },
+    {
+      "id": 268,
+      "quantity": "279.413",
+      "unitPrice": "-143.179747",
+      "minorUnits": 3,
+      "expected": "-40006.283"
+    },
+    {
+      "id": 269,
+      "quantity": "1065.923",
+      "unitPrice": "-111.164891",
+      "minorUnits": 3,
+      "expected": "-118493.214"
+    },
+    {
+      "id": 270,
+      "quantity": "1756.415",
+      "unitPrice": "-40.854378",
+      "minorUnits": 0,
+      "expected": "-71757"
+    },
+    {
+      "id": 271,
+      "quantity": "-1353.652",
+      "unitPrice": "172.889864",
+      "minorUnits": 0,
+      "expected": "-234033"
+    },
+    {
+      "id": 272,
+      "quantity": "1850.112",
+      "unitPrice": "52.1077",
+      "minorUnits": 0,
+      "expected": "96405"
+    },
+    {
+      "id": 273,
+      "quantity": "814.74",
+      "unitPrice": "-185.355729",
+      "minorUnits": 0,
+      "expected": "-151017"
+    },
+    {
+      "id": 274,
+      "quantity": "-1929.322",
+      "unitPrice": "137.391805",
+      "minorUnits": 0,
+      "expected": "-265073"
+    },
+    {
+      "id": 275,
+      "quantity": "1685.81",
+      "unitPrice": "-108.18593",
+      "minorUnits": 3,
+      "expected": "-182380.923"
+    },
+    {
+      "id": 276,
+      "quantity": "-674.976",
+      "unitPrice": "166.624723",
+      "minorUnits": 0,
+      "expected": "-112468"
+    },
+    {
+      "id": 277,
+      "quantity": "1125.478",
+      "unitPrice": "79.91133",
+      "minorUnits": 3,
+      "expected": "89938.444"
+    },
+    {
+      "id": 278,
+      "quantity": "-1046.718",
+      "unitPrice": "-80.329233",
+      "minorUnits": 0,
+      "expected": "84082"
+    },
+    {
+      "id": 279,
+      "quantity": "1628.587",
+      "unitPrice": "47.320323",
+      "minorUnits": 2,
+      "expected": "77065.26"
+    },
+    {
+      "id": 280,
+      "quantity": "1995.757",
+      "unitPrice": "-56.551757",
+      "minorUnits": 3,
+      "expected": "-112863.565"
+    },
+    {
+      "id": 281,
+      "quantity": "-1504.581",
+      "unitPrice": "-191.590742",
+      "minorUnits": 3,
+      "expected": "288263.790"
+    },
+    {
+      "id": 282,
+      "quantity": "1576.501",
+      "unitPrice": "-187.482019",
+      "minorUnits": 0,
+      "expected": "-295566"
+    },
+    {
+      "id": 283,
+      "quantity": "170.835",
+      "unitPrice": "-120.999908",
+      "minorUnits": 2,
+      "expected": "-20671.02"
+    },
+    {
+      "id": 284,
+      "quantity": "-1988.296",
+      "unitPrice": "-136.290154",
+      "minorUnits": 2,
+      "expected": "270985.17"
+    },
+    {
+      "id": 285,
+      "quantity": "-1354.245",
+      "unitPrice": "172.450187",
+      "minorUnits": 3,
+      "expected": "-233539.803"
+    },
+    {
+      "id": 286,
+      "quantity": "1304.396",
+      "unitPrice": "175.128983",
+      "minorUnits": 0,
+      "expected": "228438"
+    },
+    {
+      "id": 287,
+      "quantity": "1877.372",
+      "unitPrice": "62.526632",
+      "minorUnits": 3,
+      "expected": "117385.748"
+    },
+    {
+      "id": 288,
+      "quantity": "310.858",
+      "unitPrice": "84.510535",
+      "minorUnits": 2,
+      "expected": "26270.78"
+    },
+    {
+      "id": 289,
+      "quantity": "703.395",
+      "unitPrice": "81.51007",
+      "minorUnits": 2,
+      "expected": "57333.78"
+    },
+    {
+      "id": 290,
+      "quantity": "-38.985",
+      "unitPrice": "-174.273811",
+      "minorUnits": 2,
+      "expected": "6794.06"
+    },
+    {
+      "id": 291,
+      "quantity": "1199.019",
+      "unitPrice": "10.551835",
+      "minorUnits": 0,
+      "expected": "12652"
+    },
+    {
+      "id": 292,
+      "quantity": "602.596",
+      "unitPrice": "37.103252",
+      "minorUnits": 0,
+      "expected": "22358"
+    },
+    {
+      "id": 293,
+      "quantity": "1156.958",
+      "unitPrice": "-10.849908",
+      "minorUnits": 2,
+      "expected": "-12552.89"
+    },
+    {
+      "id": 294,
+      "quantity": "1657.702",
+      "unitPrice": "45.031735",
+      "minorUnits": 3,
+      "expected": "74649.197"
+    },
+    {
+      "id": 295,
+      "quantity": "144.668",
+      "unitPrice": "-66.898579",
+      "minorUnits": 2,
+      "expected": "-9678.08"
+    },
+    {
+      "id": 296,
+      "quantity": "-1670.075",
+      "unitPrice": "72.020204",
+      "minorUnits": 3,
+      "expected": "-120279.142"
+    },
+    {
+      "id": 297,
+      "quantity": "-381.064",
+      "unitPrice": "-154.078492",
+      "minorUnits": 0,
+      "expected": "58714"
+    },
+    {
+      "id": 298,
+      "quantity": "-337.044",
+      "unitPrice": "124.598731",
+      "minorUnits": 0,
+      "expected": "-41995"
+    },
+    {
+      "id": 299,
+      "quantity": "-549.727",
+      "unitPrice": "157.429126",
+      "minorUnits": 2,
+      "expected": "-86543.04"
+    },
+    {
+      "id": 300,
+      "quantity": "1189.636",
+      "unitPrice": "-196.240776",
+      "minorUnits": 3,
+      "expected": "-233455.092"
+    },
+    {
+      "id": 301,
+      "quantity": "-431.599",
+      "unitPrice": "-14.90206",
+      "minorUnits": 2,
+      "expected": "6431.71"
+    },
+    {
+      "id": 302,
+      "quantity": "1809.743",
+      "unitPrice": "148.524706",
+      "minorUnits": 0,
+      "expected": "268792"
+    },
+    {
+      "id": 303,
+      "quantity": "-232.31",
+      "unitPrice": "181.817265",
+      "minorUnits": 0,
+      "expected": "-42238"
+    },
+    {
+      "id": 304,
+      "quantity": "630.644",
+      "unitPrice": "87.094171",
+      "minorUnits": 0,
+      "expected": "54925"
+    },
+    {
+      "id": 305,
+      "quantity": "164.23",
+      "unitPrice": "124.184661",
+      "minorUnits": 2,
+      "expected": "20394.85"
+    },
+    {
+      "id": 306,
+      "quantity": "742.561",
+      "unitPrice": "-173.88825",
+      "minorUnits": 3,
+      "expected": "-129122.633"
+    },
+    {
+      "id": 307,
+      "quantity": "1155.45",
+      "unitPrice": "35.641723",
+      "minorUnits": 2,
+      "expected": "41182.23"
+    },
+    {
+      "id": 308,
+      "quantity": "-1231.537",
+      "unitPrice": "-78.43727",
+      "minorUnits": 2,
+      "expected": "96598.40"
+    },
+    {
+      "id": 309,
+      "quantity": "-1638.795",
+      "unitPrice": "-33.778744",
+      "minorUnits": 0,
+      "expected": "55356"
+    },
+    {
+      "id": 310,
+      "quantity": "852.183",
+      "unitPrice": "102.8903",
+      "minorUnits": 3,
+      "expected": "87681.365"
+    },
+    {
+      "id": 311,
+      "quantity": "-1513.817",
+      "unitPrice": "-51.243991",
+      "minorUnits": 2,
+      "expected": "77574.02"
+    },
+    {
+      "id": 312,
+      "quantity": "-1564.378",
+      "unitPrice": "101.431146",
+      "minorUnits": 3,
+      "expected": "-158676.653"
+    },
+    {
+      "id": 313,
+      "quantity": "-563.637",
+      "unitPrice": "-23.441844",
+      "minorUnits": 2,
+      "expected": "13212.69"
+    },
+    {
+      "id": 314,
+      "quantity": "-964.087",
+      "unitPrice": "-98.927885",
+      "minorUnits": 2,
+      "expected": "95375.09"
+    },
+    {
+      "id": 315,
+      "quantity": "-96.958",
+      "unitPrice": "-186.806425",
+      "minorUnits": 0,
+      "expected": "18112"
+    },
+    {
+      "id": 316,
+      "quantity": "250.673",
+      "unitPrice": "-156.023127",
+      "minorUnits": 0,
+      "expected": "-39111"
+    },
+    {
+      "id": 317,
+      "quantity": "-1089.023",
+      "unitPrice": "-180.175494",
+      "minorUnits": 2,
+      "expected": "196215.26"
+    },
+    {
+      "id": 318,
+      "quantity": "1498.341",
+      "unitPrice": "-179.10563",
+      "minorUnits": 3,
+      "expected": "-268361.309"
+    },
+    {
+      "id": 319,
+      "quantity": "1181.897",
+      "unitPrice": "43.477282",
+      "minorUnits": 0,
+      "expected": "51386"
+    },
+    {
+      "id": 320,
+      "quantity": "1079.035",
+      "unitPrice": "138.058278",
+      "minorUnits": 2,
+      "expected": "148969.71"
+    },
+    {
+      "id": 321,
+      "quantity": "1257.781",
+      "unitPrice": "69.37404",
+      "minorUnits": 0,
+      "expected": "87257"
+    },
+    {
+      "id": 322,
+      "quantity": "-21.018",
+      "unitPrice": "-95.21945",
+      "minorUnits": 2,
+      "expected": "2001.32"
+    },
+    {
+      "id": 323,
+      "quantity": "-1326.634",
+      "unitPrice": "23.839273",
+      "minorUnits": 0,
+      "expected": "-31626"
+    },
+    {
+      "id": 324,
+      "quantity": "202.752",
+      "unitPrice": "-24.110606",
+      "minorUnits": 3,
+      "expected": "-4888.474"
+    },
+    {
+      "id": 325,
+      "quantity": "-1631.806",
+      "unitPrice": "161.471868",
+      "minorUnits": 2,
+      "expected": "-263490.76"
+    },
+    {
+      "id": 326,
+      "quantity": "-355.51",
+      "unitPrice": "-134.759544",
+      "minorUnits": 2,
+      "expected": "47908.37"
+    },
+    {
+      "id": 327,
+      "quantity": "-1373.997",
+      "unitPrice": "44.062525",
+      "minorUnits": 0,
+      "expected": "-60542"
+    },
+    {
+      "id": 328,
+      "quantity": "-1321.167",
+      "unitPrice": "-73.599809",
+      "minorUnits": 3,
+      "expected": "97237.639"
+    },
+    {
+      "id": 329,
+      "quantity": "-117.157",
+      "unitPrice": "189.974638",
+      "minorUnits": 3,
+      "expected": "-22256.859"
+    },
+    {
+      "id": 330,
+      "quantity": "1179.215",
+      "unitPrice": "-103.51619",
+      "minorUnits": 3,
+      "expected": "-122067.844"
+    },
+    {
+      "id": 331,
+      "quantity": "-112.112",
+      "unitPrice": "96.426133",
+      "minorUnits": 3,
+      "expected": "-10810.527"
+    },
+    {
+      "id": 332,
+      "quantity": "1531.446",
+      "unitPrice": "119.173742",
+      "minorUnits": 0,
+      "expected": "182508"
+    },
+    {
+      "id": 333,
+      "quantity": "1357.666",
+      "unitPrice": "183.62713",
+      "minorUnits": 0,
+      "expected": "249304"
+    },
+    {
+      "id": 334,
+      "quantity": "1168.097",
+      "unitPrice": "-2.11946",
+      "minorUnits": 2,
+      "expected": "-2475.73"
+    },
+    {
+      "id": 335,
+      "quantity": "-533.05",
+      "unitPrice": "83.657479",
+      "minorUnits": 3,
+      "expected": "-44593.619"
+    },
+    {
+      "id": 336,
+      "quantity": "896.011",
+      "unitPrice": "-157.674396",
+      "minorUnits": 3,
+      "expected": "-141277.993"
+    },
+    {
+      "id": 337,
+      "quantity": "765.701",
+      "unitPrice": "39.112255",
+      "minorUnits": 3,
+      "expected": "29948.293"
+    },
+    {
+      "id": 338,
+      "quantity": "1639.761",
+      "unitPrice": "-189.110758",
+      "minorUnits": 3,
+      "expected": "-310096.446"
+    },
+    {
+      "id": 339,
+      "quantity": "1557.048",
+      "unitPrice": "-58.675125",
+      "minorUnits": 0,
+      "expected": "-91360"
+    },
+    {
+      "id": 340,
+      "quantity": "1086.629",
+      "unitPrice": "191.692585",
+      "minorUnits": 3,
+      "expected": "208298.722"
+    },
+    {
+      "id": 341,
+      "quantity": "1780.929",
+      "unitPrice": "-128.43381",
+      "minorUnits": 3,
+      "expected": "-228731.497"
+    },
+    {
+      "id": 342,
+      "quantity": "-1676.821",
+      "unitPrice": "28.705162",
+      "minorUnits": 2,
+      "expected": "-48133.42"
+    },
+    {
+      "id": 343,
+      "quantity": "-1860.012",
+      "unitPrice": "-106.805575",
+      "minorUnits": 0,
+      "expected": "198660"
+    },
+    {
+      "id": 344,
+      "quantity": "517.855",
+      "unitPrice": "-169.969289",
+      "minorUnits": 0,
+      "expected": "-88019"
+    },
+    {
+      "id": 345,
+      "quantity": "1256.238",
+      "unitPrice": "-149.450768",
+      "minorUnits": 3,
+      "expected": "-187745.734"
+    },
+    {
+      "id": 346,
+      "quantity": "358.237",
+      "unitPrice": "-152.935758",
+      "minorUnits": 2,
+      "expected": "-54787.25"
+    },
+    {
+      "id": 347,
+      "quantity": "-1031.68",
+      "unitPrice": "44.93756",
+      "minorUnits": 3,
+      "expected": "-46361.182"
+    },
+    {
+      "id": 348,
+      "quantity": "1363.249",
+      "unitPrice": "-65.904913",
+      "minorUnits": 3,
+      "expected": "-89844.807"
+    },
+    {
+      "id": 349,
+      "quantity": "156.469",
+      "unitPrice": "12.678432",
+      "minorUnits": 0,
+      "expected": "1984"
+    },
+    {
+      "id": 350,
+      "quantity": "-1378.889",
+      "unitPrice": "103.129307",
+      "minorUnits": 3,
+      "expected": "-142203.867"
+    },
+    {
+      "id": 351,
+      "quantity": "1952.88",
+      "unitPrice": "-104.098418",
+      "minorUnits": 3,
+      "expected": "-203291.719"
+    },
+    {
+      "id": 352,
+      "quantity": "-31.723",
+      "unitPrice": "197.22497",
+      "minorUnits": 3,
+      "expected": "-6256.568"
+    },
+    {
+      "id": 353,
+      "quantity": "-382.052",
+      "unitPrice": "-7.863454",
+      "minorUnits": 0,
+      "expected": "3004"
+    },
+    {
+      "id": 354,
+      "quantity": "939.878",
+      "unitPrice": "84.443548",
+      "minorUnits": 0,
+      "expected": "79367"
+    },
+    {
+      "id": 355,
+      "quantity": "-1575.405",
+      "unitPrice": "193.367885",
+      "minorUnits": 3,
+      "expected": "-304632.733"
+    },
+    {
+      "id": 356,
+      "quantity": "-1934.766",
+      "unitPrice": "49.419543",
+      "minorUnits": 3,
+      "expected": "-95615.252"
+    },
+    {
+      "id": 357,
+      "quantity": "-1662.915",
+      "unitPrice": "-73.642099",
+      "minorUnits": 0,
+      "expected": "122461"
+    },
+    {
+      "id": 358,
+      "quantity": "859.045",
+      "unitPrice": "107.224803",
+      "minorUnits": 0,
+      "expected": "92111"
+    },
+    {
+      "id": 359,
+      "quantity": "860.136",
+      "unitPrice": "185.181703",
+      "minorUnits": 0,
+      "expected": "159281"
+    },
+    {
+      "id": 360,
+      "quantity": "-1503.015",
+      "unitPrice": "17.615317",
+      "minorUnits": 3,
+      "expected": "-26476.086"
+    },
+    {
+      "id": 361,
+      "quantity": "929.683",
+      "unitPrice": "-157.016313",
+      "minorUnits": 2,
+      "expected": "-145975.40"
+    },
+    {
+      "id": 362,
+      "quantity": "729.051",
+      "unitPrice": "25.61183",
+      "minorUnits": 3,
+      "expected": "18672.330"
+    },
+    {
+      "id": 363,
+      "quantity": "-1858.947",
+      "unitPrice": "76.876229",
+      "minorUnits": 2,
+      "expected": "-142908.84"
+    },
+    {
+      "id": 364,
+      "quantity": "-265.167",
+      "unitPrice": "-170.053393",
+      "minorUnits": 2,
+      "expected": "45092.55"
+    },
+    {
+      "id": 365,
+      "quantity": "980.47",
+      "unitPrice": "-189.739542",
+      "minorUnits": 2,
+      "expected": "-186033.93"
+    },
+    {
+      "id": 366,
+      "quantity": "-1130.8",
+      "unitPrice": "-127.645043",
+      "minorUnits": 0,
+      "expected": "144341"
+    },
+    {
+      "id": 367,
+      "quantity": "1634.657",
+      "unitPrice": "-94.925152",
+      "minorUnits": 3,
+      "expected": "-155170.064"
+    },
+    {
+      "id": 368,
+      "quantity": "-1964.366",
+      "unitPrice": "-109.573272",
+      "minorUnits": 0,
+      "expected": "215242"
+    },
+    {
+      "id": 369,
+      "quantity": "-1682.94",
+      "unitPrice": "158.764489",
+      "minorUnits": 2,
+      "expected": "-267191.11"
+    },
+    {
+      "id": 370,
+      "quantity": "-715.168",
+      "unitPrice": "-122.346865",
+      "minorUnits": 2,
+      "expected": "87498.56"
+    },
+    {
+      "id": 371,
+      "quantity": "1273.783",
+      "unitPrice": "-0.274789",
+      "minorUnits": 0,
+      "expected": "-350"
+    },
+    {
+      "id": 372,
+      "quantity": "-283.536",
+      "unitPrice": "132.056809",
+      "minorUnits": 3,
+      "expected": "-37442.859"
+    },
+    {
+      "id": 373,
+      "quantity": "898.101",
+      "unitPrice": "159.113169",
+      "minorUnits": 0,
+      "expected": "142900"
+    },
+    {
+      "id": 374,
+      "quantity": "1851.604",
+      "unitPrice": "154.337301",
+      "minorUnits": 0,
+      "expected": "285772"
+    },
+    {
+      "id": 375,
+      "quantity": "1867.55",
+      "unitPrice": "-52.727447",
+      "minorUnits": 3,
+      "expected": "-98471.144"
+    },
+    {
+      "id": 376,
+      "quantity": "186.996",
+      "unitPrice": "-93.116054",
+      "minorUnits": 2,
+      "expected": "-17412.33"
+    },
+    {
+      "id": 377,
+      "quantity": "979.524",
+      "unitPrice": "61.299631",
+      "minorUnits": 2,
+      "expected": "60044.46"
+    },
+    {
+      "id": 378,
+      "quantity": "-1244.108",
+      "unitPrice": "-28.866495",
+      "minorUnits": 2,
+      "expected": "35913.04"
+    },
+    {
+      "id": 379,
+      "quantity": "638.906",
+      "unitPrice": "-71.811509",
+      "minorUnits": 0,
+      "expected": "-45881"
+    },
+    {
+      "id": 380,
+      "quantity": "326.01",
+      "unitPrice": "125.910909",
+      "minorUnits": 3,
+      "expected": "41048.215"
+    },
+    {
+      "id": 381,
+      "quantity": "-437.346",
+      "unitPrice": "97.880349",
+      "minorUnits": 0,
+      "expected": "-42808"
+    },
+    {
+      "id": 382,
+      "quantity": "374.754",
+      "unitPrice": "154.630809",
+      "minorUnits": 2,
+      "expected": "57948.51"
+    },
+    {
+      "id": 383,
+      "quantity": "926.368",
+      "unitPrice": "116.939678",
+      "minorUnits": 2,
+      "expected": "108329.18"
+    },
+    {
+      "id": 384,
+      "quantity": "-202.643",
+      "unitPrice": "-21.913808",
+      "minorUnits": 0,
+      "expected": "4441"
+    },
+    {
+      "id": 385,
+      "quantity": "-1772.856",
+      "unitPrice": "162.880516",
+      "minorUnits": 3,
+      "expected": "-288763.700"
+    },
+    {
+      "id": 386,
+      "quantity": "-716.047",
+      "unitPrice": "-75.263756",
+      "minorUnits": 3,
+      "expected": "53892.387"
+    },
+    {
+      "id": 387,
+      "quantity": "-1366.523",
+      "unitPrice": "166.637497",
+      "minorUnits": 0,
+      "expected": "-227714"
+    },
+    {
+      "id": 388,
+      "quantity": "376.328",
+      "unitPrice": "-127.312547",
+      "minorUnits": 0,
+      "expected": "-47911"
+    },
+    {
+      "id": 389,
+      "quantity": "-1503.635",
+      "unitPrice": "-151.266798",
+      "minorUnits": 0,
+      "expected": "227450"
+    },
+    {
+      "id": 390,
+      "quantity": "-1339.224",
+      "unitPrice": "-53.758887",
+      "minorUnits": 3,
+      "expected": "71995.192"
+    },
+    {
+      "id": 391,
+      "quantity": "-1166.889",
+      "unitPrice": "-108.904494",
+      "minorUnits": 3,
+      "expected": "127079.456"
+    },
+    {
+      "id": 392,
+      "quantity": "-996.767",
+      "unitPrice": "-158.458638",
+      "minorUnits": 2,
+      "expected": "157946.34"
+    },
+    {
+      "id": 393,
+      "quantity": "-573.144",
+      "unitPrice": "152.315596",
+      "minorUnits": 0,
+      "expected": "-87299"
+    },
+    {
+      "id": 394,
+      "quantity": "-138.338",
+      "unitPrice": "25.517567",
+      "minorUnits": 3,
+      "expected": "-3530.049"
+    },
+    {
+      "id": 395,
+      "quantity": "1942.239",
+      "unitPrice": "-36.359326",
+      "minorUnits": 0,
+      "expected": "-70619"
+    },
+    {
+      "id": 396,
+      "quantity": "159.724",
+      "unitPrice": "-94.901384",
+      "minorUnits": 2,
+      "expected": "-15158.03"
+    },
+    {
+      "id": 397,
+      "quantity": "715.267",
+      "unitPrice": "149.736997",
+      "minorUnits": 2,
+      "expected": "107101.93"
+    },
+    {
+      "id": 398,
+      "quantity": "1781.571",
+      "unitPrice": "198.186503",
+      "minorUnits": 0,
+      "expected": "353083"
+    },
+    {
+      "id": 399,
+      "quantity": "-1375.74",
+      "unitPrice": "34.097572",
+      "minorUnits": 2,
+      "expected": "-46909.39"
+    },
+    {
+      "id": 400,
+      "quantity": "1170.175",
+      "unitPrice": "39.106174",
+      "minorUnits": 2,
+      "expected": "45761.07"
+    },
+    {
+      "id": 401,
+      "quantity": "1784.688",
+      "unitPrice": "167.182",
+      "minorUnits": 0,
+      "expected": "298368"
+    },
+    {
+      "id": 402,
+      "quantity": "1281.889",
+      "unitPrice": "-146.395397",
+      "minorUnits": 2,
+      "expected": "-187662.65"
+    },
+    {
+      "id": 403,
+      "quantity": "-1005.98",
+      "unitPrice": "-148.500545",
+      "minorUnits": 3,
+      "expected": "149388.578"
+    },
+    {
+      "id": 404,
+      "quantity": "-1019.03",
+      "unitPrice": "125.810798",
+      "minorUnits": 3,
+      "expected": "-128204.977"
+    },
+    {
+      "id": 405,
+      "quantity": "-1633.642",
+      "unitPrice": "-184.023075",
+      "minorUnits": 3,
+      "expected": "300627.824"
+    },
+    {
+      "id": 406,
+      "quantity": "1879.769",
+      "unitPrice": "141.03187",
+      "minorUnits": 2,
+      "expected": "265107.34"
+    },
+    {
+      "id": 407,
+      "quantity": "-1274.568",
+      "unitPrice": "-139.294522",
+      "minorUnits": 2,
+      "expected": "177540.34"
+    },
+    {
+      "id": 408,
+      "quantity": "-1309.201",
+      "unitPrice": "171.196652",
+      "minorUnits": 3,
+      "expected": "-224130.828"
+    },
+    {
+      "id": 409,
+      "quantity": "314.61",
+      "unitPrice": "-64.296357",
+      "minorUnits": 3,
+      "expected": "-20228.277"
+    },
+    {
+      "id": 410,
+      "quantity": "-1591.362",
+      "unitPrice": "24.393695",
+      "minorUnits": 0,
+      "expected": "-38819"
+    },
+    {
+      "id": 411,
+      "quantity": "-1149.899",
+      "unitPrice": "178.377527",
+      "minorUnits": 0,
+      "expected": "-205116"
+    },
+    {
+      "id": 412,
+      "quantity": "-974.524",
+      "unitPrice": "40.438589",
+      "minorUnits": 3,
+      "expected": "-39408.376"
+    },
+    {
+      "id": 413,
+      "quantity": "868.662",
+      "unitPrice": "-80.073015",
+      "minorUnits": 3,
+      "expected": "-69556.385"
+    },
+    {
+      "id": 414,
+      "quantity": "-1686.144",
+      "unitPrice": "-23.784181",
+      "minorUnits": 3,
+      "expected": "40103.554"
+    },
+    {
+      "id": 415,
+      "quantity": "248.298",
+      "unitPrice": "-103.074927",
+      "minorUnits": 0,
+      "expected": "-25593"
+    },
+    {
+      "id": 416,
+      "quantity": "-1616.289",
+      "unitPrice": "47.05673",
+      "minorUnits": 0,
+      "expected": "-76057"
+    },
+    {
+      "id": 417,
+      "quantity": "-1261.808",
+      "unitPrice": "-7.527418",
+      "minorUnits": 2,
+      "expected": "9498.16"
+    },
+    {
+      "id": 418,
+      "quantity": "-291.046",
+      "unitPrice": "68.70887",
+      "minorUnits": 3,
+      "expected": "-19997.442"
+    },
+    {
+      "id": 419,
+      "quantity": "-477.116",
+      "unitPrice": "-70.512632",
+      "minorUnits": 2,
+      "expected": "33642.70"
+    },
+    {
+      "id": 420,
+      "quantity": "-1842.472",
+      "unitPrice": "-60.749345",
+      "minorUnits": 2,
+      "expected": "111928.97"
+    },
+    {
+      "id": 421,
+      "quantity": "1491.332",
+      "unitPrice": "-174.812113",
+      "minorUnits": 3,
+      "expected": "-260702.898"
+    },
+    {
+      "id": 422,
+      "quantity": "736.463",
+      "unitPrice": "80.14841",
+      "minorUnits": 0,
+      "expected": "59026"
+    },
+    {
+      "id": 423,
+      "quantity": "-1905.797",
+      "unitPrice": "-191.582927",
+      "minorUnits": 2,
+      "expected": "365118.17"
+    },
+    {
+      "id": 424,
+      "quantity": "-1469.313",
+      "unitPrice": "-137.554804",
+      "minorUnits": 3,
+      "expected": "202111.062"
+    },
+    {
+      "id": 425,
+      "quantity": "304.15",
+      "unitPrice": "133.867687",
+      "minorUnits": 2,
+      "expected": "40715.86"
+    },
+    {
+      "id": 426,
+      "quantity": "-1362.533",
+      "unitPrice": "-185.526054",
+      "minorUnits": 3,
+      "expected": "252785.371"
+    },
+    {
+      "id": 427,
+      "quantity": "1187.426",
+      "unitPrice": "-130.572239",
+      "minorUnits": 2,
+      "expected": "-155044.87"
+    },
+    {
+      "id": 428,
+      "quantity": "699.486",
+      "unitPrice": "6.013344",
+      "minorUnits": 2,
+      "expected": "4206.25"
+    },
+    {
+      "id": 429,
+      "quantity": "1487.394",
+      "unitPrice": "81.601803",
+      "minorUnits": 2,
+      "expected": "121374.03"
+    },
+    {
+      "id": 430,
+      "quantity": "-1134.442",
+      "unitPrice": "-167.678723",
+      "minorUnits": 2,
+      "expected": "190221.79"
+    },
+    {
+      "id": 431,
+      "quantity": "513.477",
+      "unitPrice": "-96.085574",
+      "minorUnits": 0,
+      "expected": "-49338"
+    },
+    {
+      "id": 432,
+      "quantity": "1817.681",
+      "unitPrice": "-139.321804",
+      "minorUnits": 3,
+      "expected": "-253242.596"
+    },
+    {
+      "id": 433,
+      "quantity": "962.521",
+      "unitPrice": "19.077318",
+      "minorUnits": 3,
+      "expected": "18362.319"
+    },
+    {
+      "id": 434,
+      "quantity": "1806.035",
+      "unitPrice": "-6.788791",
+      "minorUnits": 0,
+      "expected": "-12261"
+    },
+    {
+      "id": 435,
+      "quantity": "1710.003",
+      "unitPrice": "-151.583317",
+      "minorUnits": 3,
+      "expected": "-259207.927"
+    },
+    {
+      "id": 436,
+      "quantity": "-1697.97",
+      "unitPrice": "-182.556641",
+      "minorUnits": 2,
+      "expected": "309975.70"
+    },
+    {
+      "id": 437,
+      "quantity": "102.415",
+      "unitPrice": "83.075597",
+      "minorUnits": 0,
+      "expected": "8508"
+    },
+    {
+      "id": 438,
+      "quantity": "1220.09",
+      "unitPrice": "46.356396",
+      "minorUnits": 2,
+      "expected": "56558.98"
+    },
+    {
+      "id": 439,
+      "quantity": "1566.836",
+      "unitPrice": "-181.80744",
+      "minorUnits": 3,
+      "expected": "-284862.442"
+    },
+    {
+      "id": 440,
+      "quantity": "1381.753",
+      "unitPrice": "116.218803",
+      "minorUnits": 3,
+      "expected": "160585.680"
+    },
+    {
+      "id": 441,
+      "quantity": "-1168.058",
+      "unitPrice": "-27.288826",
+      "minorUnits": 2,
+      "expected": "31874.93"
+    },
+    {
+      "id": 442,
+      "quantity": "1963.51",
+      "unitPrice": "-160.338801",
+      "minorUnits": 0,
+      "expected": "-314827"
+    },
+    {
+      "id": 443,
+      "quantity": "-9.202",
+      "unitPrice": "16.072766",
+      "minorUnits": 0,
+      "expected": "-148"
+    },
+    {
+      "id": 444,
+      "quantity": "972.969",
+      "unitPrice": "-107.491068",
+      "minorUnits": 3,
+      "expected": "-104585.477"
+    },
+    {
+      "id": 445,
+      "quantity": "1010.695",
+      "unitPrice": "-132.409147",
+      "minorUnits": 2,
+      "expected": "-133825.26"
+    },
+    {
+      "id": 446,
+      "quantity": "-1463.491",
+      "unitPrice": "55.066552",
+      "minorUnits": 2,
+      "expected": "-80589.40"
+    },
+    {
+      "id": 447,
+      "quantity": "-1164.778",
+      "unitPrice": "14.963447",
+      "minorUnits": 0,
+      "expected": "-17429"
+    },
+    {
+      "id": 448,
+      "quantity": "1466.403",
+      "unitPrice": "114.208708",
+      "minorUnits": 0,
+      "expected": "167476"
+    },
+    {
+      "id": 449,
+      "quantity": "1964.616",
+      "unitPrice": "-65.893833",
+      "minorUnits": 0,
+      "expected": "-129456"
+    },
+    {
+      "id": 450,
+      "quantity": "1217.645",
+      "unitPrice": "92.132668",
+      "minorUnits": 0,
+      "expected": "112185"
+    },
+    {
+      "id": 451,
+      "quantity": "-539.097",
+      "unitPrice": "-55.739337",
+      "minorUnits": 3,
+      "expected": "30048.909"
+    },
+    {
+      "id": 452,
+      "quantity": "-299.368",
+      "unitPrice": "-21.828826",
+      "minorUnits": 3,
+      "expected": "6534.852"
+    },
+    {
+      "id": 453,
+      "quantity": "191.965",
+      "unitPrice": "-62.705284",
+      "minorUnits": 0,
+      "expected": "-12037"
+    },
+    {
+      "id": 454,
+      "quantity": "1826.462",
+      "unitPrice": "-180.497512",
+      "minorUnits": 3,
+      "expected": "-329671.847"
+    },
+    {
+      "id": 455,
+      "quantity": "62.431",
+      "unitPrice": "199.457049",
+      "minorUnits": 0,
+      "expected": "12452"
+    },
+    {
+      "id": 456,
+      "quantity": "1436.88",
+      "unitPrice": "165.514533",
+      "minorUnits": 0,
+      "expected": "237825"
+    },
+    {
+      "id": 457,
+      "quantity": "-1093.804",
+      "unitPrice": "26.960795",
+      "minorUnits": 0,
+      "expected": "-29490"
+    },
+    {
+      "id": 458,
+      "quantity": "373.136",
+      "unitPrice": "170.005361",
+      "minorUnits": 2,
+      "expected": "63435.12"
+    },
+    {
+      "id": 459,
+      "quantity": "1976.118",
+      "unitPrice": "125.259999",
+      "minorUnits": 2,
+      "expected": "247528.54"
+    },
+    {
+      "id": 460,
+      "quantity": "493.833",
+      "unitPrice": "-159.273415",
+      "minorUnits": 2,
+      "expected": "-78654.47"
+    },
+    {
+      "id": 461,
+      "quantity": "-920.257",
+      "unitPrice": "32.884035",
+      "minorUnits": 3,
+      "expected": "-30261.763"
+    },
+    {
+      "id": 462,
+      "quantity": "-923.642",
+      "unitPrice": "-91.096973",
+      "minorUnits": 2,
+      "expected": "84140.99"
+    },
+    {
+      "id": 463,
+      "quantity": "960.571",
+      "unitPrice": "46.384586",
+      "minorUnits": 2,
+      "expected": "44555.69"
+    },
+    {
+      "id": 464,
+      "quantity": "-656.119",
+      "unitPrice": "-60.47587",
+      "minorUnits": 2,
+      "expected": "39679.37"
+    },
+    {
+      "id": 465,
+      "quantity": "1588.148",
+      "unitPrice": "-115.161324",
+      "minorUnits": 0,
+      "expected": "-182893"
+    },
+    {
+      "id": 466,
+      "quantity": "730.999",
+      "unitPrice": "15.071137",
+      "minorUnits": 0,
+      "expected": "11017"
+    },
+    {
+      "id": 467,
+      "quantity": "-413.034",
+      "unitPrice": "-102.842628",
+      "minorUnits": 3,
+      "expected": "42477.502"
+    },
+    {
+      "id": 468,
+      "quantity": "-1380.078",
+      "unitPrice": "69.03793",
+      "minorUnits": 3,
+      "expected": "-95277.728"
+    },
+    {
+      "id": 469,
+      "quantity": "-1378.127",
+      "unitPrice": "-71.080908",
+      "minorUnits": 2,
+      "expected": "97958.52"
+    },
+    {
+      "id": 470,
+      "quantity": "440.62",
+      "unitPrice": "96.919414",
+      "minorUnits": 3,
+      "expected": "42704.632"
+    },
+    {
+      "id": 471,
+      "quantity": "-36.159",
+      "unitPrice": "-40.975591",
+      "minorUnits": 2,
+      "expected": "1481.64"
+    },
+    {
+      "id": 472,
+      "quantity": "-1993.7",
+      "unitPrice": "-185.717894",
+      "minorUnits": 2,
+      "expected": "370265.77"
+    },
+    {
+      "id": 473,
+      "quantity": "-1505.102",
+      "unitPrice": "-137.243028",
+      "minorUnits": 3,
+      "expected": "206564.756"
+    },
+    {
+      "id": 474,
+      "quantity": "281.84",
+      "unitPrice": "131.915259",
+      "minorUnits": 3,
+      "expected": "37178.997"
+    },
+    {
+      "id": 475,
+      "quantity": "-295.733",
+      "unitPrice": "-131.909137",
+      "minorUnits": 3,
+      "expected": "39009.885"
+    },
+    {
+      "id": 476,
+      "quantity": "969.212",
+      "unitPrice": "162.671385",
+      "minorUnits": 0,
+      "expected": "157663"
+    },
+    {
+      "id": 477,
+      "quantity": "1870.313",
+      "unitPrice": "50.53586",
+      "minorUnits": 2,
+      "expected": "94517.88"
+    },
+    {
+      "id": 478,
+      "quantity": "-1471.516",
+      "unitPrice": "-48.38735",
+      "minorUnits": 0,
+      "expected": "71203"
+    },
+    {
+      "id": 479,
+      "quantity": "1393.161",
+      "unitPrice": "-1.251377",
+      "minorUnits": 3,
+      "expected": "-1743.370"
+    },
+    {
+      "id": 480,
+      "quantity": "-892.587",
+      "unitPrice": "-188.832112",
+      "minorUnits": 2,
+      "expected": "168549.09"
+    },
+    {
+      "id": 481,
+      "quantity": "1948.623",
+      "unitPrice": "101.236291",
+      "minorUnits": 3,
+      "expected": "197271.365"
+    },
+    {
+      "id": 482,
+      "quantity": "284.751",
+      "unitPrice": "7.799572",
+      "minorUnits": 3,
+      "expected": "2220.936"
+    },
+    {
+      "id": 483,
+      "quantity": "-574.272",
+      "unitPrice": "189.292537",
+      "minorUnits": 0,
+      "expected": "-108705"
+    },
+    {
+      "id": 484,
+      "quantity": "962.034",
+      "unitPrice": "-14.796973",
+      "minorUnits": 0,
+      "expected": "-14235"
+    },
+    {
+      "id": 485,
+      "quantity": "1914.284",
+      "unitPrice": "155.486206",
+      "minorUnits": 3,
+      "expected": "297644.756"
+    },
+    {
+      "id": 486,
+      "quantity": "-700.573",
+      "unitPrice": "-123.13923",
+      "minorUnits": 0,
+      "expected": "86268"
+    },
+    {
+      "id": 487,
+      "quantity": "-1278.215",
+      "unitPrice": "154.006873",
+      "minorUnits": 3,
+      "expected": "-196853.895"
+    },
+    {
+      "id": 488,
+      "quantity": "556.882",
+      "unitPrice": "49.209536",
+      "minorUnits": 2,
+      "expected": "27403.90"
+    },
+    {
+      "id": 489,
+      "quantity": "-568.41",
+      "unitPrice": "187.149768",
+      "minorUnits": 3,
+      "expected": "-106377.800"
+    },
+    {
+      "id": 490,
+      "quantity": "-1790.514",
+      "unitPrice": "184.492729",
+      "minorUnits": 3,
+      "expected": "-330336.814"
+    },
+    {
+      "id": 491,
+      "quantity": "-1177.117",
+      "unitPrice": "-153.580436",
+      "minorUnits": 3,
+      "expected": "180782.142"
+    },
+    {
+      "id": 492,
+      "quantity": "1005.078",
+      "unitPrice": "-51.598309",
+      "minorUnits": 2,
+      "expected": "-51860.33"
+    },
+    {
+      "id": 493,
+      "quantity": "-1233.323",
+      "unitPrice": "167.389313",
+      "minorUnits": 2,
+      "expected": "-206445.09"
+    },
+    {
+      "id": 494,
+      "quantity": "819.059",
+      "unitPrice": "-29.128454",
+      "minorUnits": 3,
+      "expected": "-23857.922"
+    },
+    {
+      "id": 495,
+      "quantity": "-552.578",
+      "unitPrice": "67.931981",
+      "minorUnits": 0,
+      "expected": "-37538"
+    },
+    {
+      "id": 496,
+      "quantity": "1160.151",
+      "unitPrice": "62.232414",
+      "minorUnits": 0,
+      "expected": "72199"
+    },
+    {
+      "id": 497,
+      "quantity": "-130.227",
+      "unitPrice": "-17.37008",
+      "minorUnits": 3,
+      "expected": "2262.053"
+    },
+    {
+      "id": 498,
+      "quantity": "-614.266",
+      "unitPrice": "-112.971103",
+      "minorUnits": 2,
+      "expected": "69394.31"
+    },
+    {
+      "id": 499,
+      "quantity": "-1750.469",
+      "unitPrice": "194.350785",
+      "minorUnits": 3,
+      "expected": "-340205.024"
+    },
+    {
+      "id": 500,
+      "quantity": "70.715",
+      "unitPrice": "-191.130426",
+      "minorUnits": 3,
+      "expected": "-13515.788"
+    },
+    {
+      "id": 501,
+      "quantity": "1771.361",
+      "unitPrice": "27.428386",
+      "minorUnits": 2,
+      "expected": "48585.57"
+    },
+    {
+      "id": 502,
+      "quantity": "-38.154",
+      "unitPrice": "-36.119212",
+      "minorUnits": 2,
+      "expected": "1378.09"
+    },
+    {
+      "id": 503,
+      "quantity": "1482.421",
+      "unitPrice": "-42.904323",
+      "minorUnits": 3,
+      "expected": "-63602.269"
+    },
+    {
+      "id": 504,
+      "quantity": "-1533.59",
+      "unitPrice": "-162.804023",
+      "minorUnits": 2,
+      "expected": "249674.62"
+    },
+    {
+      "id": 505,
+      "quantity": "-1567.788",
+      "unitPrice": "-156.659036",
+      "minorUnits": 0,
+      "expected": "245608"
+    },
+    {
+      "id": 506,
+      "quantity": "-1863.393",
+      "unitPrice": "169.46288",
+      "minorUnits": 0,
+      "expected": "-315776"
+    },
+    {
+      "id": 507,
+      "quantity": "1221.403",
+      "unitPrice": "92.569316",
+      "minorUnits": 3,
+      "expected": "113064.440"
+    },
+    {
+      "id": 508,
+      "quantity": "1081.925",
+      "unitPrice": "131.824926",
+      "minorUnits": 3,
+      "expected": "142624.683"
+    },
+    {
+      "id": 509,
+      "quantity": "1033.92",
+      "unitPrice": "178.629337",
+      "minorUnits": 3,
+      "expected": "184688.444"
+    },
+    {
+      "id": 510,
+      "quantity": "-88.234",
+      "unitPrice": "35.553881",
+      "minorUnits": 0,
+      "expected": "-3137"
+    },
+    {
+      "id": 511,
+      "quantity": "-363.16",
+      "unitPrice": "39.17821",
+      "minorUnits": 3,
+      "expected": "-14227.959"
+    },
+    {
+      "id": 512,
+      "quantity": "-804.23",
+      "unitPrice": "-16.211312",
+      "minorUnits": 3,
+      "expected": "13037.623"
+    },
+    {
+      "id": 513,
+      "quantity": "600.409",
+      "unitPrice": "-87.591487",
+      "minorUnits": 0,
+      "expected": "-52591"
+    },
+    {
+      "id": 514,
+      "quantity": "1388.158",
+      "unitPrice": "-100.819576",
+      "minorUnits": 3,
+      "expected": "-139953.501"
+    },
+    {
+      "id": 515,
+      "quantity": "1109.872",
+      "unitPrice": "104.108854",
+      "minorUnits": 0,
+      "expected": "115548"
+    },
+    {
+      "id": 516,
+      "quantity": "-1646.513",
+      "unitPrice": "197.986812",
+      "minorUnits": 2,
+      "expected": "-325987.86"
+    },
+    {
+      "id": 517,
+      "quantity": "1535.434",
+      "unitPrice": "81.079747",
+      "minorUnits": 3,
+      "expected": "124492.600"
+    },
+    {
+      "id": 518,
+      "quantity": "-1336.525",
+      "unitPrice": "-136.684896",
+      "minorUnits": 2,
+      "expected": "182682.78"
+    },
+    {
+      "id": 519,
+      "quantity": "706.101",
+      "unitPrice": "143.818522",
+      "minorUnits": 3,
+      "expected": "101550.402"
+    },
+    {
+      "id": 520,
+      "quantity": "-1497.202",
+      "unitPrice": "119.873094",
+      "minorUnits": 2,
+      "expected": "-179474.24"
+    },
+    {
+      "id": 521,
+      "quantity": "353.19",
+      "unitPrice": "-35.231433",
+      "minorUnits": 3,
+      "expected": "-12443.390"
+    },
+    {
+      "id": 522,
+      "quantity": "211.952",
+      "unitPrice": "-48.646548",
+      "minorUnits": 2,
+      "expected": "-10310.73"
+    },
+    {
+      "id": 523,
+      "quantity": "1247.115",
+      "unitPrice": "-88.295766",
+      "minorUnits": 3,
+      "expected": "-110114.974"
+    },
+    {
+      "id": 524,
+      "quantity": "66.173",
+      "unitPrice": "81.425268",
+      "minorUnits": 2,
+      "expected": "5388.15"
+    },
+    {
+      "id": 525,
+      "quantity": "-1956.721",
+      "unitPrice": "-148.701257",
+      "minorUnits": 0,
+      "expected": "290967"
+    },
+    {
+      "id": 526,
+      "quantity": "1806.395",
+      "unitPrice": "-1.189854",
+      "minorUnits": 3,
+      "expected": "-2149.346"
+    },
+    {
+      "id": 527,
+      "quantity": "41.134",
+      "unitPrice": "73.536312",
+      "minorUnits": 0,
+      "expected": "3025"
+    },
+    {
+      "id": 528,
+      "quantity": "-1076.587",
+      "unitPrice": "-147.292453",
+      "minorUnits": 0,
+      "expected": "158573"
+    },
+    {
+      "id": 529,
+      "quantity": "1106.192",
+      "unitPrice": "96.456751",
+      "minorUnits": 0,
+      "expected": "106700"
+    },
+    {
+      "id": 530,
+      "quantity": "-1762.714",
+      "unitPrice": "-161.454188",
+      "minorUnits": 0,
+      "expected": "284598"
+    },
+    {
+      "id": 531,
+      "quantity": "654.949",
+      "unitPrice": "-124.755334",
+      "minorUnits": 3,
+      "expected": "-81708.381"
+    },
+    {
+      "id": 532,
+      "quantity": "-246.305",
+      "unitPrice": "138.810596",
+      "minorUnits": 0,
+      "expected": "-34190"
+    },
+    {
+      "id": 533,
+      "quantity": "-290.825",
+      "unitPrice": "35.274107",
+      "minorUnits": 3,
+      "expected": "-10258.592"
+    },
+    {
+      "id": 534,
+      "quantity": "279.244",
+      "unitPrice": "50.037942",
+      "minorUnits": 2,
+      "expected": "13972.80"
+    },
+    {
+      "id": 535,
+      "quantity": "-743.886",
+      "unitPrice": "-135.183709",
+      "minorUnits": 0,
+      "expected": "100561"
+    },
+    {
+      "id": 536,
+      "quantity": "-308.764",
+      "unitPrice": "109.079769",
+      "minorUnits": 2,
+      "expected": "-33679.91"
+    },
+    {
+      "id": 537,
+      "quantity": "654.961",
+      "unitPrice": "-9.835957",
+      "minorUnits": 2,
+      "expected": "-6442.17"
+    },
+    {
+      "id": 538,
+      "quantity": "-606.984",
+      "unitPrice": "-190.071765",
+      "minorUnits": 0,
+      "expected": "115371"
+    },
+    {
+      "id": 539,
+      "quantity": "279.073",
+      "unitPrice": "-189.927984",
+      "minorUnits": 0,
+      "expected": "-53004"
+    },
+    {
+      "id": 540,
+      "quantity": "-1502.101",
+      "unitPrice": "-105.124062",
+      "minorUnits": 0,
+      "expected": "157907"
+    },
+    {
+      "id": 541,
+      "quantity": "-1057.816",
+      "unitPrice": "92.123202",
+      "minorUnits": 2,
+      "expected": "-97449.40"
+    },
+    {
+      "id": 542,
+      "quantity": "1246.065",
+      "unitPrice": "90.018055",
+      "minorUnits": 0,
+      "expected": "112168"
+    },
+    {
+      "id": 543,
+      "quantity": "-1732.959",
+      "unitPrice": "-151.350234",
+      "minorUnits": 3,
+      "expected": "262283.750"
+    },
+    {
+      "id": 544,
+      "quantity": "-18.283",
+      "unitPrice": "-121.978117",
+      "minorUnits": 0,
+      "expected": "2230"
+    },
+    {
+      "id": 545,
+      "quantity": "-732.034",
+      "unitPrice": "-170.153208",
+      "minorUnits": 3,
+      "expected": "124557.933"
+    },
+    {
+      "id": 546,
+      "quantity": "85.679",
+      "unitPrice": "57.661705",
+      "minorUnits": 3,
+      "expected": "4940.397"
+    },
+    {
+      "id": 547,
+      "quantity": "-1463.904",
+      "unitPrice": "163.65613",
+      "minorUnits": 0,
+      "expected": "-239577"
+    },
+    {
+      "id": 548,
+      "quantity": "1658.04",
+      "unitPrice": "-184.484807",
+      "minorUnits": 2,
+      "expected": "-305883.19"
+    },
+    {
+      "id": 549,
+      "quantity": "-625.137",
+      "unitPrice": "169.152123",
+      "minorUnits": 0,
+      "expected": "-105743"
+    },
+    {
+      "id": 550,
+      "quantity": "1305.589",
+      "unitPrice": "-159.710259",
+      "minorUnits": 3,
+      "expected": "-208515.957"
+    },
+    {
+      "id": 551,
+      "quantity": "1394.815",
+      "unitPrice": "135.352742",
+      "minorUnits": 3,
+      "expected": "188792.035"
+    },
+    {
+      "id": 552,
+      "quantity": "1842.69",
+      "unitPrice": "-192.026792",
+      "minorUnits": 0,
+      "expected": "-353846"
+    },
+    {
+      "id": 553,
+      "quantity": "-446.177",
+      "unitPrice": "108.856675",
+      "minorUnits": 3,
+      "expected": "-48569.345"
+    },
+    {
+      "id": 554,
+      "quantity": "1595.859",
+      "unitPrice": "140.08829",
+      "minorUnits": 0,
+      "expected": "223561"
+    },
+    {
+      "id": 555,
+      "quantity": "1183.305",
+      "unitPrice": "72.152273",
+      "minorUnits": 3,
+      "expected": "85378.145"
+    },
+    {
+      "id": 556,
+      "quantity": "-752.497",
+      "unitPrice": "-139.176451",
+      "minorUnits": 3,
+      "expected": "104729.862"
+    },
+    {
+      "id": 557,
+      "quantity": "696.148",
+      "unitPrice": "198.130689",
+      "minorUnits": 3,
+      "expected": "137928.283"
+    },
+    {
+      "id": 558,
+      "quantity": "22.943",
+      "unitPrice": "184.584934",
+      "minorUnits": 2,
+      "expected": "4234.93"
+    },
+    {
+      "id": 559,
+      "quantity": "1688.723",
+      "unitPrice": "-18.224664",
+      "minorUnits": 2,
+      "expected": "-30776.41"
+    },
+    {
+      "id": 560,
+      "quantity": "953.242",
+      "unitPrice": "18.731178",
+      "minorUnits": 2,
+      "expected": "17855.35"
+    },
+    {
+      "id": 561,
+      "quantity": "-461.832",
+      "unitPrice": "30.066201",
+      "minorUnits": 0,
+      "expected": "-13886"
+    },
+    {
+      "id": 562,
+      "quantity": "-1145.72",
+      "unitPrice": "-50.628269",
+      "minorUnits": 2,
+      "expected": "58005.82"
+    },
+    {
+      "id": 563,
+      "quantity": "579.867",
+      "unitPrice": "123.76578",
+      "minorUnits": 2,
+      "expected": "71767.69"
+    },
+    {
+      "id": 564,
+      "quantity": "-796.863",
+      "unitPrice": "37.266548",
+      "minorUnits": 2,
+      "expected": "-29696.33"
+    },
+    {
+      "id": 565,
+      "quantity": "1424.924",
+      "unitPrice": "116.934625",
+      "minorUnits": 3,
+      "expected": "166622.954"
+    },
+    {
+      "id": 566,
+      "quantity": "-94.322",
+      "unitPrice": "-150.166274",
+      "minorUnits": 0,
+      "expected": "14164"
+    },
+    {
+      "id": 567,
+      "quantity": "1941.759",
+      "unitPrice": "23.244921",
+      "minorUnits": 0,
+      "expected": "45136"
+    },
+    {
+      "id": 568,
+      "quantity": "1664.484",
+      "unitPrice": "-15.097796",
+      "minorUnits": 0,
+      "expected": "-25130"
+    },
+    {
+      "id": 569,
+      "quantity": "-74.718",
+      "unitPrice": "-28.800355",
+      "minorUnits": 0,
+      "expected": "2152"
+    },
+    {
+      "id": 570,
+      "quantity": "536.676",
+      "unitPrice": "19.90611",
+      "minorUnits": 0,
+      "expected": "10683"
+    },
+    {
+      "id": 571,
+      "quantity": "1083.809",
+      "unitPrice": "26.9615",
+      "minorUnits": 2,
+      "expected": "29221.12"
+    },
+    {
+      "id": 572,
+      "quantity": "-1271.029",
+      "unitPrice": "94.756713",
+      "minorUnits": 0,
+      "expected": "-120439"
+    },
+    {
+      "id": 573,
+      "quantity": "-562.995",
+      "unitPrice": "-88.810968",
+      "minorUnits": 2,
+      "expected": "50000.13"
+    },
+    {
+      "id": 574,
+      "quantity": "1335.151",
+      "unitPrice": "-179.260938",
+      "minorUnits": 3,
+      "expected": "-239340.421"
+    },
+    {
+      "id": 575,
+      "quantity": "-1533.495",
+      "unitPrice": "-144.625623",
+      "minorUnits": 2,
+      "expected": "221782.67"
+    },
+    {
+      "id": 576,
+      "quantity": "-1913.634",
+      "unitPrice": "70.098015",
+      "minorUnits": 2,
+      "expected": "-134141.94"
+    },
+    {
+      "id": 577,
+      "quantity": "1974.042",
+      "unitPrice": "-16.715648",
+      "minorUnits": 3,
+      "expected": "-32997.391"
+    },
+    {
+      "id": 578,
+      "quantity": "-415.754",
+      "unitPrice": "-180.894527",
+      "minorUnits": 2,
+      "expected": "75207.62"
+    },
+    {
+      "id": 579,
+      "quantity": "372.437",
+      "unitPrice": "93.609495",
+      "minorUnits": 2,
+      "expected": "34863.64"
+    },
+    {
+      "id": 580,
+      "quantity": "-1597.175",
+      "unitPrice": "-187.581885",
+      "minorUnits": 2,
+      "expected": "299601.10"
+    },
+    {
+      "id": 581,
+      "quantity": "1064.855",
+      "unitPrice": "-1.263956",
+      "minorUnits": 2,
+      "expected": "-1345.93"
+    },
+    {
+      "id": 582,
+      "quantity": "1086.559",
+      "unitPrice": "-107.748428",
+      "minorUnits": 3,
+      "expected": "-117075.024"
+    },
+    {
+      "id": 583,
+      "quantity": "1978.027",
+      "unitPrice": "182.100435",
+      "minorUnits": 0,
+      "expected": "360200"
+    },
+    {
+      "id": 584,
+      "quantity": "-767.81",
+      "unitPrice": "-197.620456",
+      "minorUnits": 2,
+      "expected": "151734.96"
+    },
+    {
+      "id": 585,
+      "quantity": "1210.392",
+      "unitPrice": "-38.970416",
+      "minorUnits": 3,
+      "expected": "-47169.480"
+    },
+    {
+      "id": 586,
+      "quantity": "438.373",
+      "unitPrice": "164.516675",
+      "minorUnits": 0,
+      "expected": "72120"
+    },
+    {
+      "id": 587,
+      "quantity": "1550.877",
+      "unitPrice": "109.226019",
+      "minorUnits": 2,
+      "expected": "169396.12"
+    },
+    {
+      "id": 588,
+      "quantity": "-1684.18",
+      "unitPrice": "-64.736989",
+      "minorUnits": 0,
+      "expected": "109029"
+    },
+    {
+      "id": 589,
+      "quantity": "752.702",
+      "unitPrice": "106.808034",
+      "minorUnits": 2,
+      "expected": "80394.62"
+    },
+    {
+      "id": 590,
+      "quantity": "59.349",
+      "unitPrice": "-89.006317",
+      "minorUnits": 2,
+      "expected": "-5282.44"
+    },
+    {
+      "id": 591,
+      "quantity": "-126.019",
+      "unitPrice": "46.853746",
+      "minorUnits": 3,
+      "expected": "-5904.462"
+    },
+    {
+      "id": 592,
+      "quantity": "-1312.76",
+      "unitPrice": "-100.2579",
+      "minorUnits": 2,
+      "expected": "131614.56"
+    },
+    {
+      "id": 593,
+      "quantity": "1329.893",
+      "unitPrice": "-133.42087",
+      "minorUnits": 0,
+      "expected": "-177435"
+    },
+    {
+      "id": 594,
+      "quantity": "1955.984",
+      "unitPrice": "58.306837",
+      "minorUnits": 0,
+      "expected": "114047"
+    },
+    {
+      "id": 595,
+      "quantity": "1620.113",
+      "unitPrice": "-40.039918",
+      "minorUnits": 0,
+      "expected": "-64869"
+    },
+    {
+      "id": 596,
+      "quantity": "1736.09",
+      "unitPrice": "-196.151246",
+      "minorUnits": 0,
+      "expected": "-340536"
+    },
+    {
+      "id": 597,
+      "quantity": "-1261.813",
+      "unitPrice": "191.055097",
+      "minorUnits": 3,
+      "expected": "-241075.805"
+    },
+    {
+      "id": 598,
+      "quantity": "-667.719",
+      "unitPrice": "133.360203",
+      "minorUnits": 2,
+      "expected": "-89047.14"
+    },
+    {
+      "id": 599,
+      "quantity": "998.349",
+      "unitPrice": "-147.475209",
+      "minorUnits": 3,
+      "expected": "-147231.727"
+    },
+    {
+      "id": 600,
+      "quantity": "1921.073",
+      "unitPrice": "-73.737615",
+      "minorUnits": 0,
+      "expected": "-141655"
+    },
+    {
+      "id": 601,
+      "quantity": "-1132.601",
+      "unitPrice": "120.645007",
+      "minorUnits": 3,
+      "expected": "-136642.656"
+    },
+    {
+      "id": 602,
+      "quantity": "-903.048",
+      "unitPrice": "-113.271238",
+      "minorUnits": 0,
+      "expected": "102289"
+    },
+    {
+      "id": 603,
+      "quantity": "-441.185",
+      "unitPrice": "154.898719",
+      "minorUnits": 2,
+      "expected": "-68338.99"
+    },
+    {
+      "id": 604,
+      "quantity": "-1642.595",
+      "unitPrice": "-49.691813",
+      "minorUnits": 3,
+      "expected": "81623.524"
+    },
+    {
+      "id": 605,
+      "quantity": "-119.285",
+      "unitPrice": "-177.71008",
+      "minorUnits": 3,
+      "expected": "21198.147"
+    },
+    {
+      "id": 606,
+      "quantity": "785.568",
+      "unitPrice": "0.896473",
+      "minorUnits": 0,
+      "expected": "704"
+    },
+    {
+      "id": 607,
+      "quantity": "1237.208",
+      "unitPrice": "4.883078",
+      "minorUnits": 3,
+      "expected": "6041.383"
+    },
+    {
+      "id": 608,
+      "quantity": "-1464.952",
+      "unitPrice": "195.007161",
+      "minorUnits": 0,
+      "expected": "-285676"
+    },
+    {
+      "id": 609,
+      "quantity": "-1282.703",
+      "unitPrice": "-29.206919",
+      "minorUnits": 2,
+      "expected": "37463.80"
+    },
+    {
+      "id": 610,
+      "quantity": "1442.627",
+      "unitPrice": "84.096987",
+      "minorUnits": 0,
+      "expected": "121321"
+    },
+    {
+      "id": 611,
+      "quantity": "-615.824",
+      "unitPrice": "151.016456",
+      "minorUnits": 2,
+      "expected": "-92999.56"
+    },
+    {
+      "id": 612,
+      "quantity": "629.991",
+      "unitPrice": "-149.595237",
+      "minorUnits": 3,
+      "expected": "-94243.653"
+    },
+    {
+      "id": 613,
+      "quantity": "-1416.788",
+      "unitPrice": "-101.114767",
+      "minorUnits": 3,
+      "expected": "143258.189"
+    },
+    {
+      "id": 614,
+      "quantity": "-1463.404",
+      "unitPrice": "-6.062914",
+      "minorUnits": 2,
+      "expected": "8872.49"
+    },
+    {
+      "id": 615,
+      "quantity": "1915.669",
+      "unitPrice": "-141.957968",
+      "minorUnits": 0,
+      "expected": "-271944"
+    },
+    {
+      "id": 616,
+      "quantity": "-352.694",
+      "unitPrice": "44.178677",
+      "minorUnits": 2,
+      "expected": "-15581.55"
+    },
+    {
+      "id": 617,
+      "quantity": "-1630.9",
+      "unitPrice": "16.75855",
+      "minorUnits": 3,
+      "expected": "-27331.519"
+    },
+    {
+      "id": 618,
+      "quantity": "91.396",
+      "unitPrice": "-113.043232",
+      "minorUnits": 0,
+      "expected": "-10332"
+    },
+    {
+      "id": 619,
+      "quantity": "-1210.387",
+      "unitPrice": "-22.437864",
+      "minorUnits": 2,
+      "expected": "27158.50"
+    },
+    {
+      "id": 620,
+      "quantity": "-119.008",
+      "unitPrice": "-91.628404",
+      "minorUnits": 0,
+      "expected": "10905"
+    },
+    {
+      "id": 621,
+      "quantity": "-1364.283",
+      "unitPrice": "-36.982293",
+      "minorUnits": 2,
+      "expected": "50454.31"
+    },
+    {
+      "id": 622,
+      "quantity": "1638.848",
+      "unitPrice": "64.93254",
+      "minorUnits": 0,
+      "expected": "106415"
+    },
+    {
+      "id": 623,
+      "quantity": "-929.336",
+      "unitPrice": "193.082903",
+      "minorUnits": 2,
+      "expected": "-179438.89"
+    },
+    {
+      "id": 624,
+      "quantity": "1665.662",
+      "unitPrice": "98.394969",
+      "minorUnits": 2,
+      "expected": "163892.76"
+    },
+    {
+      "id": 625,
+      "quantity": "-1787.004",
+      "unitPrice": "31.104353",
+      "minorUnits": 3,
+      "expected": "-55583.603"
+    },
+    {
+      "id": 626,
+      "quantity": "1213.045",
+      "unitPrice": "-124.630652",
+      "minorUnits": 0,
+      "expected": "-151183"
+    },
+    {
+      "id": 627,
+      "quantity": "273.649",
+      "unitPrice": "-95.787926",
+      "minorUnits": 0,
+      "expected": "-26212"
+    },
+    {
+      "id": 628,
+      "quantity": "322.356",
+      "unitPrice": "-159.0563",
+      "minorUnits": 3,
+      "expected": "-51272.753"
+    },
+    {
+      "id": 629,
+      "quantity": "-210.177",
+      "unitPrice": "-39.099499",
+      "minorUnits": 0,
+      "expected": "8218"
+    },
+    {
+      "id": 630,
+      "quantity": "-1467.236",
+      "unitPrice": "18.68035",
+      "minorUnits": 3,
+      "expected": "-27408.482"
+    },
+    {
+      "id": 631,
+      "quantity": "1334.898",
+      "unitPrice": "119.123332",
+      "minorUnits": 2,
+      "expected": "159017.50"
+    },
+    {
+      "id": 632,
+      "quantity": "1409.944",
+      "unitPrice": "-25.94592",
+      "minorUnits": 2,
+      "expected": "-36582.29"
+    },
+    {
+      "id": 633,
+      "quantity": "335.825",
+      "unitPrice": "-90.694726",
+      "minorUnits": 0,
+      "expected": "-30458"
+    },
+    {
+      "id": 634,
+      "quantity": "-1127.352",
+      "unitPrice": "-71.613142",
+      "minorUnits": 0,
+      "expected": "80733"
+    },
+    {
+      "id": 635,
+      "quantity": "-641.098",
+      "unitPrice": "-66.057844",
+      "minorUnits": 0,
+      "expected": "42350"
+    },
+    {
+      "id": 636,
+      "quantity": "-1490.836",
+      "unitPrice": "-30.059967",
+      "minorUnits": 2,
+      "expected": "44814.48"
+    },
+    {
+      "id": 637,
+      "quantity": "1535.903",
+      "unitPrice": "37.537112",
+      "minorUnits": 0,
+      "expected": "57653"
+    },
+    {
+      "id": 638,
+      "quantity": "-1510.694",
+      "unitPrice": "-79.525526",
+      "minorUnits": 0,
+      "expected": "120139"
+    },
+    {
+      "id": 639,
+      "quantity": "905.354",
+      "unitPrice": "-49.677198",
+      "minorUnits": 3,
+      "expected": "-44975.450"
+    },
+    {
+      "id": 640,
+      "quantity": "-1854.351",
+      "unitPrice": "-91.119113",
+      "minorUnits": 0,
+      "expected": "168967"
+    },
+    {
+      "id": 641,
+      "quantity": "1172.177",
+      "unitPrice": "28.763679",
+      "minorUnits": 0,
+      "expected": "33716"
+    },
+    {
+      "id": 642,
+      "quantity": "1882.974",
+      "unitPrice": "107.253508",
+      "minorUnits": 0,
+      "expected": "201956"
+    },
+    {
+      "id": 643,
+      "quantity": "86.942",
+      "unitPrice": "38.99768",
+      "minorUnits": 0,
+      "expected": "3391"
+    },
+    {
+      "id": 644,
+      "quantity": "-582.96",
+      "unitPrice": "-166.419258",
+      "minorUnits": 2,
+      "expected": "97015.77"
+    },
+    {
+      "id": 645,
+      "quantity": "-1429.067",
+      "unitPrice": "83.3412",
+      "minorUnits": 3,
+      "expected": "-119100.159"
+    },
+    {
+      "id": 646,
+      "quantity": "1688.461",
+      "unitPrice": "186.897629",
+      "minorUnits": 3,
+      "expected": "315569.358"
+    },
+    {
+      "id": 647,
+      "quantity": "-1010.287",
+      "unitPrice": "29.617219",
+      "minorUnits": 2,
+      "expected": "-29921.89"
+    },
+    {
+      "id": 648,
+      "quantity": "-266.171",
+      "unitPrice": "-175.163896",
+      "minorUnits": 0,
+      "expected": "46624"
+    },
+    {
+      "id": 649,
+      "quantity": "-1819.331",
+      "unitPrice": "-101.925555",
+      "minorUnits": 2,
+      "expected": "185436.32"
+    },
+    {
+      "id": 650,
+      "quantity": "333.827",
+      "unitPrice": "-37.607195",
+      "minorUnits": 2,
+      "expected": "-12554.30"
+    },
+    {
+      "id": 651,
+      "quantity": "-523.323",
+      "unitPrice": "-105.321811",
+      "minorUnits": 2,
+      "expected": "55117.33"
+    },
+    {
+      "id": 652,
+      "quantity": "-24.849",
+      "unitPrice": "103.42576",
+      "minorUnits": 2,
+      "expected": "-2570.03"
+    },
+    {
+      "id": 653,
+      "quantity": "-1138.457",
+      "unitPrice": "-111.179987",
+      "minorUnits": 2,
+      "expected": "126573.63"
+    },
+    {
+      "id": 654,
+      "quantity": "1075.937",
+      "unitPrice": "77.73484",
+      "minorUnits": 2,
+      "expected": "83637.79"
+    },
+    {
+      "id": 655,
+      "quantity": "1264.74",
+      "unitPrice": "143.123811",
+      "minorUnits": 2,
+      "expected": "181014.41"
+    },
+    {
+      "id": 656,
+      "quantity": "854.584",
+      "unitPrice": "71.842373",
+      "minorUnits": 2,
+      "expected": "61395.34"
+    },
+    {
+      "id": 657,
+      "quantity": "919.986",
+      "unitPrice": "-165.988683",
+      "minorUnits": 3,
+      "expected": "-152707.265"
+    },
+    {
+      "id": 658,
+      "quantity": "-1797.858",
+      "unitPrice": "-80.041944",
+      "minorUnits": 0,
+      "expected": "143904"
+    },
+    {
+      "id": 659,
+      "quantity": "193.739",
+      "unitPrice": "-84.740968",
+      "minorUnits": 0,
+      "expected": "-16418"
+    },
+    {
+      "id": 660,
+      "quantity": "-673.817",
+      "unitPrice": "-126.849915",
+      "minorUnits": 3,
+      "expected": "85473.629"
+    },
+    {
+      "id": 661,
+      "quantity": "1998.624",
+      "unitPrice": "193.189933",
+      "minorUnits": 3,
+      "expected": "386114.037"
+    },
+    {
+      "id": 662,
+      "quantity": "819.553",
+      "unitPrice": "129.173528",
+      "minorUnits": 3,
+      "expected": "105864.552"
+    },
+    {
+      "id": 663,
+      "quantity": "1086.331",
+      "unitPrice": "22.22184",
+      "minorUnits": 0,
+      "expected": "24140"
+    },
+    {
+      "id": 664,
+      "quantity": "1243.336",
+      "unitPrice": "-11.360076",
+      "minorUnits": 0,
+      "expected": "-14124"
+    },
+    {
+      "id": 665,
+      "quantity": "1340.819",
+      "unitPrice": "31.135921",
+      "minorUnits": 2,
+      "expected": "41747.63"
+    },
+    {
+      "id": 666,
+      "quantity": "430.504",
+      "unitPrice": "-156.606306",
+      "minorUnits": 3,
+      "expected": "-67419.641"
+    },
+    {
+      "id": 667,
+      "quantity": "-1224.439",
+      "unitPrice": "128.208094",
+      "minorUnits": 3,
+      "expected": "-156982.990"
+    },
+    {
+      "id": 668,
+      "quantity": "694.416",
+      "unitPrice": "22.899791",
+      "minorUnits": 2,
+      "expected": "15901.98"
+    },
+    {
+      "id": 669,
+      "quantity": "-1949.062",
+      "unitPrice": "-89.262001",
+      "minorUnits": 0,
+      "expected": "173977"
+    },
+    {
+      "id": 670,
+      "quantity": "474.107",
+      "unitPrice": "-85.775927",
+      "minorUnits": 3,
+      "expected": "-40666.967"
+    },
+    {
+      "id": 671,
+      "quantity": "-996.131",
+      "unitPrice": "82.764385",
+      "minorUnits": 2,
+      "expected": "-82444.17"
+    },
+    {
+      "id": 672,
+      "quantity": "1013.4",
+      "unitPrice": "34.15299",
+      "minorUnits": 3,
+      "expected": "34610.640"
+    },
+    {
+      "id": 673,
+      "quantity": "1939.042",
+      "unitPrice": "150.767146",
+      "minorUnits": 3,
+      "expected": "292343.828"
+    },
+    {
+      "id": 674,
+      "quantity": "-1512.086",
+      "unitPrice": "1.310358",
+      "minorUnits": 2,
+      "expected": "-1981.37"
+    },
+    {
+      "id": 675,
+      "quantity": "1383.19",
+      "unitPrice": "178.095101",
+      "minorUnits": 0,
+      "expected": "246339"
+    },
+    {
+      "id": 676,
+      "quantity": "1840.963",
+      "unitPrice": "-28.819523",
+      "minorUnits": 0,
+      "expected": "-53056"
+    },
+    {
+      "id": 677,
+      "quantity": "-1672.736",
+      "unitPrice": "15.242769",
+      "minorUnits": 2,
+      "expected": "-25497.13"
+    },
+    {
+      "id": 678,
+      "quantity": "1246.708",
+      "unitPrice": "-189.51608",
+      "minorUnits": 3,
+      "expected": "-236271.213"
+    },
+    {
+      "id": 679,
+      "quantity": "-1419.707",
+      "unitPrice": "-10.236842",
+      "minorUnits": 2,
+      "expected": "14533.32"
+    },
+    {
+      "id": 680,
+      "quantity": "1818.617",
+      "unitPrice": "-153.035401",
+      "minorUnits": 3,
+      "expected": "-278312.782"
+    },
+    {
+      "id": 681,
+      "quantity": "-86.042",
+      "unitPrice": "30.379132",
+      "minorUnits": 2,
+      "expected": "-2613.88"
+    },
+    {
+      "id": 682,
+      "quantity": "1710.974",
+      "unitPrice": "54.063622",
+      "minorUnits": 2,
+      "expected": "92501.45"
+    },
+    {
+      "id": 683,
+      "quantity": "1264.621",
+      "unitPrice": "76.978755",
+      "minorUnits": 3,
+      "expected": "97348.950"
+    },
+    {
+      "id": 684,
+      "quantity": "1086.762",
+      "unitPrice": "165.681868",
+      "minorUnits": 0,
+      "expected": "180057"
+    },
+    {
+      "id": 685,
+      "quantity": "-1137.392",
+      "unitPrice": "-134.627682",
+      "minorUnits": 3,
+      "expected": "153124.448"
+    },
+    {
+      "id": 686,
+      "quantity": "657.755",
+      "unitPrice": "-185.587898",
+      "minorUnits": 3,
+      "expected": "-122071.368"
+    },
+    {
+      "id": 687,
+      "quantity": "1103.66",
+      "unitPrice": "76.725729",
+      "minorUnits": 2,
+      "expected": "84679.12"
+    },
+    {
+      "id": 688,
+      "quantity": "1239.556",
+      "unitPrice": "-19.346319",
+      "minorUnits": 2,
+      "expected": "-23980.85"
+    },
+    {
+      "id": 689,
+      "quantity": "1365.375",
+      "unitPrice": "196.950357",
+      "minorUnits": 0,
+      "expected": "268911"
+    },
+    {
+      "id": 690,
+      "quantity": "-679.333",
+      "unitPrice": "-162.32431",
+      "minorUnits": 0,
+      "expected": "110272"
+    },
+    {
+      "id": 691,
+      "quantity": "-310.849",
+      "unitPrice": "-171.751755",
+      "minorUnits": 3,
+      "expected": "53388.861"
+    },
+    {
+      "id": 692,
+      "quantity": "-1485.863",
+      "unitPrice": "20.780766",
+      "minorUnits": 0,
+      "expected": "-30877"
+    },
+    {
+      "id": 693,
+      "quantity": "-434.027",
+      "unitPrice": "-20.486909",
+      "minorUnits": 3,
+      "expected": "8891.872"
+    },
+    {
+      "id": 694,
+      "quantity": "-578.353",
+      "unitPrice": "40.241101",
+      "minorUnits": 2,
+      "expected": "-23273.56"
+    },
+    {
+      "id": 695,
+      "quantity": "18.452",
+      "unitPrice": "-159.484048",
+      "minorUnits": 3,
+      "expected": "-2942.800"
+    },
+    {
+      "id": 696,
+      "quantity": "-66.618",
+      "unitPrice": "-94.428959",
+      "minorUnits": 3,
+      "expected": "6290.668"
+    },
+    {
+      "id": 697,
+      "quantity": "1995.229",
+      "unitPrice": "16.086273",
+      "minorUnits": 2,
+      "expected": "32095.80"
+    },
+    {
+      "id": 698,
+      "quantity": "-1846.816",
+      "unitPrice": "149.444222",
+      "minorUnits": 2,
+      "expected": "-275995.98"
+    },
+    {
+      "id": 699,
+      "quantity": "319.119",
+      "unitPrice": "188.944556",
+      "minorUnits": 2,
+      "expected": "60295.80"
+    },
+    {
+      "id": 700,
+      "quantity": "-1199.662",
+      "unitPrice": "-69.566812",
+      "minorUnits": 2,
+      "expected": "83456.66"
+    },
+    {
+      "id": 701,
+      "quantity": "-225.492",
+      "unitPrice": "-133.23429",
+      "minorUnits": 0,
+      "expected": "30043"
+    },
+    {
+      "id": 702,
+      "quantity": "-853.428",
+      "unitPrice": "-169.9841",
+      "minorUnits": 2,
+      "expected": "145069.19"
+    },
+    {
+      "id": 703,
+      "quantity": "-380.465",
+      "unitPrice": "-110.386193",
+      "minorUnits": 3,
+      "expected": "41998.083"
+    },
+    {
+      "id": 704,
+      "quantity": "701.21",
+      "unitPrice": "-153.595447",
+      "minorUnits": 2,
+      "expected": "-107702.66"
+    },
+    {
+      "id": 705,
+      "quantity": "-960.366",
+      "unitPrice": "-93.848849",
+      "minorUnits": 2,
+      "expected": "90129.24"
+    },
+    {
+      "id": 706,
+      "quantity": "-1962.48",
+      "unitPrice": "-185.456073",
+      "minorUnits": 3,
+      "expected": "363953.834"
+    },
+    {
+      "id": 707,
+      "quantity": "-72.206",
+      "unitPrice": "135.86262",
+      "minorUnits": 0,
+      "expected": "-9810"
+    },
+    {
+      "id": 708,
+      "quantity": "-1799.449",
+      "unitPrice": "-8.951784",
+      "minorUnits": 2,
+      "expected": "16108.28"
+    },
+    {
+      "id": 709,
+      "quantity": "1293.726",
+      "unitPrice": "-5.142947",
+      "minorUnits": 3,
+      "expected": "-6653.564"
+    },
+    {
+      "id": 710,
+      "quantity": "-707.058",
+      "unitPrice": "193.622271",
+      "minorUnits": 2,
+      "expected": "-136902.18"
+    },
+    {
+      "id": 711,
+      "quantity": "-1920.024",
+      "unitPrice": "-149.714113",
+      "minorUnits": 0,
+      "expected": "287455"
+    },
+    {
+      "id": 712,
+      "quantity": "1443.095",
+      "unitPrice": "-181.984093",
+      "minorUnits": 0,
+      "expected": "-262620"
+    },
+    {
+      "id": 713,
+      "quantity": "1353.129",
+      "unitPrice": "26.179583",
+      "minorUnits": 3,
+      "expected": "35424.353"
+    },
+    {
+      "id": 714,
+      "quantity": "634.971",
+      "unitPrice": "126.798332",
+      "minorUnits": 3,
+      "expected": "80513.264"
+    },
+    {
+      "id": 715,
+      "quantity": "-292.579",
+      "unitPrice": "103.81765",
+      "minorUnits": 2,
+      "expected": "-30374.86"
+    },
+    {
+      "id": 716,
+      "quantity": "396.132",
+      "unitPrice": "17.640483",
+      "minorUnits": 3,
+      "expected": "6987.960"
+    },
+    {
+      "id": 717,
+      "quantity": "26.515",
+      "unitPrice": "154.093121",
+      "minorUnits": 3,
+      "expected": "4085.779"
+    },
+    {
+      "id": 718,
+      "quantity": "1703.664",
+      "unitPrice": "-106.186094",
+      "minorUnits": 0,
+      "expected": "-180905"
+    },
+    {
+      "id": 719,
+      "quantity": "-1489.428",
+      "unitPrice": "196.84056",
+      "minorUnits": 3,
+      "expected": "-293179.842"
+    },
+    {
+      "id": 720,
+      "quantity": "-34.208",
+      "unitPrice": "147.453083",
+      "minorUnits": 3,
+      "expected": "-5044.075"
+    },
+    {
+      "id": 721,
+      "quantity": "-587.48",
+      "unitPrice": "142.200456",
+      "minorUnits": 0,
+      "expected": "-83540"
+    },
+    {
+      "id": 722,
+      "quantity": "1393.202",
+      "unitPrice": "5.421009",
+      "minorUnits": 3,
+      "expected": "7552.561"
+    },
+    {
+      "id": 723,
+      "quantity": "1467.825",
+      "unitPrice": "-113.868361",
+      "minorUnits": 0,
+      "expected": "-167139"
+    },
+    {
+      "id": 724,
+      "quantity": "1643.994",
+      "unitPrice": "57.945195",
+      "minorUnits": 0,
+      "expected": "95262"
+    },
+    {
+      "id": 725,
+      "quantity": "-470.614",
+      "unitPrice": "78.381035",
+      "minorUnits": 2,
+      "expected": "-36887.21"
+    },
+    {
+      "id": 726,
+      "quantity": "-1687.036",
+      "unitPrice": "-144.229115",
+      "minorUnits": 2,
+      "expected": "243319.71"
+    },
+    {
+      "id": 727,
+      "quantity": "-1821.984",
+      "unitPrice": "-73.934912",
+      "minorUnits": 2,
+      "expected": "134708.23"
+    },
+    {
+      "id": 728,
+      "quantity": "-97.654",
+      "unitPrice": "98.237314",
+      "minorUnits": 2,
+      "expected": "-9593.27"
+    },
+    {
+      "id": 729,
+      "quantity": "1561.317",
+      "unitPrice": "-108.008375",
+      "minorUnits": 3,
+      "expected": "-168635.312"
+    },
+    {
+      "id": 730,
+      "quantity": "-1009.695",
+      "unitPrice": "-28.853358",
+      "minorUnits": 0,
+      "expected": "29133"
+    },
+    {
+      "id": 731,
+      "quantity": "1097.075",
+      "unitPrice": "112.674732",
+      "minorUnits": 0,
+      "expected": "123613"
+    },
+    {
+      "id": 732,
+      "quantity": "-465.679",
+      "unitPrice": "36.836801",
+      "minorUnits": 0,
+      "expected": "-17154"
+    },
+    {
+      "id": 733,
+      "quantity": "-1009.2",
+      "unitPrice": "-158.277261",
+      "minorUnits": 3,
+      "expected": "159733.412"
+    },
+    {
+      "id": 734,
+      "quantity": "1212.701",
+      "unitPrice": "89.116601",
+      "minorUnits": 2,
+      "expected": "108071.79"
+    },
+    {
+      "id": 735,
+      "quantity": "-1112.133",
+      "unitPrice": "-107.785495",
+      "minorUnits": 3,
+      "expected": "119871.806"
+    },
+    {
+      "id": 736,
+      "quantity": "-1924.117",
+      "unitPrice": "-74.991049",
+      "minorUnits": 3,
+      "expected": "144291.552"
+    },
+    {
+      "id": 737,
+      "quantity": "1331.998",
+      "unitPrice": "198.948316",
+      "minorUnits": 0,
+      "expected": "264999"
+    },
+    {
+      "id": 738,
+      "quantity": "-591.116",
+      "unitPrice": "44.706117",
+      "minorUnits": 0,
+      "expected": "-26427"
+    },
+    {
+      "id": 739,
+      "quantity": "-1882.911",
+      "unitPrice": "-55.195794",
+      "minorUnits": 2,
+      "expected": "103928.77"
+    },
+    {
+      "id": 740,
+      "quantity": "485.046",
+      "unitPrice": "-41.285629",
+      "minorUnits": 0,
+      "expected": "-20025"
+    },
+    {
+      "id": 741,
+      "quantity": "1103.583",
+      "unitPrice": "48.45358",
+      "minorUnits": 3,
+      "expected": "53472.547"
+    },
+    {
+      "id": 742,
+      "quantity": "-129.879",
+      "unitPrice": "-85.047019",
+      "minorUnits": 0,
+      "expected": "11046"
+    },
+    {
+      "id": 743,
+      "quantity": "681.284",
+      "unitPrice": "143.535959",
+      "minorUnits": 2,
+      "expected": "97788.75"
+    },
+    {
+      "id": 744,
+      "quantity": "1486.113",
+      "unitPrice": "-67.375151",
+      "minorUnits": 2,
+      "expected": "-100127.09"
+    },
+    {
+      "id": 745,
+      "quantity": "-895.416",
+      "unitPrice": "-139.520071",
+      "minorUnits": 3,
+      "expected": "124928.504"
+    },
+    {
+      "id": 746,
+      "quantity": "690.225",
+      "unitPrice": "111.880169",
+      "minorUnits": 0,
+      "expected": "77222"
+    },
+    {
+      "id": 747,
+      "quantity": "-1479.75",
+      "unitPrice": "53.477803",
+      "minorUnits": 2,
+      "expected": "-79133.78"
+    },
+    {
+      "id": 748,
+      "quantity": "-1779.043",
+      "unitPrice": "14.109508",
+      "minorUnits": 0,
+      "expected": "-25101"
+    },
+    {
+      "id": 749,
+      "quantity": "1734.88",
+      "unitPrice": "-98.961358",
+      "minorUnits": 2,
+      "expected": "-171686.08"
+    },
+    {
+      "id": 750,
+      "quantity": "-1194.012",
+      "unitPrice": "-80.436611",
+      "minorUnits": 0,
+      "expected": "96042"
+    },
+    {
+      "id": 751,
+      "quantity": "-1716.084",
+      "unitPrice": "69.575761",
+      "minorUnits": 0,
+      "expected": "-119398"
+    },
+    {
+      "id": 752,
+      "quantity": "1440.823",
+      "unitPrice": "-70.766929",
+      "minorUnits": 2,
+      "expected": "-101962.62"
+    },
+    {
+      "id": 753,
+      "quantity": "1619.685",
+      "unitPrice": "66.576354",
+      "minorUnits": 3,
+      "expected": "107832.722"
+    },
+    {
+      "id": 754,
+      "quantity": "734.184",
+      "unitPrice": "27.515291",
+      "minorUnits": 2,
+      "expected": "20201.29"
+    },
+    {
+      "id": 755,
+      "quantity": "1601.208",
+      "unitPrice": "-117.258866",
+      "minorUnits": 0,
+      "expected": "-187756"
+    },
+    {
+      "id": 756,
+      "quantity": "1898.956",
+      "unitPrice": "19.069013",
+      "minorUnits": 2,
+      "expected": "36211.22"
+    },
+    {
+      "id": 757,
+      "quantity": "-1156.481",
+      "unitPrice": "-38.469987",
+      "minorUnits": 2,
+      "expected": "44489.81"
+    },
+    {
+      "id": 758,
+      "quantity": "1050.846",
+      "unitPrice": "-191.685075",
+      "minorUnits": 0,
+      "expected": "-201431"
+    },
+    {
+      "id": 759,
+      "quantity": "-1684.346",
+      "unitPrice": "60.405744",
+      "minorUnits": 2,
+      "expected": "-101744.17"
+    },
+    {
+      "id": 760,
+      "quantity": "47.01",
+      "unitPrice": "-107.623595",
+      "minorUnits": 0,
+      "expected": "-5059"
+    },
+    {
+      "id": 761,
+      "quantity": "958.261",
+      "unitPrice": "193.469855",
+      "minorUnits": 3,
+      "expected": "185394.617"
+    },
+    {
+      "id": 762,
+      "quantity": "1250.864",
+      "unitPrice": "125.483083",
+      "minorUnits": 3,
+      "expected": "156962.271"
+    },
+    {
+      "id": 763,
+      "quantity": "77.664",
+      "unitPrice": "185.807737",
+      "minorUnits": 0,
+      "expected": "14431"
+    },
+    {
+      "id": 764,
+      "quantity": "-1058.643",
+      "unitPrice": "5.659677",
+      "minorUnits": 3,
+      "expected": "-5991.577"
+    },
+    {
+      "id": 765,
+      "quantity": "1797.556",
+      "unitPrice": "-70.373208",
+      "minorUnits": 2,
+      "expected": "-126499.78"
+    },
+    {
+      "id": 766,
+      "quantity": "-1067.131",
+      "unitPrice": "172.229157",
+      "minorUnits": 2,
+      "expected": "-183791.07"
+    },
+    {
+      "id": 767,
+      "quantity": "712.351",
+      "unitPrice": "36.430414",
+      "minorUnits": 3,
+      "expected": "25951.242"
+    },
+    {
+      "id": 768,
+      "quantity": "1054.679",
+      "unitPrice": "-181.947247",
+      "minorUnits": 0,
+      "expected": "-191896"
+    },
+    {
+      "id": 769,
+      "quantity": "-73.971",
+      "unitPrice": "-61.689229",
+      "minorUnits": 0,
+      "expected": "4563"
+    },
+    {
+      "id": 770,
+      "quantity": "-1484.3",
+      "unitPrice": "-48.052418",
+      "minorUnits": 2,
+      "expected": "71324.20"
+    },
+    {
+      "id": 771,
+      "quantity": "-642.316",
+      "unitPrice": "144.030463",
+      "minorUnits": 2,
+      "expected": "-92513.07"
+    },
+    {
+      "id": 772,
+      "quantity": "-1304.143",
+      "unitPrice": "64.367693",
+      "minorUnits": 2,
+      "expected": "-83944.68"
+    },
+    {
+      "id": 773,
+      "quantity": "1644.167",
+      "unitPrice": "-59.220793",
+      "minorUnits": 2,
+      "expected": "-97368.87"
+    },
+    {
+      "id": 774,
+      "quantity": "1824.487",
+      "unitPrice": "87.509514",
+      "minorUnits": 0,
+      "expected": "159660"
+    },
+    {
+      "id": 775,
+      "quantity": "-180.935",
+      "unitPrice": "76.018072",
+      "minorUnits": 3,
+      "expected": "-13754.330"
+    },
+    {
+      "id": 776,
+      "quantity": "-453.764",
+      "unitPrice": "69.68647",
+      "minorUnits": 3,
+      "expected": "-31621.211"
+    },
+    {
+      "id": 777,
+      "quantity": "-1488.674",
+      "unitPrice": "172.797373",
+      "minorUnits": 2,
+      "expected": "-257238.96"
+    },
+    {
+      "id": 778,
+      "quantity": "-416.554",
+      "unitPrice": "114.39968",
+      "minorUnits": 3,
+      "expected": "-47653.644"
+    },
+    {
+      "id": 779,
+      "quantity": "-417.897",
+      "unitPrice": "21.96394",
+      "minorUnits": 2,
+      "expected": "-9178.66"
+    },
+    {
+      "id": 780,
+      "quantity": "-1804.717",
+      "unitPrice": "-55.401093",
+      "minorUnits": 2,
+      "expected": "99983.29"
+    },
+    {
+      "id": 781,
+      "quantity": "-398.461",
+      "unitPrice": "-13.730198",
+      "minorUnits": 2,
+      "expected": "5470.95"
+    },
+    {
+      "id": 782,
+      "quantity": "1113.153",
+      "unitPrice": "6.29454",
+      "minorUnits": 2,
+      "expected": "7006.79"
+    },
+    {
+      "id": 783,
+      "quantity": "-1680.845",
+      "unitPrice": "8.39509",
+      "minorUnits": 3,
+      "expected": "-14110.845"
+    },
+    {
+      "id": 784,
+      "quantity": "1350.041",
+      "unitPrice": "164.435717",
+      "minorUnits": 3,
+      "expected": "221994.960"
+    },
+    {
+      "id": 785,
+      "quantity": "896.295",
+      "unitPrice": "-157.708786",
+      "minorUnits": 3,
+      "expected": "-141353.596"
+    },
+    {
+      "id": 786,
+      "quantity": "149.124",
+      "unitPrice": "-167.094544",
+      "minorUnits": 0,
+      "expected": "-24918"
+    },
+    {
+      "id": 787,
+      "quantity": "381.92",
+      "unitPrice": "-146.815777",
+      "minorUnits": 3,
+      "expected": "-56071.882"
+    },
+    {
+      "id": 788,
+      "quantity": "1772.74",
+      "unitPrice": "-114.322046",
+      "minorUnits": 0,
+      "expected": "-202663"
+    },
+    {
+      "id": 789,
+      "quantity": "-1751.063",
+      "unitPrice": "59.325198",
+      "minorUnits": 3,
+      "expected": "-103882.159"
+    },
+    {
+      "id": 790,
+      "quantity": "1524.578",
+      "unitPrice": "-105.403989",
+      "minorUnits": 2,
+      "expected": "-160696.60"
+    },
+    {
+      "id": 791,
+      "quantity": "440.369",
+      "unitPrice": "-83.659166",
+      "minorUnits": 3,
+      "expected": "-36840.903"
+    },
+    {
+      "id": 792,
+      "quantity": "458.934",
+      "unitPrice": "-190.798087",
+      "minorUnits": 3,
+      "expected": "-87563.729"
+    },
+    {
+      "id": 793,
+      "quantity": "1081.505",
+      "unitPrice": "-175.838145",
+      "minorUnits": 2,
+      "expected": "-190169.83"
+    },
+    {
+      "id": 794,
+      "quantity": "-1654.164",
+      "unitPrice": "108.049882",
+      "minorUnits": 0,
+      "expected": "-178732"
+    },
+    {
+      "id": 795,
+      "quantity": "-1066.106",
+      "unitPrice": "-191.571146",
+      "minorUnits": 3,
+      "expected": "204235.148"
+    },
+    {
+      "id": 796,
+      "quantity": "955.937",
+      "unitPrice": "-140.112776",
+      "minorUnits": 0,
+      "expected": "-133939"
+    },
+    {
+      "id": 797,
+      "quantity": "1153.301",
+      "unitPrice": "94.885886",
+      "minorUnits": 2,
+      "expected": "109431.99"
+    },
+    {
+      "id": 798,
+      "quantity": "-845.649",
+      "unitPrice": "-107.862503",
+      "minorUnits": 3,
+      "expected": "91213.818"
+    },
+    {
+      "id": 799,
+      "quantity": "349.72",
+      "unitPrice": "47.827314",
+      "minorUnits": 2,
+      "expected": "16726.17"
+    },
+    {
+      "id": 800,
+      "quantity": "1454.245",
+      "unitPrice": "-188.924959",
+      "minorUnits": 0,
+      "expected": "-274743"
+    },
+    {
+      "id": 801,
+      "quantity": "1227.029",
+      "unitPrice": "-126.562363",
+      "minorUnits": 0,
+      "expected": "-155296"
+    },
+    {
+      "id": 802,
+      "quantity": "1253.389",
+      "unitPrice": "-13.372453",
+      "minorUnits": 0,
+      "expected": "-16761"
+    },
+    {
+      "id": 803,
+      "quantity": "1284.06",
+      "unitPrice": "19.080261",
+      "minorUnits": 3,
+      "expected": "24500.200"
+    },
+    {
+      "id": 804,
+      "quantity": "-568.117",
+      "unitPrice": "29.989442",
+      "minorUnits": 3,
+      "expected": "-17037.512"
+    },
+    {
+      "id": 805,
+      "quantity": "1755.874",
+      "unitPrice": "130.049553",
+      "minorUnits": 3,
+      "expected": "228350.629"
+    },
+    {
+      "id": 806,
+      "quantity": "-1251.49",
+      "unitPrice": "-148.526166",
+      "minorUnits": 2,
+      "expected": "185879.01"
+    },
+    {
+      "id": 807,
+      "quantity": "1977.031",
+      "unitPrice": "-196.221893",
+      "minorUnits": 0,
+      "expected": "-387937"
+    },
+    {
+      "id": 808,
+      "quantity": "-964.83",
+      "unitPrice": "9.547708",
+      "minorUnits": 2,
+      "expected": "-9211.92"
+    },
+    {
+      "id": 809,
+      "quantity": "-1542.742",
+      "unitPrice": "171.288971",
+      "minorUnits": 3,
+      "expected": "-264254.690"
+    },
+    {
+      "id": 810,
+      "quantity": "-285.113",
+      "unitPrice": "-145.382123",
+      "minorUnits": 0,
+      "expected": "41450"
+    },
+    {
+      "id": 811,
+      "quantity": "-351.707",
+      "unitPrice": "98.173368",
+      "minorUnits": 2,
+      "expected": "-34528.26"
+    },
+    {
+      "id": 812,
+      "quantity": "1568.982",
+      "unitPrice": "-151.896025",
+      "minorUnits": 0,
+      "expected": "-238322"
+    },
+    {
+      "id": 813,
+      "quantity": "1828.664",
+      "unitPrice": "-62.471389",
+      "minorUnits": 2,
+      "expected": "-114239.18"
+    },
+    {
+      "id": 814,
+      "quantity": "-1807.699",
+      "unitPrice": "168.974785",
+      "minorUnits": 0,
+      "expected": "-305456"
+    },
+    {
+      "id": 815,
+      "quantity": "1852.337",
+      "unitPrice": "62.941824",
+      "minorUnits": 3,
+      "expected": "116589.469"
+    },
+    {
+      "id": 816,
+      "quantity": "930.744",
+      "unitPrice": "-59.900715",
+      "minorUnits": 3,
+      "expected": "-55752.231"
+    },
+    {
+      "id": 817,
+      "quantity": "1393.147",
+      "unitPrice": "35.412568",
+      "minorUnits": 2,
+      "expected": "49334.91"
+    },
+    {
+      "id": 818,
+      "quantity": "1700.989",
+      "unitPrice": "85.984786",
+      "minorUnits": 0,
+      "expected": "146259"
+    },
+    {
+      "id": 819,
+      "quantity": "-1593.7",
+      "unitPrice": "-42.192283",
+      "minorUnits": 2,
+      "expected": "67241.84"
+    },
+    {
+      "id": 820,
+      "quantity": "1376.174",
+      "unitPrice": "-173.1699",
+      "minorUnits": 2,
+      "expected": "-238311.91"
+    },
+    {
+      "id": 821,
+      "quantity": "1965.29",
+      "unitPrice": "61.193104",
+      "minorUnits": 2,
+      "expected": "120262.20"
+    },
+    {
+      "id": 822,
+      "quantity": "-1109.413",
+      "unitPrice": "-126.287098",
+      "minorUnits": 2,
+      "expected": "140104.55"
+    },
+    {
+      "id": 823,
+      "quantity": "-1762.034",
+      "unitPrice": "-193.685469",
+      "minorUnits": 2,
+      "expected": "341280.38"
+    },
+    {
+      "id": 824,
+      "quantity": "-40.353",
+      "unitPrice": "-99.455102",
+      "minorUnits": 0,
+      "expected": "4013"
+    },
+    {
+      "id": 825,
+      "quantity": "-909.292",
+      "unitPrice": "-170.366621",
+      "minorUnits": 3,
+      "expected": "154913.006"
+    },
+    {
+      "id": 826,
+      "quantity": "209.75",
+      "unitPrice": "-15.624839",
+      "minorUnits": 2,
+      "expected": "-3277.31"
+    },
+    {
+      "id": 827,
+      "quantity": "-717.09",
+      "unitPrice": "14.612212",
+      "minorUnits": 0,
+      "expected": "-10478"
+    },
+    {
+      "id": 828,
+      "quantity": "1730.256",
+      "unitPrice": "-6.939269",
+      "minorUnits": 2,
+      "expected": "-12006.71"
+    },
+    {
+      "id": 829,
+      "quantity": "1186.448",
+      "unitPrice": "70.439595",
+      "minorUnits": 3,
+      "expected": "83572.917"
+    },
+    {
+      "id": 830,
+      "quantity": "486.037",
+      "unitPrice": "27.748901",
+      "minorUnits": 2,
+      "expected": "13486.99"
+    },
+    {
+      "id": 831,
+      "quantity": "-1100.067",
+      "unitPrice": "-6.130462",
+      "minorUnits": 2,
+      "expected": "6743.92"
+    },
+    {
+      "id": 832,
+      "quantity": "-396.812",
+      "unitPrice": "-83.885864",
+      "minorUnits": 2,
+      "expected": "33286.92"
+    },
+    {
+      "id": 833,
+      "quantity": "1566.983",
+      "unitPrice": "-94.645347",
+      "minorUnits": 3,
+      "expected": "-148307.650"
+    },
+    {
+      "id": 834,
+      "quantity": "-1980.026",
+      "unitPrice": "18.822613",
+      "minorUnits": 0,
+      "expected": "-37269"
+    },
+    {
+      "id": 835,
+      "quantity": "-1117.944",
+      "unitPrice": "-33.779771",
+      "minorUnits": 3,
+      "expected": "37763.892"
+    },
+    {
+      "id": 836,
+      "quantity": "-1109.444",
+      "unitPrice": "-113.99774",
+      "minorUnits": 3,
+      "expected": "126474.109"
+    },
+    {
+      "id": 837,
+      "quantity": "-1559.721",
+      "unitPrice": "79.640904",
+      "minorUnits": 3,
+      "expected": "-124217.590"
+    },
+    {
+      "id": 838,
+      "quantity": "-1481.23",
+      "unitPrice": "-179.128143",
+      "minorUnits": 2,
+      "expected": "265329.98"
+    },
+    {
+      "id": 839,
+      "quantity": "-242.932",
+      "unitPrice": "172.121161",
+      "minorUnits": 0,
+      "expected": "-41814"
+    },
+    {
+      "id": 840,
+      "quantity": "193.896",
+      "unitPrice": "52.996175",
+      "minorUnits": 2,
+      "expected": "10275.75"
+    },
+    {
+      "id": 841,
+      "quantity": "-627.874",
+      "unitPrice": "30.905097",
+      "minorUnits": 2,
+      "expected": "-19404.51"
+    },
+    {
+      "id": 842,
+      "quantity": "-251.621",
+      "unitPrice": "-168.814177",
+      "minorUnits": 3,
+      "expected": "42477.192"
+    },
+    {
+      "id": 843,
+      "quantity": "-399.977",
+      "unitPrice": "-174.077309",
+      "minorUnits": 3,
+      "expected": "69626.920"
+    },
+    {
+      "id": 844,
+      "quantity": "-850.634",
+      "unitPrice": "-12.185245",
+      "minorUnits": 0,
+      "expected": "10365"
+    },
+    {
+      "id": 845,
+      "quantity": "-1675.261",
+      "unitPrice": "-25.754598",
+      "minorUnits": 0,
+      "expected": "43146"
+    },
+    {
+      "id": 846,
+      "quantity": "-1004.879",
+      "unitPrice": "119.449461",
+      "minorUnits": 3,
+      "expected": "-120032.255"
+    },
+    {
+      "id": 847,
+      "quantity": "-1819.507",
+      "unitPrice": "-37.536248",
+      "minorUnits": 0,
+      "expected": "68297"
+    },
+    {
+      "id": 848,
+      "quantity": "-173.507",
+      "unitPrice": "73.393071",
+      "minorUnits": 3,
+      "expected": "-12734.212"
+    },
+    {
+      "id": 849,
+      "quantity": "-1002.58",
+      "unitPrice": "182.129612",
+      "minorUnits": 0,
+      "expected": "-182600"
+    },
+    {
+      "id": 850,
+      "quantity": "1259.377",
+      "unitPrice": "69.806266",
+      "minorUnits": 3,
+      "expected": "87912.406"
+    },
+    {
+      "id": 851,
+      "quantity": "435.508",
+      "unitPrice": "46.729732",
+      "minorUnits": 2,
+      "expected": "20351.17"
+    },
+    {
+      "id": 852,
+      "quantity": "-704.146",
+      "unitPrice": "-160.207926",
+      "minorUnits": 2,
+      "expected": "112809.77"
+    },
+    {
+      "id": 853,
+      "quantity": "-910.287",
+      "unitPrice": "27.019689",
+      "minorUnits": 2,
+      "expected": "-24595.67"
+    },
+    {
+      "id": 854,
+      "quantity": "1777.309",
+      "unitPrice": "-69.638389",
+      "minorUnits": 0,
+      "expected": "-123769"
+    },
+    {
+      "id": 855,
+      "quantity": "1803.285",
+      "unitPrice": "-76.710703",
+      "minorUnits": 0,
+      "expected": "-138331"
+    },
+    {
+      "id": 856,
+      "quantity": "-486.109",
+      "unitPrice": "188.552488",
+      "minorUnits": 2,
+      "expected": "-91657.06"
+    },
+    {
+      "id": 857,
+      "quantity": "336.828",
+      "unitPrice": "-116.299524",
+      "minorUnits": 0,
+      "expected": "-39173"
+    },
+    {
+      "id": 858,
+      "quantity": "1442.632",
+      "unitPrice": "-126.499904",
+      "minorUnits": 3,
+      "expected": "-182492.810"
+    },
+    {
+      "id": 859,
+      "quantity": "-531.439",
+      "unitPrice": "63.178295",
+      "minorUnits": 0,
+      "expected": "-33575"
+    },
+    {
+      "id": 860,
+      "quantity": "-578.467",
+      "unitPrice": "-61.568129",
+      "minorUnits": 3,
+      "expected": "35615.131"
+    },
+    {
+      "id": 861,
+      "quantity": "1982.227",
+      "unitPrice": "97.566257",
+      "minorUnits": 2,
+      "expected": "193398.47"
+    },
+    {
+      "id": 862,
+      "quantity": "-766.425",
+      "unitPrice": "-180.745432",
+      "minorUnits": 3,
+      "expected": "138527.818"
+    },
+    {
+      "id": 863,
+      "quantity": "-525.035",
+      "unitPrice": "153.857607",
+      "minorUnits": 2,
+      "expected": "-80780.63"
+    },
+    {
+      "id": 864,
+      "quantity": "-1593.445",
+      "unitPrice": "-27.152033",
+      "minorUnits": 3,
+      "expected": "43265.271"
+    },
+    {
+      "id": 865,
+      "quantity": "1028.002",
+      "unitPrice": "53.341224",
+      "minorUnits": 3,
+      "expected": "54834.885"
+    },
+    {
+      "id": 866,
+      "quantity": "-1955.451",
+      "unitPrice": "-54.21831",
+      "minorUnits": 2,
+      "expected": "106021.25"
+    },
+    {
+      "id": 867,
+      "quantity": "-1376.579",
+      "unitPrice": "-74.648948",
+      "minorUnits": 3,
+      "expected": "102760.174"
+    },
+    {
+      "id": 868,
+      "quantity": "-1919.217",
+      "unitPrice": "128.577833",
+      "minorUnits": 3,
+      "expected": "-246768.763"
+    },
+    {
+      "id": 869,
+      "quantity": "1078.289",
+      "unitPrice": "168.899891",
+      "minorUnits": 0,
+      "expected": "182123"
+    },
+    {
+      "id": 870,
+      "quantity": "919.493",
+      "unitPrice": "185.262605",
+      "minorUnits": 0,
+      "expected": "170348"
+    },
+    {
+      "id": 871,
+      "quantity": "-325.835",
+      "unitPrice": "183.958098",
+      "minorUnits": 2,
+      "expected": "-59939.99"
+    },
+    {
+      "id": 872,
+      "quantity": "1613.535",
+      "unitPrice": "179.092452",
+      "minorUnits": 0,
+      "expected": "288972"
+    },
+    {
+      "id": 873,
+      "quantity": "-1061.705",
+      "unitPrice": "125.96033",
+      "minorUnits": 2,
+      "expected": "-133732.71"
+    },
+    {
+      "id": 874,
+      "quantity": "276.442",
+      "unitPrice": "-156.693828",
+      "minorUnits": 3,
+      "expected": "-43316.755"
+    },
+    {
+      "id": 875,
+      "quantity": "1704.74",
+      "unitPrice": "176.097787",
+      "minorUnits": 3,
+      "expected": "300200.941"
+    },
+    {
+      "id": 876,
+      "quantity": "-497.125",
+      "unitPrice": "-30.845833",
+      "minorUnits": 2,
+      "expected": "15334.23"
+    },
+    {
+      "id": 877,
+      "quantity": "-1621.766",
+      "unitPrice": "-193.873884",
+      "minorUnits": 3,
+      "expected": "314418.073"
+    },
+    {
+      "id": 878,
+      "quantity": "-1837.712",
+      "unitPrice": "-16.342659",
+      "minorUnits": 3,
+      "expected": "30033.101"
+    },
+    {
+      "id": 879,
+      "quantity": "-327.874",
+      "unitPrice": "148.358329",
+      "minorUnits": 0,
+      "expected": "-48643"
+    },
+    {
+      "id": 880,
+      "quantity": "1444.789",
+      "unitPrice": "162.331664",
+      "minorUnits": 2,
+      "expected": "234535.00"
+    },
+    {
+      "id": 881,
+      "quantity": "120.662",
+      "unitPrice": "6.825361",
+      "minorUnits": 2,
+      "expected": "823.56"
+    },
+    {
+      "id": 882,
+      "quantity": "-1806.369",
+      "unitPrice": "-2.821236",
+      "minorUnits": 0,
+      "expected": "5096"
+    },
+    {
+      "id": 883,
+      "quantity": "415.39",
+      "unitPrice": "112.131747",
+      "minorUnits": 3,
+      "expected": "46578.406"
+    },
+    {
+      "id": 884,
+      "quantity": "-431.777",
+      "unitPrice": "-75.078004",
+      "minorUnits": 2,
+      "expected": "32416.96"
+    },
+    {
+      "id": 885,
+      "quantity": "-109.464",
+      "unitPrice": "55.447295",
+      "minorUnits": 2,
+      "expected": "-6069.48"
+    },
+    {
+      "id": 886,
+      "quantity": "-1657.419",
+      "unitPrice": "-161.874071",
+      "minorUnits": 3,
+      "expected": "268293.161"
+    },
+    {
+      "id": 887,
+      "quantity": "-635.49",
+      "unitPrice": "-185.137079",
+      "minorUnits": 3,
+      "expected": "117652.762"
+    },
+    {
+      "id": 888,
+      "quantity": "-942.931",
+      "unitPrice": "-94.722827",
+      "minorUnits": 2,
+      "expected": "89317.09"
+    },
+    {
+      "id": 889,
+      "quantity": "-1201.556",
+      "unitPrice": "-121.173705",
+      "minorUnits": 2,
+      "expected": "145596.99"
+    },
+    {
+      "id": 890,
+      "quantity": "1353.788",
+      "unitPrice": "-43.901529",
+      "minorUnits": 3,
+      "expected": "-59433.363"
+    },
+    {
+      "id": 891,
+      "quantity": "1930.738",
+      "unitPrice": "135.210014",
+      "minorUnits": 3,
+      "expected": "261055.112"
+    },
+    {
+      "id": 892,
+      "quantity": "-725.891",
+      "unitPrice": "127.888554",
+      "minorUnits": 2,
+      "expected": "-92833.15"
+    },
+    {
+      "id": 893,
+      "quantity": "1729.974",
+      "unitPrice": "39.725335",
+      "minorUnits": 0,
+      "expected": "68724"
+    },
+    {
+      "id": 894,
+      "quantity": "-286.701",
+      "unitPrice": "-138.697362",
+      "minorUnits": 3,
+      "expected": "39764.672"
+    },
+    {
+      "id": 895,
+      "quantity": "-1959.847",
+      "unitPrice": "11.631895",
+      "minorUnits": 3,
+      "expected": "-22796.735"
+    },
+    {
+      "id": 896,
+      "quantity": "-1627.52",
+      "unitPrice": "24.315208",
+      "minorUnits": 0,
+      "expected": "-39573"
+    },
+    {
+      "id": 897,
+      "quantity": "1669.297",
+      "unitPrice": "134.885823",
+      "minorUnits": 2,
+      "expected": "225164.50"
+    },
+    {
+      "id": 898,
+      "quantity": "431.143",
+      "unitPrice": "70.344958",
+      "minorUnits": 2,
+      "expected": "30328.74"
+    },
+    {
+      "id": 899,
+      "quantity": "-1511.699",
+      "unitPrice": "-73.27767",
+      "minorUnits": 3,
+      "expected": "110773.780"
+    },
+    {
+      "id": 900,
+      "quantity": "-330.755",
+      "unitPrice": "-25.393597",
+      "minorUnits": 0,
+      "expected": "8399"
+    },
+    {
+      "id": 901,
+      "quantity": "-1782.061",
+      "unitPrice": "-31.815208",
+      "minorUnits": 2,
+      "expected": "56696.64"
+    },
+    {
+      "id": 902,
+      "quantity": "-1737.574",
+      "unitPrice": "79.255351",
+      "minorUnits": 0,
+      "expected": "-137712"
+    },
+    {
+      "id": 903,
+      "quantity": "87.659",
+      "unitPrice": "-151.904819",
+      "minorUnits": 2,
+      "expected": "-13315.82"
+    },
+    {
+      "id": 904,
+      "quantity": "-1490.612",
+      "unitPrice": "85.44656",
+      "minorUnits": 3,
+      "expected": "-127367.668"
+    },
+    {
+      "id": 905,
+      "quantity": "-453.889",
+      "unitPrice": "195.777268",
+      "minorUnits": 0,
+      "expected": "-88861"
+    },
+    {
+      "id": 906,
+      "quantity": "-1765.448",
+      "unitPrice": "-88.898514",
+      "minorUnits": 3,
+      "expected": "156945.704"
+    },
+    {
+      "id": 907,
+      "quantity": "1982.859",
+      "unitPrice": "-172.805434",
+      "minorUnits": 3,
+      "expected": "-342648.810"
+    },
+    {
+      "id": 908,
+      "quantity": "695.978",
+      "unitPrice": "-142.182847",
+      "minorUnits": 0,
+      "expected": "-98956"
+    },
+    {
+      "id": 909,
+      "quantity": "815.071",
+      "unitPrice": "181.257021",
+      "minorUnits": 2,
+      "expected": "147737.34"
+    },
+    {
+      "id": 910,
+      "quantity": "1584.796",
+      "unitPrice": "-161.229025",
+      "minorUnits": 2,
+      "expected": "-255515.11"
+    },
+    {
+      "id": 911,
+      "quantity": "-84.464",
+      "unitPrice": "128.907497",
+      "minorUnits": 3,
+      "expected": "-10888.043"
+    },
+    {
+      "id": 912,
+      "quantity": "542.517",
+      "unitPrice": "18.583689",
+      "minorUnits": 3,
+      "expected": "10081.967"
+    },
+    {
+      "id": 913,
+      "quantity": "-86.648",
+      "unitPrice": "-92.065142",
+      "minorUnits": 0,
+      "expected": "7977"
+    },
+    {
+      "id": 914,
+      "quantity": "-249.613",
+      "unitPrice": "-106.16712",
+      "minorUnits": 3,
+      "expected": "26500.693"
+    },
+    {
+      "id": 915,
+      "quantity": "-596.325",
+      "unitPrice": "-15.662209",
+      "minorUnits": 3,
+      "expected": "9339.767"
+    },
+    {
+      "id": 916,
+      "quantity": "-1775.311",
+      "unitPrice": "-37.193568",
+      "minorUnits": 0,
+      "expected": "66030"
+    },
+    {
+      "id": 917,
+      "quantity": "-1316.218",
+      "unitPrice": "-41.360389",
+      "minorUnits": 3,
+      "expected": "54439.288"
+    },
+    {
+      "id": 918,
+      "quantity": "-1988.219",
+      "unitPrice": "125.560817",
+      "minorUnits": 3,
+      "expected": "-249642.402"
+    },
+    {
+      "id": 919,
+      "quantity": "1302.494",
+      "unitPrice": "63.716158",
+      "minorUnits": 3,
+      "expected": "82989.913"
+    },
+    {
+      "id": 920,
+      "quantity": "-1762.213",
+      "unitPrice": "15.743209",
+      "minorUnits": 3,
+      "expected": "-27742.888"
+    },
+    {
+      "id": 921,
+      "quantity": "-1892.09",
+      "unitPrice": "-161.090255",
+      "minorUnits": 0,
+      "expected": "304797"
+    },
+    {
+      "id": 922,
+      "quantity": "-1225.124",
+      "unitPrice": "-84.576813",
+      "minorUnits": 0,
+      "expected": "103617"
+    },
+    {
+      "id": 923,
+      "quantity": "1724.513",
+      "unitPrice": "-195.525771",
+      "minorUnits": 3,
+      "expected": "-337186.734"
+    },
+    {
+      "id": 924,
+      "quantity": "1855.687",
+      "unitPrice": "97.216053",
+      "minorUnits": 0,
+      "expected": "180403"
+    },
+    {
+      "id": 925,
+      "quantity": "369.211",
+      "unitPrice": "47.6004",
+      "minorUnits": 2,
+      "expected": "17574.59"
+    },
+    {
+      "id": 926,
+      "quantity": "1404.321",
+      "unitPrice": "56.951547",
+      "minorUnits": 0,
+      "expected": "79978"
+    },
+    {
+      "id": 927,
+      "quantity": "-1566.829",
+      "unitPrice": "193.943692",
+      "minorUnits": 2,
+      "expected": "-303876.60"
+    },
+    {
+      "id": 928,
+      "quantity": "-474.743",
+      "unitPrice": "-150.149781",
+      "minorUnits": 3,
+      "expected": "71282.557"
+    },
+    {
+      "id": 929,
+      "quantity": "-1953.905",
+      "unitPrice": "-51.911688",
+      "minorUnits": 0,
+      "expected": "101431"
+    },
+    {
+      "id": 930,
+      "quantity": "-1075.351",
+      "unitPrice": "126.01748",
+      "minorUnits": 3,
+      "expected": "-135513.023"
+    },
+    {
+      "id": 931,
+      "quantity": "-1808.554",
+      "unitPrice": "111.867442",
+      "minorUnits": 2,
+      "expected": "-202318.31"
+    },
+    {
+      "id": 932,
+      "quantity": "927.71",
+      "unitPrice": "-20.084346",
+      "minorUnits": 3,
+      "expected": "-18632.449"
+    },
+    {
+      "id": 933,
+      "quantity": "1167.02",
+      "unitPrice": "107.279342",
+      "minorUnits": 0,
+      "expected": "125197"
+    },
+    {
+      "id": 934,
+      "quantity": "1595.567",
+      "unitPrice": "-154.362511",
+      "minorUnits": 3,
+      "expected": "-246295.729"
+    },
+    {
+      "id": 935,
+      "quantity": "-1238.016",
+      "unitPrice": "-107.763047",
+      "minorUnits": 3,
+      "expected": "133412.376"
+    },
+    {
+      "id": 936,
+      "quantity": "1411.296",
+      "unitPrice": "107.216794",
+      "minorUnits": 0,
+      "expected": "151315"
+    },
+    {
+      "id": 937,
+      "quantity": "1435.137",
+      "unitPrice": "-30.508304",
+      "minorUnits": 3,
+      "expected": "-43783.596"
+    },
+    {
+      "id": 938,
+      "quantity": "1778.145",
+      "unitPrice": "-163.078467",
+      "minorUnits": 3,
+      "expected": "-289977.161"
+    },
+    {
+      "id": 939,
+      "quantity": "850.671",
+      "unitPrice": "24.77402",
+      "minorUnits": 3,
+      "expected": "21074.540"
+    },
+    {
+      "id": 940,
+      "quantity": "-1200.541",
+      "unitPrice": "152.152628",
+      "minorUnits": 2,
+      "expected": "-182665.47"
+    },
+    {
+      "id": 941,
+      "quantity": "696.472",
+      "unitPrice": "-171.127134",
+      "minorUnits": 0,
+      "expected": "-119185"
+    },
+    {
+      "id": 942,
+      "quantity": "-1832.711",
+      "unitPrice": "-21.643089",
+      "minorUnits": 2,
+      "expected": "39665.53"
+    },
+    {
+      "id": 943,
+      "quantity": "847.985",
+      "unitPrice": "-139.003901",
+      "minorUnits": 3,
+      "expected": "-117873.223"
+    },
+    {
+      "id": 944,
+      "quantity": "168.921",
+      "unitPrice": "-78.661054",
+      "minorUnits": 2,
+      "expected": "-13287.50"
+    },
+    {
+      "id": 945,
+      "quantity": "-1589.174",
+      "unitPrice": "-157.124299",
+      "minorUnits": 2,
+      "expected": "249697.85"
+    },
+    {
+      "id": 946,
+      "quantity": "-1768.843",
+      "unitPrice": "195.404304",
+      "minorUnits": 3,
+      "expected": "-345639.535"
+    },
+    {
+      "id": 947,
+      "quantity": "1541.085",
+      "unitPrice": "-196.838884",
+      "minorUnits": 0,
+      "expected": "-303345"
+    },
+    {
+      "id": 948,
+      "quantity": "-1607.778",
+      "unitPrice": "94.504664",
+      "minorUnits": 2,
+      "expected": "-151942.52"
+    },
+    {
+      "id": 949,
+      "quantity": "1467.653",
+      "unitPrice": "-77.431154",
+      "minorUnits": 3,
+      "expected": "-113642.065"
+    },
+    {
+      "id": 950,
+      "quantity": "1790.125",
+      "unitPrice": "6.508943",
+      "minorUnits": 2,
+      "expected": "11651.82"
+    },
+    {
+      "id": 951,
+      "quantity": "-1395.276",
+      "unitPrice": "-155.043095",
+      "minorUnits": 2,
+      "expected": "216327.91"
+    },
+    {
+      "id": 952,
+      "quantity": "-1152.581",
+      "unitPrice": "46.720408",
+      "minorUnits": 0,
+      "expected": "-53849"
+    },
+    {
+      "id": 953,
+      "quantity": "159.142",
+      "unitPrice": "-78.950198",
+      "minorUnits": 0,
+      "expected": "-12564"
+    },
+    {
+      "id": 954,
+      "quantity": "1935.706",
+      "unitPrice": "-32.072032",
+      "minorUnits": 3,
+      "expected": "-62082.025"
+    },
+    {
+      "id": 955,
+      "quantity": "-825.741",
+      "unitPrice": "102.703894",
+      "minorUnits": 2,
+      "expected": "-84806.82"
+    },
+    {
+      "id": 956,
+      "quantity": "-703.777",
+      "unitPrice": "-163.851377",
+      "minorUnits": 2,
+      "expected": "115314.83"
+    },
+    {
+      "id": 957,
+      "quantity": "1396.96",
+      "unitPrice": "-33.835998",
+      "minorUnits": 0,
+      "expected": "-47268"
+    },
+    {
+      "id": 958,
+      "quantity": "1628.711",
+      "unitPrice": "-88.831464",
+      "minorUnits": 0,
+      "expected": "-144681"
+    },
+    {
+      "id": 959,
+      "quantity": "1930.521",
+      "unitPrice": "-67.846282",
+      "minorUnits": 0,
+      "expected": "-130979"
+    },
+    {
+      "id": 960,
+      "quantity": "-1722.223",
+      "unitPrice": "30.160468",
+      "minorUnits": 3,
+      "expected": "-51943.052"
+    },
+    {
+      "id": 961,
+      "quantity": "-352.631",
+      "unitPrice": "117.136967",
+      "minorUnits": 3,
+      "expected": "-41306.126"
+    },
+    {
+      "id": 962,
+      "quantity": "1909.855",
+      "unitPrice": "-33.275648",
+      "minorUnits": 0,
+      "expected": "-63552"
+    },
+    {
+      "id": 963,
+      "quantity": "317.329",
+      "unitPrice": "-77.39626",
+      "minorUnits": 3,
+      "expected": "-24560.078"
+    },
+    {
+      "id": 964,
+      "quantity": "1040.09",
+      "unitPrice": "-111.120071",
+      "minorUnits": 3,
+      "expected": "-115574.875"
+    },
+    {
+      "id": 965,
+      "quantity": "1310.209",
+      "unitPrice": "139.114847",
+      "minorUnits": 0,
+      "expected": "182270"
+    },
+    {
+      "id": 966,
+      "quantity": "-1809.97",
+      "unitPrice": "52.864637",
+      "minorUnits": 0,
+      "expected": "-95683"
+    },
+    {
+      "id": 967,
+      "quantity": "1326.22",
+      "unitPrice": "113.047365",
+      "minorUnits": 0,
+      "expected": "149926"
+    },
+    {
+      "id": 968,
+      "quantity": "686.973",
+      "unitPrice": "-70.607173",
+      "minorUnits": 2,
+      "expected": "-48505.22"
+    },
+    {
+      "id": 969,
+      "quantity": "-1945.537",
+      "unitPrice": "-121.374911",
+      "minorUnits": 2,
+      "expected": "236139.38"
+    },
+    {
+      "id": 970,
+      "quantity": "-1427.569",
+      "unitPrice": "-90.900888",
+      "minorUnits": 0,
+      "expected": "129767"
+    },
+    {
+      "id": 971,
+      "quantity": "1192.503",
+      "unitPrice": "-172.961004",
+      "minorUnits": 3,
+      "expected": "-206256.516"
+    },
+    {
+      "id": 972,
+      "quantity": "1857.596",
+      "unitPrice": "94.181023",
+      "minorUnits": 0,
+      "expected": "174950"
+    },
+    {
+      "id": 973,
+      "quantity": "-1352.44",
+      "unitPrice": "-123.928025",
+      "minorUnits": 0,
+      "expected": "167605"
+    },
+    {
+      "id": 974,
+      "quantity": "93.221",
+      "unitPrice": "87.279225",
+      "minorUnits": 2,
+      "expected": "8136.26"
+    },
+    {
+      "id": 975,
+      "quantity": "101.877",
+      "unitPrice": "195.633307",
+      "minorUnits": 3,
+      "expected": "19930.534"
+    },
+    {
+      "id": 976,
+      "quantity": "-1070.563",
+      "unitPrice": "-28.17673",
+      "minorUnits": 2,
+      "expected": "30164.96"
+    },
+    {
+      "id": 977,
+      "quantity": "-1809.436",
+      "unitPrice": "184.361288",
+      "minorUnits": 3,
+      "expected": "-333589.952"
+    },
+    {
+      "id": 978,
+      "quantity": "-551.355",
+      "unitPrice": "82.869846",
+      "minorUnits": 0,
+      "expected": "-45691"
+    },
+    {
+      "id": 979,
+      "quantity": "1963.71",
+      "unitPrice": "-56.219807",
+      "minorUnits": 2,
+      "expected": "-110399.40"
+    },
+    {
+      "id": 980,
+      "quantity": "875.565",
+      "unitPrice": "107.405672",
+      "minorUnits": 0,
+      "expected": "94041"
+    },
+    {
+      "id": 981,
+      "quantity": "1519.278",
+      "unitPrice": "-10.4083",
+      "minorUnits": 3,
+      "expected": "-15813.101"
+    },
+    {
+      "id": 982,
+      "quantity": "-1139.798",
+      "unitPrice": "-147.23309",
+      "minorUnits": 0,
+      "expected": "167816"
+    },
+    {
+      "id": 983,
+      "quantity": "1536.243",
+      "unitPrice": "23.242678",
+      "minorUnits": 0,
+      "expected": "35706"
+    },
+    {
+      "id": 984,
+      "quantity": "1308.783",
+      "unitPrice": "109.597043",
+      "minorUnits": 0,
+      "expected": "143439"
+    },
+    {
+      "id": 985,
+      "quantity": "-1562.936",
+      "unitPrice": "-45.625238",
+      "minorUnits": 0,
+      "expected": "71309"
+    },
+    {
+      "id": 986,
+      "quantity": "1319.647",
+      "unitPrice": "-23.25191",
+      "minorUnits": 2,
+      "expected": "-30684.31"
+    },
+    {
+      "id": 987,
+      "quantity": "42.102",
+      "unitPrice": "117.273471",
+      "minorUnits": 2,
+      "expected": "4937.45"
+    },
+    {
+      "id": 988,
+      "quantity": "-1229.225",
+      "unitPrice": "1.330208",
+      "minorUnits": 2,
+      "expected": "-1635.12"
+    },
+    {
+      "id": 989,
+      "quantity": "-146.225",
+      "unitPrice": "194.772642",
+      "minorUnits": 2,
+      "expected": "-28480.63"
+    },
+    {
+      "id": 990,
+      "quantity": "1728.512",
+      "unitPrice": "-62.226209",
+      "minorUnits": 2,
+      "expected": "-107558.75"
+    },
+    {
+      "id": 991,
+      "quantity": "1142.648",
+      "unitPrice": "-15.497746",
+      "minorUnits": 0,
+      "expected": "-17708"
+    },
+    {
+      "id": 992,
+      "quantity": "1301.546",
+      "unitPrice": "74.166611",
+      "minorUnits": 0,
+      "expected": "96531"
+    },
+    {
+      "id": 993,
+      "quantity": "146.878",
+      "unitPrice": "-127.0944",
+      "minorUnits": 2,
+      "expected": "-18667.37"
+    },
+    {
+      "id": 994,
+      "quantity": "402.396",
+      "unitPrice": "-93.926429",
+      "minorUnits": 0,
+      "expected": "-37796"
+    },
+    {
+      "id": 995,
+      "quantity": "-1185.334",
+      "unitPrice": "-29.389711",
+      "minorUnits": 3,
+      "expected": "34836.624"
+    },
+    {
+      "id": 996,
+      "quantity": "425.845",
+      "unitPrice": "192.966322",
+      "minorUnits": 3,
+      "expected": "82173.743"
+    },
+    {
+      "id": 997,
+      "quantity": "-965.304",
+      "unitPrice": "-101.30443",
+      "minorUnits": 3,
+      "expected": "97789.571"
+    },
+    {
+      "id": 998,
+      "quantity": "-902.353",
+      "unitPrice": "177.683582",
+      "minorUnits": 0,
+      "expected": "-160333"
+    },
+    {
+      "id": 999,
+      "quantity": "1663.355",
+      "unitPrice": "92.199504",
+      "minorUnits": 2,
+      "expected": "153360.51"
+    },
+    {
+      "id": 1000,
+      "quantity": "488.693",
+      "unitPrice": "82.577987",
+      "minorUnits": 2,
+      "expected": "40355.28"
+    }
+  ]
+}

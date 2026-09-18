@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "synthetic_invoice_answer_key_v1",
+  "subject": "Synthetic bookkeeping invoice BK-2026-001",
+  "pdfSha256": "aeec185e927d638bc19021588db8964e78be1b8faee1ebb290fe6b3dfe87d336",
+  "expected": {
+    "documentType": "invoice",
+    "supplierName": "NORTHSTAR DEMO SUPPLIES",
+    "supplierAddress": "",
+    "supplierTaxRegistrationId": "",
+    "invoiceNumber": "BK-2026-001",
+    "invoiceDate": "2026-09-08",
+    "currency": "USD",
+    "pricing": "net",
+    "lines": [
+      {
+        "description": "Bookkeeping workflow design",
+        "quantity": "2",
+        "unitPrice": "50.00",
+        "lineNet": "100.00"
+      },
+      {
+        "description": "Secure result hosting review",
+        "quantity": "1",
+        "unitPrice": "25.00",
+        "lineNet": "25.00"
+      }
+    ],
+    "subtotal": "125.00",
+    "tax": "25.00",
+    "total": "150.00",
+    "complexities": []
+  }
+}

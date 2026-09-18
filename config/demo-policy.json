@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "bookkeeping_policy_v1",
+  "id": "demo-gross-expense-policy-v1",
+  "label": "DEMO ONLY - gross expense proposal, not customer-approved accounting policy",
+  "currencyMinorUnits": {
+    "USD": 2,
+    "EUR": 2,
+    "GBP": 2,
+    "AED": 2,
+    "SGD": 2,
+    "MYR": 2
+  },
+  "currencyAmountFormats": {
+    "USD": { "styles": ["dot_decimal"], "markers": ["USD", "$"] },
+    "EUR": { "styles": ["dot_decimal", "comma_decimal"], "markers": ["EUR", "€"] },
+    "GBP": { "styles": ["dot_decimal"], "markers": ["GBP", "£"] },
+    "AED": { "styles": ["dot_decimal"], "markers": ["AED"] },
+    "SGD": { "styles": ["dot_decimal"], "markers": ["SGD", "S$"] },
+    "MYR": { "styles": ["dot_decimal"], "markers": ["MYR", "RM"] }
+  },
+  "accounting": {
+    "method": "gross_expense",
+    "debitAccountId": "DEMO-6000-UNCLASSIFIED-EXPENSE",
+    "creditAccountId": "DEMO-2000-ACCOUNTS-PAYABLE"
+  },
+  "resultAccess": "local_private_files_only",
+  "allowedResultRecipients": []
+}

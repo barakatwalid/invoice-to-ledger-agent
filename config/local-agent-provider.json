@@ -1,0 +1,10 @@
+{
+  "schemaVersion": "local_agent_provider_v1",
+  "modelId": "zai-org/GLM-5.3-Flash",
+  "reasoningEffort": "high",
+  "attachmentHosts": [
+    "us-central-1.telnyxcloudstorage.com"
+  ],
+  "verifiedAt": "2026-09-08",
+  "note": "Public selectors observed in the live Telnyx account and attachment metadata; the model list is rechecked before every completion."
+}

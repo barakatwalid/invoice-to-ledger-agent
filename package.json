@@ -1,0 +1,52 @@
+{
+  "name": "invoice-to-ledger-agent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Evidence-first invoice intake, extraction, accounting suggestions and exact reconciliation on Telnyx Edge.",
+  "engines": {
+    "node": ">=22.16.0 <23 || >=24 <25"
+  },
+  "scripts": {
+    "doctor": "node --env-file-if-exists=.env scripts/doctor.mjs",
+    "test": "node --experimental-strip-types --test --test-concurrency=1 tests/*.test.mjs",
+    "test:record": "node scripts/record-tests.mjs",
+    "typecheck": "tsc --noEmit",
+    "demo": "node --experimental-strip-types scripts/demo.mjs",
+    "probe:telnyx": "node --env-file-if-exists=.env scripts/probe-telnyx.mjs",
+    "create:test-inbox": "node --env-file-if-exists=.env --experimental-strip-types scripts/create-test-inbox.mjs",
+    "discover:attachment-host": "node --env-file-if-exists=.env --experimental-strip-types scripts/discover-attachment-host.mjs",
+    "retrieve:live-attachment": "node --env-file-if-exists=.env --experimental-strip-types scripts/retrieve-live-attachment.mjs",
+    "slice:local": "node --experimental-strip-types scripts/run-local-slice.mjs",
+    "slice:model-live": "node --env-file-if-exists=.env --experimental-strip-types scripts/run-live-model-slice.mjs",
+    "slice:live": "node --env-file-if-exists=.env --experimental-strip-types scripts/run-live-slice.mjs",
+    "agent:local": "node --env-file-if-exists=.env --experimental-strip-types scripts/run-local-agent.mjs",
+    "agent:check": "node --env-file-if-exists=.env scripts/check-local-agent.mjs",
+    "agent:preview": "node --env-file-if-exists=.env --experimental-strip-types scripts/preview-local-inbox.mjs",
+    "agent:check-subject": "node --env-file-if-exists=.env --experimental-strip-types scripts/check-inbox-subject.mjs",
+    "edge:secrets": "node --env-file-if-exists=.env --experimental-strip-types scripts/configure-edge-secrets.mjs",
+    "edge:renderer-secrets": "node --env-file-if-exists=.env --experimental-strip-types scripts/configure-pdf-renderer-secrets.mjs",
+    "edge:renderer-check": "node --experimental-strip-types scripts/check-edge-pdf-renderer.mjs",
+    "edge:api-key-secret": "node --env-file-if-exists=.env scripts/configure-edge-api-key-secret.mjs",
+    "edge:viewer-password": "node --experimental-strip-types scripts/configure-edge-viewer-password.mjs",
+    "edge:dashboard-check": "node --experimental-strip-types scripts/check-edge-dashboard.mjs",
+    "edge:status": "node scripts/check-edge-status.mjs",
+    "edge:start": "node scripts/start-edge-agent.mjs",
+    "edge:batch": "node --env-file-if-exists=.env --experimental-strip-types scripts/control-edge-batch.mjs",
+    "edge:poll": "node --env-file-if-exists=.env scripts/poll-edge-now.mjs",
+    "edge:clear-history": "node scripts/clear-edge-history.mjs",
+    "edge:hide-failed": "node scripts/hide-edge-failed-job.mjs",
+    "edge:accept": "node --env-file-if-exists=.env --experimental-strip-types scripts/run-edge-acceptance.mjs",
+    "fixture:check": "python3 scripts/check-synthetic-answer-key.py"
+  },
+  "devDependencies": {
+    "@types/node": "24.13.3",
+    "@types/ws": "8.18.1",
+    "typescript": "5.8.3"
+  },
+  "dependencies": {
+    "@telnyx/edge-runtime": "0.15.1",
+    "pdfjs-dist": "6.3.289",
+    "telnyx": "7.20.0"
+  }
+}

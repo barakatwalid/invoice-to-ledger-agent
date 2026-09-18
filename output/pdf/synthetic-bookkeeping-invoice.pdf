@@ -1,0 +1,185 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document (opensource)
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/Contents 8 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 7 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+5 0 obj
+<<
+/PageMode /UseNone /Pages 7 0 R /Type /Catalog
+>>
+endobj
+6 0 obj
+<<
+/Author (Invoice-to-Ledger Agent) /CreationDate (D:20000101000000+00'00') /Creator (anonymous) /Keywords () /ModDate (D:20000101000000+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (Synthetic invoice fixture - not a real bill) /Title (Synthetic Bookkeeping Invoice BK-2026-001) /Trapped /False
+>>
+endobj
+7 0 obj
+<<
+/Count 1 /Kids [ 4 0 R ] /Type /Pages
+>>
+endobj
+8 0 obj
+<<
+/Length 3923
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+.090196 .196078 .301961 rg
+n 0 713.8898 595.2756 128 re f*
+1 1 1 rg
+BT /F2 23 Tf 27.6 TL ET
+BT 1 0 0 1 48 783.8898 Tm (NORTHSTAR DEMO SUPPLIES) Tj T* ET
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 48 761.8898 Tm (Synthetic vendor for controlled testing only) Tj T* ET
+BT /F2 18 Tf 21.6 TL ET
+BT 1 0 0 1 473.2596 783.8898 Tm (INVOICE) Tj T* ET
+1 .819608 .4 rg
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 410.7726 759.8898 Tm (SYNTHETIC - NOT A REAL BILL) Tj T* ET
+.090196 .196078 .301961 rg
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 48 675.8898 Tm (INVOICE DETAILS) Tj T* ET
+.364706 .407843 .458824 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 48 653.8898 Tm (Invoice number:) Tj T* ET
+.090196 .196078 .301961 rg
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 132 653.8898 Tm (BK-2026-001) Tj T* ET
+.364706 .407843 .458824 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 48 635.8898 Tm (Invoice date:) Tj T* ET
+.090196 .196078 .301961 rg
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 132 635.8898 Tm (2026-09-08) Tj T* ET
+.364706 .407843 .458824 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 48 617.8898 Tm (Currency:) Tj T* ET
+.090196 .196078 .301961 rg
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 132 617.8898 Tm (USD) Tj T* ET
+.364706 .407843 .458824 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 48 599.8898 Tm (Pricing:) Tj T* ET
+.090196 .196078 .301961 rg
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 132 599.8898 Tm (net) Tj T* ET
+.364706 .407843 .458824 rg
+BT /F1 10 Tf 12 TL ET
+.090196 .196078 .301961 rg
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 330 675.8898 Tm (BILL TO) Tj T* ET
+.364706 .407843 .458824 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 330 653.8898 Tm (Example Customer \(synthetic\)) Tj T* ET
+BT 1 0 0 1 330 635.8898 Tm (No payment is due) Tj T* ET
+.917647 .952941 .972549 rg
+n 48 533.8898 520 26 re f*
+.090196 .196078 .301961 rg
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 56 542.8898 Tm (DESCRIPTION) Tj T* ET
+BT 1 0 0 1 361.496 542.8898 Tm (QTY) Tj T* ET
+BT 1 0 0 1 418.997 542.8898 Tm (UNIT PRICE) Tj T* ET
+BT 1 0 0 1 518.996 542.8898 Tm (LINE NET) Tj T* ET
+BT /F1 10 Tf 12 TL ET
+.792157 .827451 .866667 RG
+n 48 495.8898 m 568 495.8898 l S
+.090196 .196078 .301961 rg
+BT 1 0 0 1 56 510.8898 Tm (Bookkeeping workflow design) Tj T* ET
+BT 1 0 0 1 374.44 510.8898 Tm (2) Tj T* ET
+BT 1 0 0 1 444.98 510.8898 Tm (50.00) Tj T* ET
+BT 1 0 0 1 529.42 510.8898 Tm (100.00) Tj T* ET
+.792157 .827451 .866667 RG
+n 48 457.8898 m 568 457.8898 l S
+.090196 .196078 .301961 rg
+BT 1 0 0 1 56 472.8898 Tm (Secure result hosting review) Tj T* ET
+BT 1 0 0 1 374.44 472.8898 Tm (1) Tj T* ET
+BT 1 0 0 1 444.98 472.8898 Tm (25.00) Tj T* ET
+BT 1 0 0 1 534.98 472.8898 Tm (25.00) Tj T* ET
+.364706 .407843 .458824 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 433.31 437.8898 Tm (Subtotal) Tj T* ET
+.090196 .196078 .301961 rg
+BT 1 0 0 1 537.42 437.8898 Tm (125.00) Tj T* ET
+.364706 .407843 .458824 rg
+BT 1 0 0 1 291.06 415.8898 Tm (Tax \(demo value; no jurisdiction implied\)) Tj T* ET
+.090196 .196078 .301961 rg
+BT 1 0 0 1 542.98 415.8898 Tm (25.00) Tj T* ET
+.137255 .454902 .670588 RG
+1.5 w
+n 400 403.8898 m 568 403.8898 l S
+BT /F2 13 Tf 15.6 TL ET
+BT 1 0 0 1 438.943 381.8898 Tm (Total) Tj T* ET
+BT 1 0 0 1 528.246 381.8898 Tm (150.00) Tj T* ET
+.917647 .952941 .972549 rg
+n
+54 243.8898 m
+562 243.8898 l
+565.3168 243.8898 568 246.573 568 249.8898 c
+568 313.8898 l
+568 317.2066 565.3168 319.8898 562 319.8898 c
+54 319.8898 l
+50.6832 319.8898 48 317.2066 48 313.8898 c
+48 249.8898 l
+48 246.573 50.6832 243.8898 54 243.8898 c
+h
+f*
+.090196 .196078 .301961 rg
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 62 298.8898 Tm (TEST NOTICE) Tj T* ET
+BT /F1 9 Tf 10.8 TL ET
+BT 1 0 0 1 62 279.8898 Tm (This document is synthetic. It has no legal, tax, payment, or accounting effect.) Tj T* ET
+BT 1 0 0 1 62 263.8898 Tm (Expected use: send as an attachment to the authorized Telnyx test inbox.) Tj T* ET
+.364706 .407843 .458824 rg
+BT /F1 8 Tf 9.6 TL ET
+BT 1 0 0 1 48 42 Tm (Fixture ID: SYNTHETIC-BK-2026-001) Tj T* ET
+BT 1 0 0 1 506.3556 42 Tm (Page 1 of 1) Tj T* ET
+ 
+endstream
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000061 00000 n 
+0000000102 00000 n 
+0000000209 00000 n 
+0000000321 00000 n 
+0000000524 00000 n 
+0000000592 00000 n 
+0000000932 00000 n 
+0000000991 00000 n 
+trailer
+<<
+/ID 
+[<5b455be4a4b3a941e010b0b2539dd621><5b455be4a4b3a941e010b0b2539dd621>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 6 0 R
+/Root 5 0 R
+/Size 9
+>>
+startxref
+4965
+%%EOF

@@ -1,0 +1,909 @@
+{
+  "schema_version": "1.0",
+  "prepared_on": "2026-09-08",
+  "status": "SPECIFICATION_ONLY",
+  "application_tests_executed": 0,
+  "case_count": 100,
+  "cases": [
+    {
+      "id": "TC-001",
+      "category": "Intake and completeness",
+      "scenario": "One email, one valid invoice",
+      "test_layer": "live",
+      "expected_outcome": "One document is received, extracted, checked and included in the returned result; identifiers link the result to the source email.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-002",
+      "category": "Intake and completeness",
+      "scenario": "One email, twenty valid invoice attachments",
+      "test_layer": "live",
+      "expected_outcome": "All twenty distinct invoices reach a visible terminal processing state; no attachment is silently skipped.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-003",
+      "category": "Intake and completeness",
+      "scenario": "Twenty invoices spread over several emails",
+      "test_layer": "integration",
+      "expected_outcome": "Explicit batch identification groups the correct documents; unrelated emails do not join the batch.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-004",
+      "category": "Intake and completeness",
+      "scenario": "Expected 20, received 18",
+      "test_layer": "unit",
+      "expected_outcome": "State says count short by two; it does not claim to know which references are missing without a manifest.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-005",
+      "category": "Intake and completeness",
+      "scenario": "No expected count or manifest",
+      "test_layer": "unit",
+      "expected_outcome": "Show received unique count and completeness unverified; never label the batch complete.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-006",
+      "category": "Intake and completeness",
+      "scenario": "Expected 20, received 21",
+      "test_layer": "unit",
+      "expected_outcome": "Flag an excess-count discrepancy instead of discarding the extra document or declaring completeness.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-007",
+      "category": "Intake and completeness",
+      "scenario": "Expected references supplied; one missing and one unexpected",
+      "test_layer": "unit",
+      "expected_outcome": "Identify both the missing reference and the unexpected invoice even when total counts match.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-008",
+      "category": "Intake and completeness",
+      "scenario": "Email contains only a signature logo",
+      "test_layer": "integration",
+      "expected_outcome": "No invoice is counted; request invoice attachments without losing the intake record.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-009",
+      "category": "Intake and completeness",
+      "scenario": "Unknown, negative, fractional or contradictory expected count",
+      "test_layer": "unit",
+      "expected_outcome": "Validate trusted batch metadata; reject or request clarification instead of coercing an invalid count.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-010",
+      "category": "Intake and completeness",
+      "scenario": "Two invoices in one supported multi-page PDF",
+      "test_layer": "integration",
+      "expected_outcome": "Split with source page provenance when boundaries are unambiguous; otherwise flag count unverified and request review.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-011",
+      "category": "Intake and completeness",
+      "scenario": "One invoice spans several PDF pages",
+      "test_layer": "integration",
+      "expected_outcome": "Count once and retain all pages and line items; uncertain page association blocks a completeness claim.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-012",
+      "category": "Intake and completeness",
+      "scenario": "A late invoice arrives after a result was generated",
+      "test_layer": "integration",
+      "expected_outcome": "Create a versioned batch update; retain the earlier result and send no contradictory unversioned final messages.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-013",
+      "category": "File handling",
+      "scenario": "Text-based PDF",
+      "test_layer": "integration",
+      "expected_outcome": "Extract text and document structure without unnecessary OCR; retain the original file.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-014",
+      "category": "File handling",
+      "scenario": "Readable scanned PDF",
+      "test_layer": "integration",
+      "expected_outcome": "Use a verified image-capable extraction path; capture source page evidence and flag missing evidence.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-015",
+      "category": "File handling",
+      "scenario": "Supported PNG or JPEG invoice",
+      "test_layer": "integration",
+      "expected_outcome": "Process within configured pixel and byte limits and preserve source provenance.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-016",
+      "category": "File handling",
+      "scenario": "Rotated or poorly oriented scan",
+      "test_layer": "integration",
+      "expected_outcome": "Normalize orientation within resource limits; flag unreadable fields instead of fabricating values.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-017",
+      "category": "File handling",
+      "scenario": "Blurred, cropped or low-resolution invoice",
+      "test_layer": "integration",
+      "expected_outcome": "Missing or ambiguous material fields force review, even if some arithmetic is consistent.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-018",
+      "category": "File handling",
+      "scenario": "Password-protected PDF",
+      "test_layer": "integration",
+      "expected_outcome": "Return a specific unsupported/encrypted-document result and request an unlocked copy; do not hang.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-019",
+      "category": "File handling",
+      "scenario": "Corrupted or zero-byte file",
+      "test_layer": "integration",
+      "expected_outcome": "Record the failure with the source attachment; other valid invoices in the batch continue.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-020",
+      "category": "File handling",
+      "scenario": "Office file, executable, archive or other unsupported format",
+      "test_layer": "integration",
+      "expected_outcome": "Reject safely with supported formats stated; never execute macros or unpack unbounded archives.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-021",
+      "category": "File handling",
+      "scenario": "File extension disagrees with file signature",
+      "test_layer": "integration",
+      "expected_outcome": "Validate actual content type; reject unsafe mismatches and do not trust filenames alone.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-022",
+      "category": "File handling",
+      "scenario": "Attachment exceeds configured byte or page limit",
+      "test_layer": "integration",
+      "expected_outcome": "Reject before unbounded parsing; clearly identify the applicable application limit.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-023",
+      "category": "File handling",
+      "scenario": "Small compressed file expands into excessive memory or pixels",
+      "test_layer": "integration",
+      "expected_outcome": "Stop using explicit decoded-size, pixel, page and runtime budgets; mark the item failed safely.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-024",
+      "category": "File handling",
+      "scenario": "Expired or temporarily inaccessible attachment URL",
+      "test_layer": "integration",
+      "expected_outcome": "Use only documented refresh/retrieval mechanisms with bounded retries; preserve an actionable failure if unavailable.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-025",
+      "category": "Extraction and source evidence",
+      "scenario": "Supplier and customer blocks both contain names and addresses",
+      "test_layer": "integration",
+      "expected_outcome": "Extract the supplier from the correct block; preserve evidence distinguishing the parties.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-026",
+      "category": "Extraction and source evidence",
+      "scenario": "Invoice number differs from purchase-order and customer numbers",
+      "test_layer": "integration",
+      "expected_outcome": "Assign identifiers to the correct fields and do not use the purchase-order number as the invoice identifier.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-027",
+      "category": "Extraction and source evidence",
+      "scenario": "Invoice date and due date differ",
+      "test_layer": "integration",
+      "expected_outcome": "Extract both with field-level evidence; do not swap them.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-028",
+      "category": "Extraction and source evidence",
+      "scenario": "Ambiguous date such as 03/04/2026",
+      "test_layer": "integration",
+      "expected_outcome": "Resolve only from trusted configured locale or clear document evidence; otherwise mark ambiguous.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-029",
+      "category": "Extraction and source evidence",
+      "scenario": "Missing supplier tax identifier",
+      "test_layer": "integration",
+      "expected_outcome": "Return null/missing rather than inventing a number or asserting a legal violation.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-030",
+      "category": "Extraction and source evidence",
+      "scenario": "US-style and European-style numeric formatting",
+      "test_layer": "integration",
+      "expected_outcome": "Normalize using explicit document/locale evidence; preserve the original strings and avoid separator guessing.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-031",
+      "category": "Extraction and source evidence",
+      "scenario": "Ambiguous currency symbol or no currency",
+      "test_layer": "integration",
+      "expected_outcome": "Flag currency unresolved; prevent mixed-currency aggregation and ready-for-review monetary approval.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-032",
+      "category": "Extraction and source evidence",
+      "scenario": "Net, tax, gross and balance due differ",
+      "test_layer": "integration",
+      "expected_outcome": "Preserve the distinct amounts; do not substitute outstanding balance for the original invoice total.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-033",
+      "category": "Extraction and source evidence",
+      "scenario": "Line-item table continues on another page",
+      "test_layer": "integration",
+      "expected_outcome": "Include continuation rows once; ignore repeated page headers and carried-forward subtotals as new charges.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-034",
+      "category": "Extraction and source evidence",
+      "scenario": "A statement, quotation or pro forma is supplied as an invoice",
+      "test_layer": "integration",
+      "expected_outcome": "Classify the document and route unsupported document types to review without silently counting them as invoices.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-035",
+      "category": "Extraction and source evidence",
+      "scenario": "Model response is malformed, truncated or violates the schema",
+      "test_layer": "integration",
+      "expected_outcome": "Validate strictly; attempt only bounded repair/retry and then report an explicit extraction failure.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-036",
+      "category": "Extraction and source evidence",
+      "scenario": "All extracted numbers are arithmetically consistent but differ from the document",
+      "test_layer": "integration",
+      "expected_outcome": "The independently labelled benchmark detects the extraction error; arithmetic success alone cannot satisfy this test.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-037",
+      "category": "Arithmetic and reconciliation",
+      "scenario": "Exact decimal addition with fractional amounts",
+      "test_layer": "unit",
+      "expected_outcome": "Use decimal-safe arithmetic; computed totals match independent expected decimal values without floating-point artifacts.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-038",
+      "category": "Arithmetic and reconciliation",
+      "scenario": "Quantity times unit price differs from printed line total",
+      "test_layer": "unit",
+      "expected_outcome": "Show printed value, independent calculation and delta; flag the discrepancy without overwriting evidence.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-039",
+      "category": "Arithmetic and reconciliation",
+      "scenario": "Line totals do not sum to printed subtotal",
+      "test_layer": "unit",
+      "expected_outcome": "Flag and quantify the mismatch; retain the source subtotal.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-040",
+      "category": "Arithmetic and reconciliation",
+      "scenario": "Net plus tax and explicit adjustments differs from gross",
+      "test_layer": "unit",
+      "expected_outcome": "Flag and quantify the mismatch after applying only supported documented adjustments.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-041",
+      "category": "Arithmetic and reconciliation",
+      "scenario": "Tax-inclusive unit prices",
+      "test_layer": "unit",
+      "expected_outcome": "Use the configured inclusive-price treatment or route to review; do not add the same tax twice.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-042",
+      "category": "Arithmetic and reconciliation",
+      "scenario": "Several tax rates on one invoice",
+      "test_layer": "unit",
+      "expected_outcome": "Reconcile supported tax groups individually; do not apply a single global rate to all lines.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-043",
+      "category": "Arithmetic and reconciliation",
+      "scenario": "Zero tax, exempt and missing tax are distinct",
+      "test_layer": "unit",
+      "expected_outcome": "Preserve separate evidence states; an absent tax value is not silently converted to zero.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-044",
+      "category": "Arithmetic and reconciliation",
+      "scenario": "Line-level percentage discount",
+      "test_layer": "unit",
+      "expected_outcome": "Apply the explicit discount at the appropriate line stage with the configured rounding rule.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-045",
+      "category": "Arithmetic and reconciliation",
+      "scenario": "Invoice-level discount",
+      "test_layer": "unit",
+      "expected_outcome": "Use a supported allocation rule and explicit evidence; ambiguous tax allocation requires review.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-046",
+      "category": "Arithmetic and reconciliation",
+      "scenario": "Shipping, service charge or other explicit adjustment",
+      "test_layer": "unit",
+      "expected_outcome": "Include a supported adjustment exactly once and reconcile its stated tax treatment; unknown semantics require review.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-047",
+      "category": "Arithmetic and reconciliation",
+      "scenario": "Invoice-rounding versus per-line-rounding difference",
+      "test_layer": "unit",
+      "expected_outcome": "Apply a configured policy; never widen tolerance silently to make an invoice pass.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-048",
+      "category": "Arithmetic and reconciliation",
+      "scenario": "Credit note or negative amounts",
+      "test_layer": "unit",
+      "expected_outcome": "Preserve signs and distinguish document type; unsupported sign conventions require review rather than positive conversion.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-049",
+      "category": "Arithmetic and reconciliation",
+      "scenario": "Currencies with zero, two or three decimal minor units",
+      "test_layer": "unit",
+      "expected_outcome": "Use the configured currency precision; quantities and unit prices may retain higher precision where required.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-050",
+      "category": "Arithmetic and reconciliation",
+      "scenario": "Missing, non-finite, excessive-precision or extremely large numeric values",
+      "test_layer": "unit",
+      "expected_outcome": "Reject invalid values and enforce explicit bounds; never coerce missing values into zeros.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-051",
+      "category": "Accounting proposals",
+      "scenario": "Known expense with a configured approved account mapping",
+      "test_layer": "unit",
+      "expected_outcome": "Propose only valid account identifiers with a concise evidence-based explanation; do not post entries.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-052",
+      "category": "Accounting proposals",
+      "scenario": "No chart of accounts has been supplied",
+      "test_layer": "unit",
+      "expected_outcome": "Use an explicitly labelled demo configuration or block classification; never imply customer-specific accounting correctness.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-053",
+      "category": "Accounting proposals",
+      "scenario": "Unknown or ambiguous expense category",
+      "test_layer": "integration",
+      "expected_outcome": "Mark classification for review rather than inventing an account code.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-054",
+      "category": "Accounting proposals",
+      "scenario": "Several expense categories on one invoice",
+      "test_layer": "integration",
+      "expected_outcome": "Allow supported split proposals; all lines remain linked to invoice evidence.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-055",
+      "category": "Accounting proposals",
+      "scenario": "Tax recoverability is not configured",
+      "test_layer": "unit",
+      "expected_outcome": "Mark tax treatment unresolved; do not automatically assume recoverable input tax.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-056",
+      "category": "Accounting proposals",
+      "scenario": "Special, reverse-charge or unsupported tax treatment",
+      "test_layer": "unit",
+      "expected_outcome": "Flag the unsupported case and its evidence; do not provide an unverified jurisdiction-specific conclusion.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-057",
+      "category": "Accounting proposals",
+      "scenario": "Suggested debits and credits are unbalanced",
+      "test_layer": "unit",
+      "expected_outcome": "Block ready status and report the exact difference; no automatic posting exists.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-058",
+      "category": "Accounting proposals",
+      "scenario": "Account codes hallucinated by the model",
+      "test_layer": "integration",
+      "expected_outcome": "Reject every account absent from the trusted configuration even when the output schema is valid.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-059",
+      "category": "Accounting proposals",
+      "scenario": "Mixed-currency proposals",
+      "test_layer": "unit",
+      "expected_outcome": "Keep totals separate by currency; do not invent an exchange rate or sum incompatible amounts.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-060",
+      "category": "Accounting proposals",
+      "scenario": "Accounting proposal changes after correction",
+      "test_layer": "integration",
+      "expected_outcome": "Version the proposal and preserve the previous values, reviewer correction and configuration/model versions.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-061",
+      "category": "Duplicates, concurrency and recovery",
+      "scenario": "Identical webhook event delivered twice",
+      "test_layer": "integration",
+      "expected_outcome": "Persistent idempotency prevents duplicate invoice processing and duplicate result notifications.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-062",
+      "category": "Duplicates, concurrency and recovery",
+      "scenario": "Two different events refer to the same inbox message",
+      "test_layer": "integration",
+      "expected_outcome": "Message-level deduplication prevents a second intake despite distinct event IDs.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-063",
+      "category": "Duplicates, concurrency and recovery",
+      "scenario": "Same binary attachment resent under a new filename",
+      "test_layer": "integration",
+      "expected_outcome": "Scope a content hash to the account; preserve both provenance records but count the invoice once.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-064",
+      "category": "Duplicates, concurrency and recovery",
+      "scenario": "Same invoice sent as a PDF and a photo",
+      "test_layer": "integration",
+      "expected_outcome": "Use a scoped business-identity duplicate candidate; ambiguous matches require review rather than silent deletion.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-065",
+      "category": "Duplicates, concurrency and recovery",
+      "scenario": "Different suppliers use the same invoice number",
+      "test_layer": "unit",
+      "expected_outcome": "Do not merge solely on invoice number; retain both legitimate invoices.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-066",
+      "category": "Duplicates, concurrency and recovery",
+      "scenario": "Revised invoice reuses the original invoice number",
+      "test_layer": "integration",
+      "expected_outcome": "Create a conflict/version record; a changed amount is not silently discarded as an exact duplicate.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-067",
+      "category": "Duplicates, concurrency and recovery",
+      "scenario": "Concurrent workers pick up the same task",
+      "test_layer": "integration",
+      "expected_outcome": "Atomic claiming/constraints ensure one effective result; retries cannot bypass the protection.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-068",
+      "category": "Duplicates, concurrency and recovery",
+      "scenario": "Crash after receipt persistence but before worker scheduling",
+      "test_layer": "integration",
+      "expected_outcome": "A durable queue/outbox or recovery scan discovers the work; there is no acknowledged-but-lost invoice.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-069",
+      "category": "Duplicates, concurrency and recovery",
+      "scenario": "Crash during extraction",
+      "test_layer": "integration",
+      "expected_outcome": "Resume or retry from a recorded state with bounded attempts; no permanent processing state without an alert.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-070",
+      "category": "Duplicates, concurrency and recovery",
+      "scenario": "Crash after result persistence but before notification",
+      "test_layer": "integration",
+      "expected_outcome": "An outbox recovers the pending notification without redoing completed financial calculations.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-071",
+      "category": "Duplicates, concurrency and recovery",
+      "scenario": "Notification provider accepts send but the request times out",
+      "test_layer": "integration",
+      "expected_outcome": "Use verified idempotent-send behavior or reconcile the uncertain outcome; never blindly resend a potentially accepted message.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-072",
+      "category": "Duplicates, concurrency and recovery",
+      "scenario": "One item fails in a batch of twenty",
+      "test_layer": "integration",
+      "expected_outcome": "Nineteen items can finish; the twentieth remains an explicit exception and prevents a misleading all-success result.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-073",
+      "category": "Provider APIs and result delivery",
+      "scenario": "Inbox listing spans several cursor pages",
+      "test_layer": "integration",
+      "expected_outcome": "Follow only returned cursor semantics, detect repeated cursors and retrieve every relevant message.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-074",
+      "category": "Provider APIs and result delivery",
+      "scenario": "Inbound email is absent from the outbound Events API",
+      "test_layer": "integration",
+      "expected_outcome": "Ingestion uses the inbound webhook or inbox-message path, not a nonexistent received-event polling path.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-075",
+      "category": "Provider APIs and result delivery",
+      "scenario": "API rejects an expired key or missing permission",
+      "test_layer": "integration",
+      "expected_outcome": "Stop futile retries and surface an actionable authentication/access error without revealing secrets.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-076",
+      "category": "Provider APIs and result delivery",
+      "scenario": "Temporary 429 with Retry-After",
+      "test_layer": "integration",
+      "expected_outcome": "Respect the documented delay with a bounded retry budget and persisted next-attempt time.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-077",
+      "category": "Provider APIs and result delivery",
+      "scenario": "Temporary rate limit has no Retry-After",
+      "test_layer": "integration",
+      "expected_outcome": "Use capped exponential backoff with jitter instead of failing while parsing an absent header.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-078",
+      "category": "Provider APIs and result delivery",
+      "scenario": "429 means daily send quota exhausted",
+      "test_layer": "integration",
+      "expected_outcome": "Read the provider error code; defer appropriately rather than retrying every few seconds.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-079",
+      "category": "Provider APIs and result delivery",
+      "scenario": "429 means domain reputation suspended",
+      "test_layer": "integration",
+      "expected_outcome": "Stop sending and raise an operational issue instead of an automatic retry storm.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-080",
+      "category": "Provider APIs and result delivery",
+      "scenario": "Provider 5xx, timeout or network interruption",
+      "test_layer": "integration",
+      "expected_outcome": "Classify read versus side-effecting operations and use bounded, idempotency-aware retry behavior.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-081",
+      "category": "Provider APIs and result delivery",
+      "scenario": "Result email is queued, bounced, sandboxed or delivered",
+      "test_layer": "integration",
+      "expected_outcome": "Represent these outcomes separately; accepted/queued/sandboxed never means the user received the result.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-082",
+      "category": "Provider APIs and result delivery",
+      "scenario": "Reply-To differs from the authorized submitter",
+      "test_layer": "integration",
+      "expected_outcome": "Send only according to a trusted recipient policy; neither invoice text nor arbitrary Reply-To can exfiltrate financial results.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-083",
+      "category": "Security and privacy",
+      "scenario": "Valid signed webhook with original raw bytes",
+      "test_layer": "integration",
+      "expected_outcome": "Verify the signature and validate the event before persisting any work.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-084",
+      "category": "Security and privacy",
+      "scenario": "Missing signature, wrong key or modified webhook body",
+      "test_layer": "integration",
+      "expected_outcome": "Reject before processing; do not log secrets or full invoice content.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-085",
+      "category": "Security and privacy",
+      "scenario": "Expired or implausibly future webhook timestamp",
+      "test_layer": "integration",
+      "expected_outcome": "Enforce a clock-aware replay window and reject invalid timestamps.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-086",
+      "category": "Security and privacy",
+      "scenario": "Invoice contains instructions to ignore rules or send data externally",
+      "test_layer": "integration",
+      "expected_outcome": "Treat document content as untrusted data; it cannot change tool permissions, recipients, policies or system instructions.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-087",
+      "category": "Security and privacy",
+      "scenario": "Attachment URL targets internal services or unsafe redirects",
+      "test_layer": "integration",
+      "expected_outcome": "Restrict retrieval to verified provider-supported sources with redirect/network controls; no arbitrary internal fetch occurs.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-088",
+      "category": "Security and privacy",
+      "scenario": "Malicious HTML, scripts or filename path traversal",
+      "test_layer": "integration",
+      "expected_outcome": "Escape rendered values and sanitize filenames; no script executes and no file escapes its storage boundary.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-089",
+      "category": "Security and privacy",
+      "scenario": "Another user attempts to access a result or original attachment",
+      "test_layer": "integration",
+      "expected_outcome": "Enforce authenticated ownership on every data and download path; no cross-batch or cross-account data exposure.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-090",
+      "category": "Security and privacy",
+      "scenario": "Application logs, frontend bundle and exception traces inspected",
+      "test_layer": "integration",
+      "expected_outcome": "No API keys, signing keys, full documents, long-lived private URLs or unnecessary personal information are exposed.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-091",
+      "category": "Security and privacy",
+      "scenario": "Untrusted sender or email auto-reply loop",
+      "test_layer": "integration",
+      "expected_outcome": "Use sender policy and loop guards; ignore automated/self-generated messages without triggering recursive processing.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-092",
+      "category": "Security and privacy",
+      "scenario": "Retention deadline expires or authorized test-data deletion requested",
+      "test_layer": "integration",
+      "expected_outcome": "Delete or expire originals and derived data according to the documented policy; leave only permitted redacted operational metadata.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-093",
+      "category": "Live acceptance and release evidence",
+      "scenario": "Fresh authorized environment deployment",
+      "test_layer": "live",
+      "expected_outcome": "Build and deploy from the pinned repository; verify actual Telnyx product access and record deployment identifiers.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-094",
+      "category": "Live acceptance and release evidence",
+      "scenario": "Real inbound attachment metadata and download",
+      "test_layer": "live",
+      "expected_outcome": "Capture a redacted real response and verify the exact attachment schema, content download and any URL refresh behavior.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-095",
+      "category": "Live acceptance and release evidence",
+      "scenario": "Independent held-out invoice set",
+      "test_layer": "live",
+      "expected_outcome": "Compare extracted fields and source evidence to manually verified labels from documents not used to tune the prompts.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-096",
+      "category": "Live acceptance and release evidence",
+      "scenario": "Real twenty-invoice batch under the declared supported limits",
+      "test_layer": "live",
+      "expected_outcome": "Every invoice has a final state, independent checks and a linked result; record actual latency and model/API usage.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-097",
+      "category": "Live acceptance and release evidence",
+      "scenario": "Restart the deployed application during processing",
+      "test_layer": "live",
+      "expected_outcome": "Persisted tasks resume with no duplicate final results, missing work or stale processing states.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-098",
+      "category": "Live acceptance and release evidence",
+      "scenario": "Send a duplicate and a corrupt attachment through the real inbox",
+      "test_layer": "live",
+      "expected_outcome": "Live output shows the intended deduplication and explicit exception behavior, not simulated frontend results.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-099",
+      "category": "Live acceptance and release evidence",
+      "scenario": "Run the same benchmark after a model, prompt or dependency change",
+      "test_layer": "live",
+      "expected_outcome": "Record versions and compare regressions; fail release on new critical errors and do not substitute mocks for live evidence.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "TC-100",
+      "category": "Live acceptance and release evidence",
+      "scenario": "Reviewer uses the final demonstration without developer intervention",
+      "test_layer": "live",
+      "expected_outcome": "The inbox-to-result flow works without an open coding-assistant session, manual database edits or hidden retry steps.",
+      "status": "NOT_IMPLEMENTED_NOT_RUN",
+      "evidence": null
+    }
+  ]
+}
